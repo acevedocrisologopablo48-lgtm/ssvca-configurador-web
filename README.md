@@ -12,6 +12,6 @@ Durante el arrastre, el contorno anterior queda visible y aparece la posición p
 
 La versión web permite descargar PDF, DXF, PNG y el archivo JSON. La generación de ensamblajes nativos, STEP, SLDDRW y DWG se hace con la edición local en una computadora con SolidWorks 2026. No se ha abierto SolidWorks a Internet.
 
-En **Exportar → Plano A0 · cuatro vistas**, elija la vista adicional antes de generar el PDF. El plano ocupa dos hojas A0, con dos vistas amplias por hoja: superior y lateral derecha en la primera; la vista elegida y una isométrica en la segunda. Todas usan una escala común. «Vista elegida en el visor» usa la orientación que está viendo en ese momento.
+En **Exportar → Plano A0 · cuatro vistas**, elija la vista adicional antes de generar el PDF. El plano ocupa dos hojas A0, con dos vistas amplias por hoja: superior y lateral derecha en la primera; la vista elegida y una isométrica en la segunda. Cada vista aprovecha su recuadro y muestra su propia escala. «Vista elegida en el visor» usa la orientación que está viendo en ese momento.
 
 Los avisos de interferencia y holgura se basan en envolventes aproximadas y se conservan los 16 encuentros documentados de R2. El modelo es para estudio de distribución; no sustituye la verificación técnica para fabricación.
