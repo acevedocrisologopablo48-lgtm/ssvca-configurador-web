@@ -6,8 +6,12 @@ La pantalla abre en **Organizar planta**, vista superior. Seleccione un equipo y
 
 La **Regla** muestra dimensiones en metros y se adapta al zoom; en vista superior también muestra las coordenadas X e Y. La rueda acerca o aleja y el botón derecho desplaza la vista. **Encuadrar todo** recupera la planta completa. Use **Ver en 3D** para revisar el resultado y **Dimensiones y ajustes** para editar parámetros detallados.
 
-**Guardar** conserva la alternativa en el navegador de esa laptop. Cada persona tiene sus propias alternativas; no aparecen automáticamente en los equipos de otras personas. Para llevar una alternativa a otra laptop o compartirla, use **Exportar → Archivo de configuración (JSON)** y, en la otra laptop, **Abrir archivo**. Conviene descargar ese JSON como copia de respaldo antes de borrar datos del navegador.
+Durante el arrastre, el contorno anterior queda visible y aparece la posición prevista con la separación aproximada al conjunto más cercano. **Encaje** alinea ejes y bordes próximos; se puede desactivar junto a «Ajuste». Los avisos de huellas superpuestas son orientativos y deben comprobarse técnicamente. **Comparar** muestra lado a lado R2 u otra alternativa guardada frente a la actual, con desplazamientos, dimensiones y avisos.
+
+**Guardar** conserva la alternativa en el navegador de esa laptop. Cada persona tiene sus propias alternativas; no aparecen automáticamente en los equipos de otras personas. Para enviarla a otra laptop puede copiar el **enlace de la alternativa**: quien lo abra verá esa distribución y podrá guardarla en su propio navegador. El enlace contiene los cambios de esa alternativa, así que compártalo solamente con las personas que deban verla. Para proyectos con muchas modificaciones o como copia de respaldo, use **Exportar → Archivo de configuración (JSON)** y, en la otra laptop, **Abrir archivo**. Si se actualiza el modelo R2, un enlace antiguo puede dejar de ser compatible; conserve también el JSON.
 
 La versión web permite descargar PDF, DXF, PNG y el archivo JSON. La generación de ensamblajes nativos, STEP, SLDDRW y DWG se hace con la edición local en una computadora con SolidWorks 2026. No se ha abierto SolidWorks a Internet.
+
+En **Exportar → Plano A0 · cuatro vistas**, elija la vista adicional antes de generar el PDF. El plano contiene vista superior, lateral derecha, la vista elegida y una isométrica, todas a escala común. «Vista elegida en el visor» usa la orientación que está viendo en ese momento.
 
 Los avisos de interferencia y holgura se basan en envolventes aproximadas y se conservan los 16 encuentros documentados de R2. El modelo es para estudio de distribución; no sustituye la verificación técnica para fabricación.
