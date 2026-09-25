@@ -1,0 +1,273 @@
+{
+  "version": "ORIGINAL-760-REAL-2026-09-25",
+  "validation": [
+    {
+      "id": "G01",
+      "oldTop": 4355,
+      "newTop": 4355.000045996956,
+      "delta": 0.000045996956032468006,
+      "mountingHeight": 3293.511642676643,
+      "parts": 84
+    },
+    {
+      "id": "J01",
+      "oldTop": 3450,
+      "newTop": 3450,
+      "delta": 0,
+      "mountingHeight": 1807.5,
+      "parts": 86
+    },
+    {
+      "id": "C01",
+      "oldTop": 5652.999985791914,
+      "newTop": 5652.9999592668355,
+      "delta": -0.0000265250782831572,
+      "mountingHeight": 3954.6785481340235,
+      "parts": 96
+    },
+    {
+      "id": "S01",
+      "oldTop": 7037.999996192804,
+      "newTop": 7038.000036962634,
+      "delta": 0.00004076982986589428,
+      "mountingHeight": 5109.402014501697,
+      "parts": 193
+    }
+  ],
+  "specifications": {
+    "G01": {
+      "source": "PLANO DE ALIMENTADOR (1).bak",
+      "drawingLabel": "ZDW2306-WX",
+      "provenance": "Cotas explícitas y geometría 2D del BAK; espesores, nervaduras y detalles no acotados estimados.",
+      "dimensions": {
+        "length": 2342.279123460814,
+        "width": 1240,
+        "height": 1061.488357323357
+      },
+      "pads": [
+        [
+          755.13680020856,
+          -530,
+          0
+        ],
+        [
+          755.13680020856,
+          530,
+          0
+        ],
+        [
+          -755.13680020856,
+          -530,
+          348.703802539701
+        ],
+        [
+          -755.13680020856,
+          530,
+          348.703802539701
+        ]
+      ],
+      "ports": {
+        "feed": [
+          -1000,
+          0,
+          780
+        ],
+        "discharge": [
+          1100,
+          0,
+          470
+        ],
+        "undersize": [
+          0,
+          0,
+          -220
+        ]
+      },
+      "previousTotalHeight": 4355,
+      "mountingHeight": 3293.511642676643,
+      "estimatedDetails": [
+        "Espesores de chapas y carcasas",
+        "Detalle interior no representado",
+        "Adaptación de perfiles estructurales; secciones originales conservadas",
+        "Puertos de flujo estimados a partir del exterior, no cotas de fabricante"
+      ],
+      "mountingWarnings": []
+    },
+    "J01": {
+      "source": "PLANO DE MANDIBULA400X600 (1).bak",
+      "drawingLabel": "PE400×600",
+      "provenance": "Cotas explícitas y geometría 2D del BAK; espesores, nervaduras y detalles no acotados estimados.",
+      "dimensions": {
+        "length": 1605,
+        "width": 1730,
+        "height": 1642.5
+      },
+      "pads": [
+        [
+          -450,
+          -460,
+          0
+        ],
+        [
+          -450,
+          460,
+          0
+        ],
+        [
+          0,
+          -460,
+          0
+        ],
+        [
+          0,
+          460,
+          0
+        ],
+        [
+          450,
+          -460,
+          0
+        ],
+        [
+          450,
+          460,
+          0
+        ]
+      ],
+      "ports": {
+        "feed": [
+          -150,
+          0,
+          1045
+        ],
+        "discharge": [
+          100,
+          0,
+          0
+        ]
+      },
+      "previousTotalHeight": 3450,
+      "mountingHeight": 1807.5,
+      "estimatedDetails": [
+        "Espesores de chapas y carcasas",
+        "Detalle interior no representado",
+        "Adaptación de perfiles estructurales; secciones originales conservadas",
+        "Puertos de flujo estimados a partir del exterior, no cotas de fabricante"
+      ],
+      "mountingWarnings": []
+    },
+    "C01": {
+      "source": "PLANO DE CONO 3 PIES (1).bak",
+      "drawingLabel": "S75 · Cono 3 pies",
+      "provenance": "Cotas explícitas y geometría 2D del BAK; espesores, nervaduras y detalles no acotados estimados.",
+      "dimensions": {
+        "length": 1638,
+        "width": 1638,
+        "height": 1698.3214376578903
+      },
+      "pads": [
+        [
+          -660,
+          -660,
+          0
+        ],
+        [
+          -660,
+          660,
+          0
+        ],
+        [
+          660,
+          -660,
+          0
+        ],
+        [
+          660,
+          660,
+          0
+        ]
+      ],
+      "ports": {
+        "feed": [
+          0,
+          0,
+          1698.32143765789
+        ],
+        "discharge": [
+          0,
+          0,
+          -344.644657789412
+        ]
+      },
+      "previousTotalHeight": 5652.999985791914,
+      "mountingHeight": 3954.6785481340235,
+      "estimatedDetails": [
+        "Espesores de chapas y carcasas",
+        "Detalle interior no representado",
+        "Adaptación de perfiles estructurales; secciones originales conservadas",
+        "Puertos de flujo estimados a partir del exterior, no cotas de fabricante"
+      ],
+      "mountingWarnings": []
+    },
+    "S01": {
+      "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+      "drawingLabel": "2YA1237 (rótulo); archivo 2YK1237",
+      "provenance": "Cotas explícitas y geometría 2D del BAK; espesores, nervaduras y detalles no acotados estimados.",
+      "dimensions": {
+        "length": 3928,
+        "width": 1360,
+        "height": 1928.597981691108
+      },
+      "pads": [
+        [
+          -1250,
+          -819,
+          0
+        ],
+        [
+          -1250,
+          819,
+          0
+        ],
+        [
+          1250,
+          -819,
+          909.925585665508
+        ],
+        [
+          1250,
+          819,
+          909.925585665508
+        ]
+      ],
+      "ports": {
+        "feed": [
+          1800,
+          0,
+          1660
+        ],
+        "discharge": [
+          -1780,
+          0,
+          470
+        ],
+        "undersize": [
+          -1400,
+          0,
+          -200
+        ]
+      },
+      "previousTotalHeight": 7037.999996192804,
+      "mountingHeight": 5109.402014501697,
+      "estimatedDetails": [
+        "Espesores de chapas y carcasas",
+        "Detalle interior no representado",
+        "Adaptación de perfiles estructurales; secciones originales conservadas",
+        "Malla dibujada como retícula visual: abertura no especificada",
+        "Rótulo 2YA1237 conservado, distinto al nombre del archivo 2YK1237",
+        "Puertos de flujo estimados a partir del exterior, no cotas de fabricante"
+      ],
+      "mountingWarnings": []
+    }
+  }
+}

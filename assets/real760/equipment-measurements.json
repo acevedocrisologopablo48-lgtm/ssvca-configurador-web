@@ -1,0 +1,977 @@
+{
+  "units": "mm",
+  "coordinateConvention": "X = horizontal machine length in side view, Y = transverse, Z = vertical. Origin at center of support pattern XY and lower machine mounting plane Z. Drawing concrete and independent columns excluded. Positive X rises toward feed for G01/S01. Ports are visual connection locations inferred from the exterior, not certified process nozzle coordinates.",
+  "equipment": {
+    "G01": {
+      "source": "PLANO DE ALIMENTADOR (1).bak",
+      "drawingModel": "ZDW2306-WX",
+      "originInSideDrawing": [
+        -1145.155091513,
+        902.437406276227
+      ],
+      "machineTop": 1061.488357323357,
+      "machineBottom": -232.349406276227,
+      "overallLength": 2342.279123460814,
+      "bodyWidth": 840,
+      "overallWidthIncludingSprings": 1240,
+      "inclinationDeg": 13,
+      "nominalInclinedLength": 2300,
+      "mountingPads": [
+        {
+          "position": [
+            -755.13680020856,
+            -530,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "3A8",
+            "7B7",
+            "437",
+            "419"
+          ]
+        },
+        {
+          "position": [
+            -755.13680020856,
+            530,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "3A8",
+            "7B7",
+            "437",
+            "419"
+          ]
+        },
+        {
+          "position": [
+            755.13680020856,
+            -530,
+            348.703802539701
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "3A8",
+            "7B7",
+            "437",
+            "419"
+          ]
+        },
+        {
+          "position": [
+            755.13680020856,
+            530,
+            348.703802539701
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "3A8",
+            "7B7",
+            "437",
+            "419"
+          ]
+        }
+      ],
+      "sideOutlineDrawing": [
+        [
+          -2325.275830267219,
+          1444.288828065236
+        ],
+        [
+          -74.480981,
+          1963.925763599584
+        ],
+        [
+          17.003293193632,
+          1523.209723902874
+        ],
+        [
+          -366.704,
+          962.524
+        ],
+        [
+          -1633.385,
+          670.088
+        ],
+        [
+          -2272.871524923827,
+          1217.300843761428
+        ]
+      ],
+      "sideOutlineKind": "simplified from actual exterior line vertices; straight segments omit small folds/radii",
+      "motor": {
+        "center": [
+          84.373510529045,
+          1080,
+          176.948292821967
+        ],
+        "size": [
+          410,
+          600,
+          410
+        ],
+        "axis": "Y",
+        "mountingZ": -143.051707178,
+        "kind": "geometry-derived approximate exterior",
+        "locationSource": [
+          "1E22",
+          "78F",
+          "799",
+          "D67"
+        ],
+        "note": "7.5 kW label; length/radius simplified, separate from grizzly body Side motor axis geometry (-1060.781580984,1079.385699098); relative seat axis Z176.948293, radius205.",
+        "radius": 205
+      },
+      "ports": {
+        "inlet": [
+          1000,
+          0,
+          780
+        ],
+        "outlet": [
+          -1100,
+          0,
+          470
+        ],
+        "undersize": [
+          0,
+          0,
+          -220
+        ],
+        "kind": "estimated exterior flow locations"
+      },
+      "verified": [
+        {
+          "value": 2300,
+          "kind": "explicit dimension",
+          "handles": [
+            "20BB"
+          ],
+          "note": ""
+        },
+        {
+          "value": 13,
+          "kind": "dimension direction",
+          "handles": [
+            "20BB"
+          ],
+          "note": ""
+        },
+        {
+          "value": 840,
+          "kind": "explicit dimension",
+          "handles": [
+            "77B"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1240,
+          "kind": "explicit dimension",
+          "handles": [
+            "785"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1060,
+          "kind": "explicit dimension",
+          "handles": [
+            "7B7"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1510.2736004171193,
+          "kind": "explicit dimension",
+          "handles": [
+            "3A8"
+          ],
+          "note": ""
+        },
+        {
+          "value": 259.95129443986514,
+          "kind": "explicit dimension",
+          "handles": [
+            "44B"
+          ],
+          "note": "spring assembly height"
+        }
+      ],
+      "notes": [
+        "Height 1379.235 (40F) includes independent supports drawn to floor; not machine height.",
+        "Exact top exterior is 2.24951 above end of the 2300 dimension, due to plate thickness.",
+        "Lowest body extends below the lower mounting seat."
+      ],
+      "dimensionRecordsFile": "G01_dimensions.json",
+      "estimatedItems": [
+        "Internal geometry",
+        "Unspecified steel thicknesses",
+        "Small bolts and welds",
+        "Motor exterior where no dimension is provided",
+        "Flow port coordinates"
+      ]
+    },
+    "J01": {
+      "source": "PLANO DE MANDIBULA400X600 (1).bak",
+      "drawingModel": "PE400x600",
+      "originInSideDrawing": [
+        -2181.637232899088,
+        844.954712222956
+      ],
+      "machineTop": 1642.5,
+      "machineBottom": 0,
+      "overallLength": 1605,
+      "bodyWidth": 1020,
+      "overallWidthIncludingFlywheels": 1730,
+      "flywheel": {
+        "diameter": 1065,
+        "thickness": 285,
+        "center": [
+          222.5,
+          0,
+          1110
+        ],
+        "axis": "Y",
+        "kind": "explicit diameter / geometric thickness"
+      },
+      "mountingPads": [
+        {
+          "position": [
+            -450,
+            -460,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "D89",
+            "D93",
+            "D7F"
+          ]
+        },
+        {
+          "position": [
+            -450,
+            460,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "D89",
+            "D93",
+            "D7F"
+          ]
+        },
+        {
+          "position": [
+            0,
+            -460,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "D89",
+            "D93",
+            "D7F"
+          ]
+        },
+        {
+          "position": [
+            0,
+            460,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "D89",
+            "D93",
+            "D7F"
+          ]
+        },
+        {
+          "position": [
+            450,
+            -460,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "D89",
+            "D93",
+            "D7F"
+          ]
+        },
+        {
+          "position": [
+            450,
+            460,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "D89",
+            "D93",
+            "D7F"
+          ]
+        }
+      ],
+      "sideOutline": [
+        [
+          -810,
+          5
+        ],
+        [
+          795,
+          5
+        ],
+        [
+          795,
+          320
+        ],
+        [
+          708,
+          670
+        ],
+        [
+          575,
+          1045
+        ],
+        [
+          -810,
+          1045
+        ]
+      ],
+      "sideOutlineKind": "simplified from exterior vertical/diagonal LINE entities; top mouth is separate, not a solid closed mass",
+      "motor": {
+        "center": [
+          1409.5,
+          247.5,
+          320
+        ],
+        "size": [
+          720,
+          800,
+          600
+        ],
+        "axis": "Y",
+        "mountingZ": 0,
+        "mountingPadSpacing": [
+          870,
+          349
+        ],
+        "kind": "location/pad spacing explicit, exterior simplified",
+        "locationSource": [
+          "E79",
+          "108A",
+          "1162",
+          "117E",
+          "1334"
+        ],
+        "note": "Y250M-6 37kW(60Hz) label. Motor is drawn on the same upper mounting plane as machine."
+      },
+      "ports": {
+        "inlet": [
+          -150,
+          0,
+          1045
+        ],
+        "outlet": [
+          100,
+          0,
+          0
+        ],
+        "kind": "estimated exterior flow locations; PE400x600 mouth designation retained"
+      },
+      "verified": [
+        {
+          "value": 1045,
+          "kind": "explicit dimension",
+          "handles": [
+            "76B"
+          ],
+          "note": "rear frame height"
+        },
+        {
+          "value": 1110,
+          "kind": "explicit dimension",
+          "handles": [
+            "775"
+          ],
+          "note": "flywheel axis height, not top"
+        },
+        {
+          "value": 1065,
+          "kind": "explicit dimension",
+          "handles": [
+            "D61"
+          ],
+          "note": "flywheel diameter"
+        },
+        {
+          "value": 1730,
+          "kind": "explicit dimension",
+          "handles": [
+            "D57"
+          ],
+          "note": "overall transverse width"
+        },
+        {
+          "value": 920,
+          "kind": "explicit dimension",
+          "handles": [
+            "D7F",
+            "EA1"
+          ],
+          "note": "anchor row spacing"
+        },
+        {
+          "value": 450,
+          "kind": "explicit dimension",
+          "handles": [
+            "D89",
+            "D93"
+          ],
+          "note": "anchor column spacing"
+        },
+        {
+          "value": 1187,
+          "kind": "explicit dimension",
+          "handles": [
+            "E79"
+          ],
+          "note": "flywheel to motor center longitudinal"
+        }
+      ],
+      "notes": [
+        "Concrete block depth1000/600 (D75/D6B) excluded.",
+        "Block 1600x1440 and overall foundation2910 are not machine envelope.",
+        "Machine highest point =1110+1065/2 =1642.5."
+      ],
+      "dimensionRecordsFile": "J01_dimensions.json",
+      "estimatedItems": [
+        "Internal geometry",
+        "Unspecified steel thicknesses",
+        "Small bolts and welds",
+        "Motor exterior where no dimension is provided",
+        "Flow port coordinates"
+      ]
+    },
+    "C01": {
+      "source": "PLANO DE CONO 3 PIES (1).bak",
+      "drawingModel": "S75",
+      "originInSideDrawing": [
+        -4165.554758938294,
+        3209.985657789412
+      ],
+      "machineTop": 1698.3214376578903,
+      "machineBottom": -344.644657789412,
+      "mainDiameter": 1400,
+      "baseWidth": 1637.998551939906,
+      "mountingPads": [
+        {
+          "position": [
+            -660,
+            -660,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "12DD",
+            "12F2"
+          ]
+        },
+        {
+          "position": [
+            -660,
+            660,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "12DD",
+            "12F2"
+          ]
+        },
+        {
+          "position": [
+            660,
+            -660,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "12DD",
+            "12F2"
+          ]
+        },
+        {
+          "position": [
+            660,
+            660,
+            0
+          ],
+          "size": [
+            160,
+            160
+          ],
+          "source": [
+            "12DD",
+            "12F2"
+          ]
+        }
+      ],
+      "rotationalEnvelope": [
+        [
+          200,
+          -344.644657789412
+        ],
+        [
+          360,
+          -297.698657789412
+        ],
+        [
+          480,
+          200
+        ],
+        [
+          660,
+          835.088342210588
+        ],
+        [
+          840,
+          889.088342210588
+        ],
+        [
+          740,
+          1047.088342210588
+        ],
+        [
+          677.5,
+          1395.088342210588
+        ],
+        [
+          590,
+          1415.088342210588
+        ],
+        [
+          560,
+          1638.32143765789
+        ],
+        [
+          494,
+          1698.32143765789
+        ]
+      ],
+      "rotationalEnvelopeKind": "simplified radial envelope from actual side geometry; spring ring included visually but not a solid radial mass",
+      "motor": {
+        "center": [
+          1791.026524255786,
+          1293,
+          -79.95
+        ],
+        "size": [
+          970,
+          1150,
+          660
+        ],
+        "axis": "Y",
+        "mountingZ": -470,
+        "mountingPadSpacing": [
+          406,
+          965
+        ],
+        "padSize": [
+          750,
+          1250
+        ],
+        "kind": "center/pad explicit, machine exterior approximate",
+        "locationSource": [
+          "32C3",
+          "1563",
+          "32D7",
+          "32E1",
+          "3307",
+          "331B",
+          "32B9"
+        ],
+        "note": "Y315S-6 75kW label; supplied foundation motor elevation is 200 mm above adjacent slab; not reused as plant foundation. Source motor base at y2739.985657789415, cone mount y3209.985657789412 => motor base -470mm."
+      },
+      "ports": {
+        "inlet": [
+          0,
+          0,
+          1698.32143765789
+        ],
+        "outlet": [
+          0,
+          0,
+          -344.644657789412
+        ],
+        "kind": "inferred centered exterior openings"
+      },
+      "verified": [
+        {
+          "value": 1698.3214376578903,
+          "kind": "explicit dimension",
+          "handles": [
+            "1326"
+          ],
+          "note": "machine height above mounting plane"
+        },
+        {
+          "value": 1320,
+          "kind": "explicit dimension text",
+          "handles": [
+            "12DD",
+            "12F2"
+          ],
+          "note": "anchor spacing; horizontal geometry1320.369 is overridden by explicit1320 text"
+        },
+        {
+          "value": 1400,
+          "kind": "explicit diameter",
+          "handles": [
+            "1318"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1637.998551939906,
+          "kind": "explicit dimension",
+          "handles": [
+            "34BE"
+          ],
+          "note": "base frame width"
+        },
+        {
+          "value": 1791.026524255786,
+          "kind": "explicit dimension",
+          "handles": [
+            "32C3"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1293,
+          "kind": "explicit dimension",
+          "handles": [
+            "1563"
+          ],
+          "note": ""
+        }
+      ],
+      "notes": [
+        "1440 and1840 foundation openings/blocks do not replace1320 anchor spacing.",
+        "Original source geometry differs from some dimension text (e.g. foundation500 measures425.685); preserve dimension text precedence and provenance.",
+        "Cono source DXF recovered from missing final ENDSEC; machine ENTITIES preserved."
+      ],
+      "dimensionRecordsFile": "C01_dimensions.json",
+      "estimatedItems": [
+        "Internal geometry",
+        "Unspecified steel thicknesses",
+        "Small bolts and welds",
+        "Motor exterior where no dimension is provided",
+        "Flow port coordinates"
+      ]
+    },
+    "S01": {
+      "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+      "drawingModel": "2YA1237",
+      "originInSideDrawing": [
+        -2330.41908187017,
+        1676.717323074333
+      ],
+      "machineTop": 1928.597981691108,
+      "machineBottom": -366.220323074333,
+      "nominalInclinedLength": 3928,
+      "horizontalProjection": 3691.112614447045,
+      "inclinationDeg": 20,
+      "bodyWidth": 1360,
+      "screenWidth": 1200,
+      "normalDepth": 1030,
+      "overallWidthIncludingSprings": 1638,
+      "mountingPads": [
+        {
+          "position": [
+            -1250,
+            -819,
+            0
+          ],
+          "size": [
+            500,
+            230
+          ],
+          "source": [
+            "12A7",
+            "129A",
+            "3EC",
+            "7E6"
+          ]
+        },
+        {
+          "position": [
+            -1250,
+            819,
+            0
+          ],
+          "size": [
+            500,
+            230
+          ],
+          "source": [
+            "12A7",
+            "129A",
+            "3EC",
+            "7E6"
+          ]
+        },
+        {
+          "position": [
+            1250,
+            -819,
+            909.925585665508
+          ],
+          "size": [
+            500,
+            230
+          ],
+          "source": [
+            "12A7",
+            "129A",
+            "3EC",
+            "7E6"
+          ]
+        },
+        {
+          "position": [
+            1250,
+            819,
+            909.925585665508
+          ],
+          "size": [
+            500,
+            230
+          ],
+          "source": [
+            "12A7",
+            "129A",
+            "3EC",
+            "7E6"
+          ]
+        }
+      ],
+      "sideOutlineDrawing": [
+        [
+          -4068.858077021874,
+          2261.860181781659
+        ],
+        [
+          -377.745462574907,
+          3605.315304765441
+        ],
+        [
+          -377.745462574907,
+          3300
+        ],
+        [
+          -591.995380114009,
+          2431.231606436347
+        ],
+        [
+          -3901.558,
+          1354.351
+        ],
+        [
+          -4229.348524321465,
+          1310.497
+        ],
+        [
+          -4229.348524321465,
+          2065.522168817059
+        ]
+      ],
+      "sideOutlineKind": "simplified side exterior from measured endpoints; 3300/1300 end-return corners approximated (explicit estimates), top edge and length verified",
+      "motor": {
+        "center": [
+          0,
+          1450,
+          717.716570796101
+        ],
+        "size": [
+          410,
+          900,
+          410
+        ],
+        "axis": "Y",
+        "mountingZ": 327.721909933961,
+        "mountingPadSpacing": [
+          500,
+          500
+        ],
+        "kind": "mounting plane/spacing explicit, motor exterior approximate",
+        "locationSource": [
+          "B0F",
+          "12D7",
+          "12B7",
+          "12EC"
+        ],
+        "note": "Motor mounting plane y2004.439233 minus lower seat1676.717323. Transverse center1288.5 is mounting foundation center; exterior motor body extends beyond it. Side-view concentric motor/exciter circles centered at (-2330.426728568,2394.433893870): axis Z717.716571 relative to lower seat; motor radius205.",
+        "radius": 205
+      },
+      "ports": {
+        "inlet": [
+          1800,
+          0,
+          1660
+        ],
+        "oversize": [
+          -1780,
+          0,
+          470
+        ],
+        "undersize": [
+          -1400,
+          0,
+          -200
+        ],
+        "kind": "estimated exterior flow locations"
+      },
+      "verified": [
+        {
+          "value": 3928,
+          "kind": "explicit dimension",
+          "handles": [
+            "C3D"
+          ],
+          "note": ""
+        },
+        {
+          "value": 20,
+          "kind": "dimension direction",
+          "handles": [
+            "C3D"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1030,
+          "kind": "explicit dimension",
+          "handles": [
+            "13F4"
+          ],
+          "note": "normal side depth"
+        },
+        {
+          "value": 1360,
+          "kind": "explicit dimension",
+          "handles": [
+            "4F2"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1200,
+          "kind": "explicit dimension",
+          "handles": [
+            "4E8"
+          ],
+          "note": ""
+        },
+        {
+          "value": 2500,
+          "kind": "explicit dimension",
+          "handles": [
+            "12A7"
+          ],
+          "note": ""
+        },
+        {
+          "value": 1638,
+          "kind": "explicit dimension",
+          "handles": [
+            "129A"
+          ],
+          "note": ""
+        },
+        {
+          "value": 2009.0074414334485,
+          "kind": "explicit dimension",
+          "handles": [
+            "3EC"
+          ],
+          "note": "low seat above drawing foundation top"
+        },
+        {
+          "value": 2918.933027098958,
+          "kind": "explicit dimension",
+          "handles": [
+            "7E6"
+          ],
+          "note": "high seat above drawing foundation top"
+        },
+        {
+          "value": 3937.605423124558,
+          "kind": "explicit dimension",
+          "handles": [
+            "1400"
+          ],
+          "note": "top above drawing foundation top"
+        }
+      ],
+      "notes": [
+        "File name2YK1237 differs from title block2YA1237; retain both identities.",
+        "Foundation3700x2420,400deep and concrete column sizes are excluded from machine geometry.",
+        "Machine extends below the low support plane; preserve this underhang."
+      ],
+      "dimensionRecordsFile": "S01_dimensions.json",
+      "estimatedItems": [
+        "Internal geometry",
+        "Unspecified steel thicknesses",
+        "Small bolts and welds",
+        "Motor exterior where no dimension is provided",
+        "Flow port coordinates"
+      ]
+    }
+  }
+}
