@@ -1,0 +1,64 @@
+{
+  "version": "ORIGINAL-760-MONTAJE-2026-09-26",
+  "heights": [
+    {
+      "owner": "J01",
+      "before": 6250,
+      "after": 6250
+    },
+    {
+      "owner": "C01",
+      "before": 8452.999959266836,
+      "after": 8452.999959266836
+    }
+  ],
+  "mounting": {
+    "motorShiftLocal": [
+      0,
+      1300,
+      0
+    ],
+    "shiftedMotorOccurrenceIds": [
+      "REAL_J01_PATA_MOTOR_140",
+      "REAL_J01_PATA_MOTOR_141",
+      "REAL_J01_BASE_MOTOR_142",
+      "REAL_J01_PEDESTAL_MOTOR_143",
+      "REAL_J01_PLACA_MOTOR_144",
+      "REAL_J01_SOPORTE_MOTOR_145",
+      "REAL_J01_PEDESTAL_MOTOR_146",
+      "REAL_J01_PLACA_MOTOR_147",
+      "REAL_J01_SOPORTE_MOTOR_148",
+      "REAL_J01_PEDESTAL_MOTOR_149",
+      "REAL_J01_PLACA_MOTOR_150",
+      "REAL_J01_SOPORTE_MOTOR_151",
+      "REAL_J01_PEDESTAL_MOTOR_152",
+      "REAL_J01_PLACA_MOTOR_153",
+      "REAL_J01_SOPORTE_MOTOR_154",
+      "REAL_J01_MOTOR_CARCASA_155",
+      "REAL_J01_MOTOR_ALETA_0_156",
+      "REAL_J01_MOTOR_ALETA_1_157",
+      "REAL_J01_MOTOR_ALETA_2_158",
+      "REAL_J01_MOTOR_ALETA_3_159",
+      "REAL_J01_MOTOR_ALETA_4_160",
+      "REAL_J01_MOTOR_ALETA_5_161",
+      "REAL_J01_MOTOR_ALETA_6_162",
+      "REAL_J01_MOTOR_ALETA_7_163",
+      "REAL_J01_MOTOR_ALETA_8_164",
+      "REAL_J01_MOTOR_ALETA_9_165",
+      "REAL_J01_MOTOR_ALETA_10_166",
+      "REAL_J01_MOTOR_ALETA_11_167",
+      "REAL_J01_MOTOR_BORNES_168",
+      "TAMIZ_J01_MARCO_MOTOR_CABEZAL_0_1",
+      "TAMIZ_J01_MARCO_MOTOR_CABEZAL_0_2",
+      "TAMIZ_J01_MARCO_MOTOR_CABEZAL_1_3",
+      "TAMIZ_J01_MARCO_MOTOR_CABEZAL_2_3"
+    ],
+    "pulleyPlane": [
+      720,
+      840
+    ],
+    "extensionShaftDiameter": 70,
+    "estimated": true
+  },
+  "instances": 2367
+}
