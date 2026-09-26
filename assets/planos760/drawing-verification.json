@@ -1,0 +1,606 @@
+{
+  "version": "ORIGINAL-760-PLANOS-2026-09-26",
+  "heights": [
+    {
+      "owner": "J01",
+      "before": 6250,
+      "after": 6250
+    },
+    {
+      "owner": "G01",
+      "before": 7155.000045996956,
+      "after": 7155.000045996956
+    }
+  ],
+  "primary": {
+    "source": "PLANO DE MANDIBULA400X600 (1).bak",
+    "profile": [
+      [
+        -810,
+        5
+      ],
+      [
+        795,
+        5
+      ],
+      [
+        795,
+        515
+      ],
+      [
+        665,
+        1045
+      ],
+      [
+        535,
+        1045
+      ],
+      [
+        535,
+        860
+      ],
+      [
+        534.5196320100807,
+        855.1227419495968
+      ],
+      [
+        533.0969883127822,
+        850.4329141908728
+      ],
+      [
+        530.7867403075636,
+        846.1107441745099
+      ],
+      [
+        527.6776695296637,
+        842.3223304703363
+      ],
+      [
+        523.8892558254901,
+        839.2132596924364
+      ],
+      [
+        519.5670858091272,
+        836.9030116872178
+      ],
+      [
+        514.8772580504032,
+        835.4803679899193
+      ],
+      [
+        510,
+        835
+      ],
+      [
+        -65,
+        835
+      ],
+      [
+        -69.8772580504032,
+        835.4803679899193
+      ],
+      [
+        -74.56708580912725,
+        836.9030116872178
+      ],
+      [
+        -78.88925582549005,
+        839.2132596924364
+      ],
+      [
+        -82.67766952966369,
+        842.3223304703363
+      ],
+      [
+        -85.78674030756363,
+        846.1107441745099
+      ],
+      [
+        -88.09698831278217,
+        850.4329141908728
+      ],
+      [
+        -89.51963201008076,
+        855.1227419495968
+      ],
+      [
+        -90,
+        860
+      ],
+      [
+        -90,
+        1045
+      ],
+      [
+        -810,
+        1045
+      ]
+    ],
+    "flywheel": {
+      "diameter": 1065,
+      "thickness": 285,
+      "shaftHeight": 1110,
+      "pitchRadius": 350,
+      "holeDiameter": 150,
+      "lipDiameter": 190
+    },
+    "mountingUnchanged": true,
+    "motorShiftKeptMm": 1300
+  },
+  "grizzly": {
+    "created": [
+      "CIRCUITO_G01_GRIZZLY_ENTRADA_0_29",
+      "CIRCUITO_G01_GRIZZLY_ENTRADA_1_30",
+      "CIRCUITO_G01_GRIZZLY_ENTRADA_2_31",
+      "CIRCUITO_G01_GRIZZLY_ENTRADA_3_32",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_0_A_33",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_0_B_34",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_1_A_35",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_1_B_36",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_2_A_37",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_2_B_38",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_3_A_39",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_3_B_40",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_4_A_41",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_4_B_42",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_5_A_43",
+      "CIRCUITO_G01_GRIZZLY_COLECTOR_5_B_44"
+    ],
+    "feed": [
+      -830,
+      0,
+      865.8519227651761
+    ],
+    "discharge": [
+      1120.5255745030206,
+      0,
+      319.1009323324673
+    ],
+    "undersize": [
+      0,
+      0,
+      -620
+    ],
+    "mouth": [
+      [
+        -778.451091513,
+        -408,
+        60.086593723773
+      ],
+      [
+        488.229908487,
+        -408,
+        -232.349406276227
+      ],
+      [
+        1127.716433410827,
+        -408,
+        314.863437485201
+      ],
+      [
+        1127.716433410827,
+        408,
+        314.863437485201
+      ],
+      [
+        488.229908487,
+        408,
+        -232.349406276227
+      ],
+      [
+        -778.451091513,
+        408,
+        60.086593723773
+      ]
+    ],
+    "outlet": [
+      [
+        -300,
+        -300,
+        -620
+      ],
+      [
+        0,
+        -300,
+        -620
+      ],
+      [
+        300,
+        -300,
+        -620
+      ],
+      [
+        300,
+        300,
+        -620
+      ],
+      [
+        0,
+        300,
+        -620
+      ],
+      [
+        -300,
+        300,
+        -620
+      ]
+    ],
+    "lower": [
+      [
+        -1030,
+        -324,
+        825.8519227651761
+      ],
+      [
+        -630,
+        -324,
+        733.5046463149508
+      ],
+      [
+        -630,
+        324,
+        733.5046463149508
+      ],
+      [
+        -1030,
+        324,
+        825.8519227651761
+      ]
+    ],
+    "upper": [
+      [
+        -1030,
+        -324,
+        865.8519227651761
+      ],
+      [
+        -630,
+        -324,
+        865.8519227651761
+      ],
+      [
+        -630,
+        324,
+        865.8519227651761
+      ],
+      [
+        -1030,
+        324,
+        865.8519227651761
+      ]
+    ],
+    "estimated": true
+  },
+  "dimensions": {
+    "G01": [
+      {
+        "label": "Largo inclinado de bandeja",
+        "value": 2300.0000000000828,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ALIMENTADOR (1).bak",
+        "reference": "20BB"
+      },
+      {
+        "label": "Largo exterior en proyección",
+        "value": 2342.2791234608135,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ALIMENTADOR (1).bak",
+        "reference": "7FF"
+      },
+      {
+        "label": "Ancho del cuerpo",
+        "value": 840.0000000000039,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ALIMENTADOR (1).bak",
+        "reference": "77B"
+      },
+      {
+        "label": "Ancho con resortes",
+        "value": 1240.0000000000039,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ALIMENTADOR (1).bak",
+        "reference": "785"
+      },
+      {
+        "label": "Separación longitudinal de apoyos",
+        "value": 1510.2736004171193,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ALIMENTADOR (1).bak",
+        "reference": "3A8"
+      },
+      {
+        "label": "Separación transversal de apoyos",
+        "value": 1060.000000000002,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ALIMENTADOR (1).bak",
+        "reference": "7B7"
+      }
+    ],
+    "J01": [
+      {
+        "label": "Altura del eje sobre asiento",
+        "value": 1110,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "reference": "775"
+      },
+      {
+        "label": "Diámetro exterior del volante",
+        "value": 1065.0000006185398,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "reference": "D61"
+      },
+      {
+        "label": "Ancho exterior entre volantes",
+        "value": 1730.0000000000005,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "reference": "D57"
+      },
+      {
+        "label": "Anclajes transversales",
+        "value": 920.0000000000009,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "reference": "D7F"
+      },
+      {
+        "label": "Anclajes longitudinales · tramo 1",
+        "value": 449.99999999999955,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "reference": "D89"
+      },
+      {
+        "label": "Anclajes longitudinales · tramo 2",
+        "value": 450,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "reference": "D93"
+      },
+      {
+        "label": "Altura hasta el volante",
+        "value": 1642.5,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "PLANO DE MANDIBULA400X600 (1).bak",
+        "note": "Calculada: eje 1.110 + radio 532,5. Excluye estructura y concreto."
+      }
+    ],
+    "C01": [
+      {
+        "label": "Altura sobre asiento",
+        "value": 1698.3214376578903,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE CONO 3 PIES (1).bak",
+        "reference": "1326"
+      },
+      {
+        "label": "Diámetro de carcasa",
+        "value": 1399.9999999999998,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE CONO 3 PIES (1).bak",
+        "reference": "1318"
+      },
+      {
+        "label": "Anclajes · eje X",
+        "value": 1320,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE CONO 3 PIES (1).bak",
+        "reference": "12DD"
+      },
+      {
+        "label": "Anclajes · eje Y",
+        "value": 1320,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE CONO 3 PIES (1).bak",
+        "reference": "12F2",
+        "note": "Texto de cota 1320 mm; geometría fuente 1320.369 mm."
+      }
+    ],
+    "S01": [
+      {
+        "label": "Largo exterior inclinado",
+        "value": 3928.0000000001146,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "C3D"
+      },
+      {
+        "label": "Largo nominal de tamiz",
+        "value": 3699.9999999999986,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "3E2"
+      },
+      {
+        "label": "Ancho de caja",
+        "value": 1360,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "4F2"
+      },
+      {
+        "label": "Ancho de tamiz",
+        "value": 1200,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "4E8"
+      },
+      {
+        "label": "Apoyos longitudinales",
+        "value": 2499.999999999967,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "12A7"
+      },
+      {
+        "label": "Apoyos transversales",
+        "value": 1637.9999785005984,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "7F0"
+      },
+      {
+        "label": "Profundidad normal de caja",
+        "value": 1030.0000000006544,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "PLANO DE ZARANDA 2YK1237 (2).bak",
+        "reference": "13F4"
+      }
+    ],
+    "F01": [
+      {
+        "label": "Longitud de referencia entre ejes",
+        "value": 25001.050724184122,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Paso regular de polines de carga",
+        "value": 900,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg",
+        "note": "Patrón repetido; las zonas particulares de los extremos se conservan."
+      },
+      {
+        "label": "Paso de polines de retorno",
+        "value": 3000,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Ancho de banda",
+        "value": 760,
+        "unit": "mm",
+        "basis": "confirmed",
+        "source": "Confirmado por el usuario",
+        "note": "760 mm; no se presenta como cota explícita del DWG."
+      }
+    ],
+    "F02": [
+      {
+        "label": "Longitud de referencia entre ejes",
+        "value": 27000.152128955895,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Paso regular de polines de carga",
+        "value": 900,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg",
+        "note": "Patrón repetido; las zonas particulares de los extremos se conservan."
+      },
+      {
+        "label": "Paso de polines de retorno",
+        "value": 3000,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Ancho de banda",
+        "value": 760,
+        "unit": "mm",
+        "basis": "confirmed",
+        "source": "Confirmado por el usuario",
+        "note": "760 mm; no se presenta como cota explícita del DWG."
+      }
+    ],
+    "F03": [
+      {
+        "label": "Longitud de referencia entre ejes",
+        "value": 19002.459835378606,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Paso regular de polines de carga",
+        "value": 900,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg",
+        "note": "Patrón repetido; las zonas particulares de los extremos se conservan."
+      },
+      {
+        "label": "Paso de polines de retorno",
+        "value": 3000,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Ancho de banda",
+        "value": 760,
+        "unit": "mm",
+        "basis": "confirmed",
+        "source": "Confirmado por el usuario",
+        "note": "760 mm; no se presenta como cota explícita del DWG."
+      }
+    ],
+    "F04": [
+      {
+        "label": "Longitud de referencia entre ejes",
+        "value": 10000.482227059441,
+        "unit": "mm",
+        "basis": "dimension",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Paso regular de polines de carga",
+        "value": 900,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg",
+        "note": "Patrón repetido; las zonas particulares de los extremos se conservan."
+      },
+      {
+        "label": "Paso de polines de retorno",
+        "value": 3000,
+        "unit": "mm",
+        "basis": "geometry",
+        "source": "FAJAS TRANSPORTADORAS.dwg"
+      },
+      {
+        "label": "Ancho de banda",
+        "value": 760,
+        "unit": "mm",
+        "basis": "confirmed",
+        "source": "Confirmado por el usuario",
+        "note": "760 mm; no se presenta como cota explícita del DWG."
+      }
+    ]
+  },
+  "instances": 2381
+}
