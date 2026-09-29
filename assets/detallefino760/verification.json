@@ -1,0 +1,477 @@
+{
+  "version": "ORIGINAL-760-AJUSTE-DETALLE-FINO-2026-09-29",
+  "source": "PLANO GENERAL.pdf, imagen isométrica original y planos de equipos/fajas ya verificados",
+  "layoutPreserved": true,
+  "components": 2996,
+  "parts": 1236,
+  "meshBytes": 20521440,
+  "flowBlocked": [],
+  "issues": [],
+  "belts": [
+    {
+      "owner": "F01",
+      "changed": [
+        "F01_CHUMACERA",
+        "F01_POLIN_CARGA",
+        "F01_POLIN_RETORNO",
+        "F01_TAMBOR"
+      ],
+      "kept": [
+        "Longitud e inclinación",
+        "Diámetro de contacto y ancho de banda",
+        "Pasos de polines",
+        "Posición de ejes y apoyos"
+      ],
+      "detail": "Tapas de chumaceras, tornillos, cubos y testeros de tambores y polines"
+    },
+    {
+      "owner": "F02",
+      "changed": [
+        "F02_CHUMACERA",
+        "F02_POLIN_CARGA",
+        "F02_POLIN_RETORNO",
+        "F02_TAMBOR"
+      ],
+      "kept": [
+        "Longitud e inclinación",
+        "Diámetro de contacto y ancho de banda",
+        "Pasos de polines",
+        "Posición de ejes y apoyos"
+      ],
+      "detail": "Tapas de chumaceras, tornillos, cubos y testeros de tambores y polines"
+    },
+    {
+      "owner": "F03",
+      "changed": [
+        "F03_CHUMACERA",
+        "F03_POLIN_CARGA",
+        "F03_POLIN_RETORNO",
+        "F03_TAMBOR"
+      ],
+      "kept": [
+        "Longitud e inclinación",
+        "Diámetro de contacto y ancho de banda",
+        "Pasos de polines",
+        "Posición de ejes y apoyos"
+      ],
+      "detail": "Tapas de chumaceras, tornillos, cubos y testeros de tambores y polines"
+    },
+    {
+      "owner": "F04",
+      "changed": [
+        "F04_CHUMACERA",
+        "F04_POLIN_CARGA",
+        "F04_POLIN_RETORNO",
+        "F04_TAMBOR"
+      ],
+      "kept": [
+        "Longitud e inclinación",
+        "Diámetro de contacto y ancho de banda",
+        "Pasos de polines",
+        "Posición de ejes y apoyos"
+      ],
+      "detail": "Tapas de chumaceras, tornillos, cubos y testeros de tambores y polines"
+    }
+  ],
+  "structures": {
+    "owners": {
+      "H01": {
+        "baseConnections": 4,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-2",
+          "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-1",
+          "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-3",
+          "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-4"
+        ]
+      },
+      "F04": {
+        "baseConnections": 6,
+        "articulatedSeats": 6,
+        "sourcePlateIds": [
+          "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_PLACA_APOYO-1",
+          "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_PLACA_APOYO-2",
+          "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_PLACA_APOYO-1",
+          "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_PLACA_APOYO-2",
+          "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_PLACA_APOYO-1",
+          "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_PLACA_APOYO-2"
+        ]
+      },
+      "T01": {
+        "baseConnections": 4,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2",
+          "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1",
+          "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3",
+          "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4"
+        ]
+      },
+      "J02": {
+        "baseConnections": 4,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-1",
+          "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-2",
+          "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-3",
+          "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-4"
+        ]
+      },
+      "F01": {
+        "baseConnections": 12,
+        "articulatedSeats": 12,
+        "sourcePlateIds": [
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_PLACA_APOYO-2",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_PLACA_APOYO-1",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_PLACA_APOYO-1",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_PLACA_APOYO-2",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_PLACA_APOYO-1",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_PLACA_APOYO-2",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_PLACA_APOYO-1",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_PLACA_APOYO-2",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_PLACA_APOYO-2",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_PLACA_APOYO-1",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_PLACA_APOYO-1",
+          "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_PLACA_APOYO-2"
+        ]
+      },
+      "F02": {
+        "baseConnections": 10,
+        "articulatedSeats": 12,
+        "sourcePlateIds": [
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_PLACA_APOYO-2",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_PLACA_APOYO-1",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_PLACA_APOYO-1",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_PLACA_APOYO-2",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_PLACA_APOYO-1",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_PLACA_APOYO-2",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_-1-1",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_1-1",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_PLACA_APOYO-1",
+          "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_PLACA_APOYO-2"
+        ]
+      },
+      "F03": {
+        "baseConnections": 6,
+        "articulatedSeats": 8,
+        "sourcePlateIds": [
+          "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_-1-1",
+          "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_1-1",
+          "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_PLACA_APOYO-2",
+          "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_PLACA_APOYO-1",
+          "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_PLACA_APOYO-1",
+          "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_PLACA_APOYO-2"
+        ]
+      },
+      "G01": {
+        "baseConnections": 4,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "REAL_G01_PLACA_ANCLAJE_0_2",
+          "REAL_G01_PLACA_ANCLAJE_1_6",
+          "REAL_G01_PLACA_ANCLAJE_2_10",
+          "REAL_G01_PLACA_ANCLAJE_3_14"
+        ]
+      },
+      "C01": {
+        "baseConnections": 4,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "REAL_C01_PLACA_ANCLAJE_0_172",
+          "REAL_C01_PLACA_ANCLAJE_1_176",
+          "REAL_C01_PLACA_ANCLAJE_2_180",
+          "REAL_C01_PLACA_ANCLAJE_3_184"
+        ]
+      },
+      "S01": {
+        "baseConnections": 4,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "REAL_S01_PLACA_ANCLAJE_0_268",
+          "REAL_S01_PLACA_ANCLAJE_1_272",
+          "REAL_S01_PLACA_ANCLAJE_2_276",
+          "REAL_S01_PLACA_ANCLAJE_3_280"
+        ]
+      },
+      "J01": {
+        "baseConnections": 6,
+        "articulatedSeats": 0,
+        "sourcePlateIds": [
+          "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_2",
+          "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_7",
+          "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_12",
+          "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_17",
+          "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_22",
+          "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_27"
+        ]
+      }
+    },
+    "addedInstances": 216,
+    "sharedParts": 9,
+    "addedIds": [
+      "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-2__detalle_anclajes",
+      "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-1__detalle_anclajes",
+      "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-3__detalle_anclajes",
+      "E_H01_ESTACION-1/E_H01_ESTRUCTURA-1/E_H01_PLACA_ANCLAJE-4__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_PLACA_APOYO-1__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_PLACA_APOYO-2__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_PLACA_APOYO-1__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_PLACA_APOYO-2__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_PLACA_APOYO-1__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_PLACA_APOYO-2__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4__detalle_anclajes",
+      "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-1__detalle_anclajes",
+      "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-2__detalle_anclajes",
+      "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-3__detalle_anclajes",
+      "E_J02_ESTACION-1/E_J02_ESTRUCTURA-1/E_J02_PLACA_ANCLAJE-4__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_PLACA_APOYO-2__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_PLACA_APOYO-1__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_PLACA_APOYO-1__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_PLACA_APOYO-2__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_PLACA_APOYO-1__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_PLACA_APOYO-2__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_PLACA_APOYO-1__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_PLACA_APOYO-2__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_PLACA_APOYO-2__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_PLACA_APOYO-1__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_PLACA_APOYO-1__detalle_anclajes",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_PLACA_APOYO-2__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_PLACA_APOYO-2__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_PLACA_APOYO-1__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_PLACA_APOYO-1__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_PLACA_APOYO-2__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_PLACA_APOYO-1__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_PLACA_APOYO-2__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_-1-1__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_1-1__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_PLACA_APOYO-1__detalle_anclajes",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_PLACA_APOYO-2__detalle_anclajes",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_-1-1__detalle_anclajes",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_1-1__detalle_anclajes",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_PLACA_APOYO-2__detalle_anclajes",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_PLACA_APOYO-1__detalle_anclajes",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_PLACA_APOYO-1__detalle_anclajes",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_PLACA_APOYO-2__detalle_anclajes",
+      "REAL_G01_PLACA_ANCLAJE_0_2__detalle_anclajes",
+      "REAL_G01_PLACA_ANCLAJE_1_6__detalle_anclajes",
+      "REAL_G01_PLACA_ANCLAJE_2_10__detalle_anclajes",
+      "REAL_G01_PLACA_ANCLAJE_3_14__detalle_anclajes",
+      "REAL_C01_PLACA_ANCLAJE_0_172__detalle_anclajes",
+      "REAL_C01_PLACA_ANCLAJE_1_176__detalle_anclajes",
+      "REAL_C01_PLACA_ANCLAJE_2_180__detalle_anclajes",
+      "REAL_C01_PLACA_ANCLAJE_3_184__detalle_anclajes",
+      "REAL_S01_PLACA_ANCLAJE_0_268__detalle_anclajes",
+      "REAL_S01_PLACA_ANCLAJE_1_272__detalle_anclajes",
+      "REAL_S01_PLACA_ANCLAJE_2_276__detalle_anclajes",
+      "REAL_S01_PLACA_ANCLAJE_3_280__detalle_anclajes",
+      "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_2__detalle_anclajes",
+      "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_7__detalle_anclajes",
+      "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_12__detalle_anclajes",
+      "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_17__detalle_anclajes",
+      "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_22__detalle_anclajes",
+      "CIRCUITO_J01_PLACA_BASTIDOR_LATERAL_27__detalle_anclajes",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_06-1/F01_P06_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_pasador"
+    ],
+    "preservedSourceOccurrences": 2596,
+    "scope": "Fijaciones de placas base y uniones articuladas de apoyos. Sin modificar cotas, perfiles, arriostres ni bajantes."
+  },
+  "crushers": {
+    "added": 126,
+    "uniqueMeshes": 15,
+    "byMachine": {
+      "G01": 28,
+      "J01": 24,
+      "J02": 32,
+      "H01": 42
+    },
+    "machines": [
+      "G01",
+      "J01",
+      "J02",
+      "H01"
+    ],
+    "notes": {
+      "G01": "Tapas del excitador, aros de asiento y fijación de resortes",
+      "J01": "Tapas y fijaciones de cojinetes; tuercas de anclajes existentes",
+      "J02": "Asientos y tapas exteriores del eje; fijaciones de brida y motor",
+      "H01": "Retención de rodamientos, tornillería de tapas laterales, base y motor"
+    },
+    "estimated": true
+  },
+  "screenCone": {
+    "addedOccurrences": {
+      "T01": 10,
+      "C01": 32,
+      "S01": 16
+    },
+    "replacedSpringOccurrences": {
+      "T01": 4,
+      "S01": 4
+    },
+    "sharedParts": [
+      "FINO_SC_T01_RESORTE_VUELTAS",
+      "FINO_SC_S01_RESORTE_VUELTAS",
+      "FINO_SC_PERNO_HEX_24_24",
+      "FINO_SC_PERNO_HEX_13_13"
+    ],
+    "evidence": {
+      "T01": "Tolva/alimentador T01: cuatro camisas anulares existentes sustituidas por vueltas visibles en idénticos centros y envolventes; diez fijaciones asentadas sobre paredes del canal. Fuente 100-10-GN-14153 y geometría existente; detalle sin cota estimado.",
+      "C01": "top_cone y transfer_cone muestran fijaciones perimetrales; 16 cabezas sobre anillo portante y 16 sobre corona. Conservados perfil BAK, 16 resortes, nervios, accionamiento y puertos.",
+      "S01": "transfer_screen: caja azul con fijaciones y suspensión exterior. Cuatro resortes con vueltas legibles y 16 cabezas sobre orejas existentes; sin duplicar eje, cojinetes, 24 fijaciones laterales ni mallas."
+    }
+  }
+}
