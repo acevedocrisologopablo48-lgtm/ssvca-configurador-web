@@ -1,8 +1,8 @@
 {
   "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "components": 3364,
-  "parts": 1336,
-  "meshBytes": 21077856,
+  "components": 3372,
+  "parts": 1345,
+  "meshBytes": 21093264,
   "belts": [
     {
       "id": "F01",
@@ -66,7 +66,7 @@
     },
     {
       "id": "TR06_SECUNDARIA_F03",
-      "drop": 132.7152333374695
+      "drop": 136.5845292838751
     },
     {
       "id": "TR07A_F03_CONO",
@@ -86,7 +86,11 @@
     },
     {
       "id": "TR10_INTERMEDIO_F06",
-      "drop": 2037.7842165949112
+      "drop": 1711.9916996068928
+    },
+    {
+      "id": "TR13_ZARANDA_F06",
+      "drop": 1395.9239748637483
     },
     {
       "id": "TR11_F05_MARTILLOS",
