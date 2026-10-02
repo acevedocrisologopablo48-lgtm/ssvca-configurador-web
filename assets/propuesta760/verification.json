@@ -1,8 +1,8 @@
 {
   "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "components": 3477,
-  "parts": 1284,
-  "meshBytes": 20770416,
+  "components": 3343,
+  "parts": 1311,
+  "meshBytes": 20761920,
   "belts": [
     {
       "id": "F01",
@@ -31,7 +31,7 @@
     },
     {
       "id": "F06",
-      "length": 22000,
+      "length": 8000,
       "inclination": 18
     }
   ],
@@ -50,11 +50,11 @@
     },
     {
       "id": "TR03_GRIZZLY_PRIMARIA",
-      "drop": 321.10093233246744
+      "drop": 423.10093233246744
     },
     {
       "id": "TR03B_PRIMARIA_F02",
-      "drop": 662.4583218277564
+      "drop": 802.3064845856416
     },
     {
       "id": "TR04_F02_ZARANDA",
@@ -62,7 +62,7 @@
     },
     {
       "id": "TR05_RECHAZO_SECUNDARIA",
-      "drop": 643.2828482492223
+      "drop": 623.2828482492223
     },
     {
       "id": "TR06_SECUNDARIA_F03",
@@ -78,7 +78,7 @@
     },
     {
       "id": "TR09A_ZARANDA_MARTILLOS",
-      "drop": 1412.8086799262958
+      "drop": 1290.9239748637483
     },
     {
       "id": "TR09B_MARTILLOS_F04",
@@ -86,7 +86,7 @@
     },
     {
       "id": "TR10_INTERMEDIO_F06",
-      "drop": 2309.7989187289313
+      "drop": 1821.472320532448
     },
     {
       "id": "TR11_F05_MARTILLOS",
