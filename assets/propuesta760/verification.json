@@ -1,0 +1,103 @@
+{
+  "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
+  "components": 3477,
+  "parts": 1284,
+  "meshBytes": 20770416,
+  "belts": [
+    {
+      "id": "F01",
+      "length": 16000,
+      "inclination": 16
+    },
+    {
+      "id": "F02",
+      "length": 22000,
+      "inclination": 14
+    },
+    {
+      "id": "F03",
+      "length": 15000,
+      "inclination": 20
+    },
+    {
+      "id": "F04",
+      "length": 10000,
+      "inclination": 15
+    },
+    {
+      "id": "F05",
+      "length": 10000,
+      "inclination": 18
+    },
+    {
+      "id": "F06",
+      "length": 22000,
+      "inclination": 18
+    }
+  ],
+  "drops": [
+    {
+      "id": "TR00_TOLVA_F01",
+      "drop": 1139.9780933173804
+    },
+    {
+      "id": "TR01_F01_GRIZZLY",
+      "drop": 584.9014789749099
+    },
+    {
+      "id": "TR02_PASANTE_GRIZZLY",
+      "drop": 1837.8826546415225
+    },
+    {
+      "id": "TR03_GRIZZLY_PRIMARIA",
+      "drop": 321.10093233246744
+    },
+    {
+      "id": "TR03B_PRIMARIA_F02",
+      "drop": 662.4583218277564
+    },
+    {
+      "id": "TR04_F02_ZARANDA",
+      "drop": 129.82402030915455
+    },
+    {
+      "id": "TR05_RECHAZO_SECUNDARIA",
+      "drop": 643.2828482492223
+    },
+    {
+      "id": "TR06_SECUNDARIA_F03",
+      "drop": 132.71523333746927
+    },
+    {
+      "id": "TR07A_F03_CONO",
+      "drop": 216.44199424264207
+    },
+    {
+      "id": "TR08_CONO_F02",
+      "drop": 782.6001158474492
+    },
+    {
+      "id": "TR09A_ZARANDA_MARTILLOS",
+      "drop": 1412.8086799262958
+    },
+    {
+      "id": "TR09B_MARTILLOS_F04",
+      "drop": 1025.1166487655823
+    },
+    {
+      "id": "TR10_INTERMEDIO_F06",
+      "drop": 2309.7989187289313
+    },
+    {
+      "id": "TR11_F05_MARTILLOS",
+      "drop": 109.07140499474099
+    },
+    {
+      "id": "TR12_F04_TOLVA",
+      "drop": 219.84997361001842
+    }
+  ],
+  "flowBlocked": [],
+  "structuralConflicts": [],
+  "issues": []
+}

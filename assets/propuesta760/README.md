@@ -1,0 +1,1 @@
+Alternativa del bosquejo AutoCAD: seis cintas, dos tolvas, zaranda transversal y cono lateral al mismo lado que martillos. Longitudes rotuladas 16/22/15/10/10/22 m. Alturas de S01, J02 y C01 ajustadas para enlazar bajantes; distribución transversal y perfiles no acotados estimados. Original independiente. Asignación de fracciones propuesta; confirmar antes de fabricación.
