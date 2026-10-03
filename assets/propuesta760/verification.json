@@ -1,14 +1,14 @@
 {
   "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "revision": "CORRECCIONES-2026-10-03-5",
-  "components": 3382,
-  "parts": 1413,
-  "meshBytes": 24702192,
+  "revision": "CORRECCIONES-2026-10-03-6",
+  "components": 3386,
+  "parts": 1435,
+  "meshBytes": 24768576,
   "structureFinishes": {
-    "members": 139,
-    "columnFaces": 59,
-    "miterPairs": 26,
-    "integratedCaps": 185,
+    "members": 136,
+    "columnFaces": 50,
+    "miterPairs": 31,
+    "integratedCaps": 168,
     "addedOccurrences": 0
   },
   "hopperCapacity": {
@@ -18,18 +18,18 @@
     "outletHeightMm": 1892,
     "outletWorldZMm": 1892,
     "floorWorldZMm": 0,
-    "upperWallHeightMm": 280.09122858937116,
+    "upperWallHeightMm": 1000,
     "previousUpperWallHeightMm": 1200,
-    "frustumCapacityM3": 15.5611246,
-    "upperCapacityM3": 4.438875400000001,
+    "frustumCapacityM3": 10.12517965285673,
+    "upperCapacityM3": 9.874820347143265,
     "plateThicknessMm": 9.525,
     "interiorUpperSizeMm": [
-      3980.95,
-      3980.95
+      3142.422687536364,
+      3142.422687536364
     ],
     "bodyUpperSizeMm": [
-      4000,
-      4000
+      3161.472687536364,
+      3161.472687536364
     ],
     "bodyOutletSizeMm": [
       550,
@@ -37,26 +37,82 @@
     ],
     "bodyHeightMm": 2521,
     "upperBaseZMm": 4413,
-    "upperRimZMm": 4693.091228589371,
+    "upperRimZMm": 5413,
     "changedOccurrenceIds": [
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-4",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-4",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1",
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1",
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-6",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5",
       "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR"
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-4",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-6",
+      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-3",
+      "PROPUESTA_T01_ASIENTO_REAL_0",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-2",
+      "PROPUESTA_T01_ASIENTO_REAL_1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-1",
+      "PROPUESTA_T01_ASIENTO_REAL_2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-4",
+      "PROPUESTA_T01_ASIENTO_REAL_3"
     ],
     "addedOccurrenceIds": [
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
       "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR"
+      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR",
+      "PROPUESTA_T01_ASIENTO_REAL_0",
+      "PROPUESTA_T01_ASIENTO_REAL_1",
+      "PROPUESTA_T01_ASIENTO_REAL_2",
+      "PROPUESTA_T01_ASIENTO_REAL_3"
+    ],
+    "removedOccurrenceIds": [
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3"
+    ],
+    "supportOccurrenceIds": [
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-3",
+      "PROPUESTA_T01_ASIENTO_REAL_0",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-2",
+      "PROPUESTA_T01_ASIENTO_REAL_1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-1",
+      "PROPUESTA_T01_ASIENTO_REAL_2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-4",
+      "PROPUESTA_T01_ASIENTO_REAL_3"
+    ],
+    "previousBodyUpperSizeMm": [
+      4000,
+      4000
     ],
     "formula": "V = h/6 × (2W0D0 + W0D1 + W1D0 + 2W1D1) + WiDiH; dimensiones en m",
     "previousCapacityBasis": "Envolvente ideal cerrada normalizada con chapa9.525mm en ambos lados; original tenía tres paredes superiores, por lo que el volumen geométrico hasta rebose sin montículo era solo el tronco.",
-    "note": "Collar superior reducido y cerrado por cuatro costados, abierto arriba; tronco, boca inferior, alimentador, estructura, posición, altura y conexiones conservados. Capacidad geométrica hasta borde de chapa, sin montículo ni deducción de rigidizadores; no capacidad de producción."
+    "note": "Collar de1000mm cerrado por cuatro costados, abierto arriba; tronco estrechado manteniendo sus alturas y boca inferior. Cuatro pilares prolongados hasta asientos en L bajo aro inferior; retirado solo el amarre que cruzaba F01. Alimentador, fundaciones, posición y conexiones conservados. Capacidad geométrica hasta borde de chapa, sin montículo ni deducción de rigidizadores; modelo adaptado, no cálculo resistente ni capacidad de producción."
   },
   "belts": [
     {
@@ -158,5 +214,6 @@
   ],
   "flowBlocked": [],
   "structuralConflicts": [],
+  "structureBeltConflicts": [],
   "issues": []
 }
