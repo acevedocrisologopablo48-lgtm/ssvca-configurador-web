@@ -1,14 +1,352 @@
 {
   "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "revision": "CORRECCIONES-2026-10-03-6",
+  "revision": "CORRECCIONES-2026-10-03-7",
   "components": 3386,
   "parts": 1435,
-  "meshBytes": 24768576,
+  "meshBytes": 24024816,
+  "supportAudit": [
+    {
+      "delta": 0,
+      "toleranceMm": 0.5,
+      "results": [
+        {
+          "owner": "T01",
+          "members": 37,
+          "grounded": 4,
+          "contacts": 68,
+          "disconnected": []
+        },
+        {
+          "owner": "G01",
+          "members": 38,
+          "grounded": 4,
+          "contacts": 51,
+          "disconnected": []
+        },
+        {
+          "owner": "J01",
+          "members": 40,
+          "grounded": 4,
+          "contacts": 54,
+          "disconnected": []
+        },
+        {
+          "owner": "C01",
+          "members": 41,
+          "grounded": 4,
+          "contacts": 73,
+          "disconnected": []
+        },
+        {
+          "owner": "S01",
+          "members": 62,
+          "grounded": 4,
+          "contacts": 124,
+          "disconnected": []
+        },
+        {
+          "owner": "J02",
+          "members": 31,
+          "grounded": 4,
+          "contacts": 45,
+          "disconnected": []
+        },
+        {
+          "owner": "H01",
+          "members": 39,
+          "grounded": 4,
+          "contacts": 58,
+          "disconnected": []
+        },
+        {
+          "owner": "T02",
+          "members": 26,
+          "grounded": 4,
+          "contacts": 72,
+          "disconnected": []
+        }
+      ],
+      "disconnected": []
+    },
+    {
+      "delta": -300,
+      "toleranceMm": 0.5,
+      "results": [
+        {
+          "owner": "T01",
+          "members": 37,
+          "grounded": 4,
+          "contacts": 80,
+          "disconnected": []
+        },
+        {
+          "owner": "G01",
+          "members": 38,
+          "grounded": 4,
+          "contacts": 51,
+          "disconnected": []
+        },
+        {
+          "owner": "J01",
+          "members": 40,
+          "grounded": 4,
+          "contacts": 54,
+          "disconnected": []
+        },
+        {
+          "owner": "C01",
+          "members": 41,
+          "grounded": 4,
+          "contacts": 74,
+          "disconnected": []
+        },
+        {
+          "owner": "S01",
+          "members": 62,
+          "grounded": 4,
+          "contacts": 124,
+          "disconnected": []
+        },
+        {
+          "owner": "J02",
+          "members": 31,
+          "grounded": 4,
+          "contacts": 45,
+          "disconnected": []
+        },
+        {
+          "owner": "H01",
+          "members": 39,
+          "grounded": 4,
+          "contacts": 58,
+          "disconnected": []
+        },
+        {
+          "owner": "T02",
+          "members": 26,
+          "grounded": 4,
+          "contacts": 72,
+          "disconnected": []
+        }
+      ],
+      "disconnected": []
+    },
+    {
+      "delta": 300,
+      "toleranceMm": 0.5,
+      "results": [
+        {
+          "owner": "T01",
+          "members": 37,
+          "grounded": 4,
+          "contacts": 68,
+          "disconnected": []
+        },
+        {
+          "owner": "G01",
+          "members": 38,
+          "grounded": 4,
+          "contacts": 51,
+          "disconnected": []
+        },
+        {
+          "owner": "J01",
+          "members": 40,
+          "grounded": 4,
+          "contacts": 54,
+          "disconnected": []
+        },
+        {
+          "owner": "C01",
+          "members": 41,
+          "grounded": 4,
+          "contacts": 73,
+          "disconnected": []
+        },
+        {
+          "owner": "S01",
+          "members": 62,
+          "grounded": 4,
+          "contacts": 102,
+          "disconnected": []
+        },
+        {
+          "owner": "J02",
+          "members": 31,
+          "grounded": 4,
+          "contacts": 45,
+          "disconnected": []
+        },
+        {
+          "owner": "H01",
+          "members": 39,
+          "grounded": 4,
+          "contacts": 58,
+          "disconnected": []
+        },
+        {
+          "owner": "T02",
+          "members": 26,
+          "grounded": 4,
+          "contacts": 72,
+          "disconnected": []
+        }
+      ],
+      "disconnected": []
+    }
+  ],
+  "materialComparison": [
+    {
+      "owner": "T01",
+      "before": {
+        "members": 17,
+        "lengthMm": 67499.63867870235,
+        "massKg": 1875.0640684852833
+      },
+      "after": {
+        "members": 17,
+        "lengthMm": 67499.63867870235,
+        "massKg": 1875.0640684852833
+      },
+      "nominalProfileChangeKg": 0,
+      "meshSteelBeforeKg": 2108.6509502462945,
+      "meshSteelAfterKg": 2108.6509502462945,
+      "meshSteelChangeKg": 0,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "G01",
+      "before": {
+        "members": 24,
+        "lengthMm": 24733.371297792233,
+        "massKg": 1078.3964158444712
+      },
+      "after": {
+        "members": 22,
+        "lengthMm": 25152.47127337817,
+        "massKg": 1103.3439947411937
+      },
+      "nominalProfileChangeKg": 24.94757889672246,
+      "meshSteelBeforeKg": 1251.7533874606015,
+      "meshSteelAfterKg": 1218.826105034241,
+      "meshSteelChangeKg": -32.927282426360534,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "J01",
+      "before": {
+        "members": 23,
+        "lengthMm": 24017.394645020548,
+        "massKg": 1267.1653265305874
+      },
+      "after": {
+        "members": 21,
+        "lengthMm": 20849.394645020548,
+        "massKg": 1166.089231483313
+      },
+      "nominalProfileChangeKg": -101.07609504727452,
+      "meshSteelBeforeKg": 1486.191225367073,
+      "meshSteelAfterKg": 1298.7299509753504,
+      "meshSteelChangeKg": -187.46127439172255,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "C01",
+      "before": {
+        "members": 31,
+        "lengthMm": 59078.618504236256,
+        "massKg": 4336.66098961469
+      },
+      "after": {
+        "members": 25,
+        "lengthMm": 49947.806677538,
+        "massKg": 4090.5202096073585
+      },
+      "nominalProfileChangeKg": -246.1407800073316,
+      "meshSteelBeforeKg": 4769.279959574963,
+      "meshSteelAfterKg": 4152.2460485346055,
+      "meshSteelChangeKg": -617.0339110403575,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "S01",
+      "before": {
+        "members": 46,
+        "lengthMm": 94121.41324131019,
+        "massKg": 3345.3511055475465
+      },
+      "after": {
+        "members": 46,
+        "lengthMm": 94121.41324131019,
+        "massKg": 3345.3511055475465
+      },
+      "nominalProfileChangeKg": 0,
+      "meshSteelBeforeKg": 3506.7358807746537,
+      "meshSteelAfterKg": 3364.974175318774,
+      "meshSteelChangeKg": -141.76170545587956,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "J02",
+      "before": {
+        "members": 19,
+        "lengthMm": 25258.92803955078,
+        "massKg": 1380.6695783681032
+      },
+      "after": {
+        "members": 19,
+        "lengthMm": 25258.92803955078,
+        "massKg": 1380.6695783681032
+      },
+      "nominalProfileChangeKg": 0,
+      "meshSteelBeforeKg": 1566.3867628583944,
+      "meshSteelAfterKg": 1484.2460689602494,
+      "meshSteelChangeKg": -82.14069389814495,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "H01",
+      "before": {
+        "members": 19,
+        "lengthMm": 24864.14986665468,
+        "massKg": 1134.7399660351896
+      },
+      "after": {
+        "members": 19,
+        "lengthMm": 24864.14986665468,
+        "massKg": 1134.7399660351896
+      },
+      "nominalProfileChangeKg": 0,
+      "meshSteelBeforeKg": 1346.8763876089001,
+      "meshSteelAfterKg": 1311.4133835416133,
+      "meshSteelChangeKg": -35.463004067286874,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    },
+    {
+      "owner": "T02",
+      "before": {
+        "members": 14,
+        "lengthMm": 24748.391491383827,
+        "massKg": 1473.1865551532796
+      },
+      "after": {
+        "members": 14,
+        "lengthMm": 24748.391491383827,
+        "massKg": 1473.1865551532796
+      },
+      "nominalProfileChangeKg": 0,
+      "meshSteelBeforeKg": 1531.8574777179945,
+      "meshSteelAfterKg": 1540.1627777179945,
+      "meshSteelChangeKg": 8.305299999999988,
+      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
+    }
+  ],
   "structureFinishes": {
-    "members": 136,
-    "columnFaces": 50,
-    "miterPairs": 31,
-    "integratedCaps": 168,
+    "memberFaces": 74,
+    "members": 153,
+    "columnFaces": 60,
+    "miterPairs": 34,
+    "integratedCaps": 0,
     "addedOccurrences": 0
   },
   "hopperCapacity": {
@@ -157,7 +495,7 @@
     },
     {
       "id": "TR02_PASANTE_GRIZZLY",
-      "drop": 1641.2729310712002
+      "drop": 1431.2729310712002
     },
     {
       "id": "TR03_GRIZZLY_PRIMARIA",
@@ -189,7 +527,7 @@
     },
     {
       "id": "TR09A_ZARANDA_MARTILLOS",
-      "drop": 1290.9239748637483
+      "drop": 1170.9239748637483
     },
     {
       "id": "TR09B_MARTILLOS_F04",
@@ -201,7 +539,7 @@
     },
     {
       "id": "TR13_ZARANDA_F06",
-      "drop": 1395.9239748637483
+      "drop": 1275.9239748637483
     },
     {
       "id": "TR11_F05_MARTILLOS",
