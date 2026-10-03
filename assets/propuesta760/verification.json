@@ -1,8 +1,63 @@
 {
   "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "components": 3379,
-  "parts": 1407,
-  "meshBytes": 24599520,
+  "revision": "CORRECCIONES-2026-10-03-5",
+  "components": 3382,
+  "parts": 1413,
+  "meshBytes": 24702192,
+  "structureFinishes": {
+    "members": 139,
+    "columnFaces": 59,
+    "miterPairs": 26,
+    "integratedCaps": 185,
+    "addedOccurrences": 0
+  },
+  "hopperCapacity": {
+    "capacityM3": 20,
+    "previousCapacityM3": 34.578680082999995,
+    "previousUsefulCapacityM3": 15.5611246,
+    "outletHeightMm": 1892,
+    "outletWorldZMm": 1892,
+    "floorWorldZMm": 0,
+    "upperWallHeightMm": 280.09122858937116,
+    "previousUpperWallHeightMm": 1200,
+    "frustumCapacityM3": 15.5611246,
+    "upperCapacityM3": 4.438875400000001,
+    "plateThicknessMm": 9.525,
+    "interiorUpperSizeMm": [
+      3980.95,
+      3980.95
+    ],
+    "bodyUpperSizeMm": [
+      4000,
+      4000
+    ],
+    "bodyOutletSizeMm": [
+      550,
+      556
+    ],
+    "bodyHeightMm": 2521,
+    "upperBaseZMm": 4413,
+    "upperRimZMm": 4693.091228589371,
+    "changedOccurrenceIds": [
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-4",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-6",
+      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
+      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR"
+    ],
+    "addedOccurrenceIds": [
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
+      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
+      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR"
+    ],
+    "formula": "V = h/6 × (2W0D0 + W0D1 + W1D0 + 2W1D1) + WiDiH; dimensiones en m",
+    "previousCapacityBasis": "Envolvente ideal cerrada normalizada con chapa9.525mm en ambos lados; original tenía tres paredes superiores, por lo que el volumen geométrico hasta rebose sin montículo era solo el tronco.",
+    "note": "Collar superior reducido y cerrado por cuatro costados, abierto arriba; tronco, boca inferior, alimentador, estructura, posición, altura y conexiones conservados. Capacidad geométrica hasta borde de chapa, sin montículo ni deducción de rigidizadores; no capacidad de producción."
+  },
   "belts": [
     {
       "id": "F01",
