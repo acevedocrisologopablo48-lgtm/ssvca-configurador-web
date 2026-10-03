@@ -1,21 +1,32 @@
-# Alternativa · Propuesta AutoCAD · Revisión 7
+# Alternativa · Propuesta AutoCAD · Revisión 8
 
-La revisión CORRECCIONES-2026-10-03-7 continúa en la misma alternativa, con la misma versión de proyecto y autoguardado. Abrir: https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta
+CORRECCIONES-2026-10-03-8. Misma alternativa, versión de proyecto y autoguardado. Abrir: https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta
 
-Grizzly: columnas posteriores continuas hasta los resortes, ménsulas delanteras ajustadas al apoyo real y embudo de cuatro chapas planas con garganta centrada y codo descendente a F02. Mallas del equipo, motor y transmisión conservadas.
+Los bastidores se ajustaron a las dimensiones reales de los equipos, reduciendo vanos vacíos y salientes. Se conservan máquinas, transmisiones, alturas de montaje, cintas y todos los puntos de recepción.
 
-Cono: plataforma del motor W8x48 integrada al bastidor por dos ménsulas trianguladas. Se retiran sus cuatro patas, fundaciones, amarres y piso independiente; un brazo sustituye el tramo coincidente del anillo para evitar una viga duplicada. Motor, transmisión y posición conservados.
+| Equipo | Entre columnas anterior (mm) | Entre columnas actual (mm) |
+|---|---:|---:|
+| Tolva T01 | 3450 × 3450 | 2550 × 2550 |
+| Primaria J01 | 900 × 2100 | 900 × 1460 |
+| Cono C01 | 2000 × 2000 | 1800 × 1250 |
+| Zaranda S01 | 3264 × 2549 | 2900 × 2100 |
+| Secundaria J02 | 2710 × 2000 | 2590 × 1600 |
+| Martillos H01 | 2413 × 2000 | 2060 × 1630 |
 
-Zaranda: cuello común abierto de 440×440×120 mm, tabique central de 6 mm y dos ramales unidos con medias bocas de 217 mm hacia F05/F06. Los puntos de recepción de las cintas se conservan. El pantalón se reconstruye también al cambiar alturas o posiciones, con los mismos identificadores.
+T01 recupera apoyos laterales al tronco, columnas más cortas, arriostres ajustados y asientos de 300 mm; desaparecen los grandes apoyos al collar. Se conserva por confirmación del usuario la boca de 3161,473 mm, collar de 1000 mm con cuatro paredes, capacidad geométrica de 20 m³ y descarga a 1892 mm. Esta decisión mantiene el volumen aprobado; el plano original mostraba tres paredes superiores. Dos travesaños del corredor F01 se retiran para dejar libre la cinta.
 
-Primaria: amarre inferior suelto retirado, asiento exterior compacto y calce de 5,45 mm bajo su cojinete, fuera de la carcasa del motor. Secundaria y martillos conservan asientos y descargas abiertas con remates a las caras reales de sus perfiles.
+C01 conserva la plataforma del motor sobre dos ménsulas trianguladas, ahora ajustada a 970 × 1470 mm. Las filas de apoyo sustituyen vigas duplicadas; el lado de transmisión se ajusta con W8x48 para librar la guarda fija. No hay bastidor independiente del motor.
 
-T01: capacidad interior geométrica de 20 m³, collar de 1000 mm, boca superior 3161,473 mm y descarga a 1892 mm conservadas. T02 conserva tolva y bastidor aprobados, con los calces de 5 mm y pedestales necesarios bajo las placas. Las bases de ambas tolvas permanecen fijas al cambiar la altura.
+S01 conserva los cuatro asientos de resortes y sus niveles. Se retira el travesaño y las dos riostras superiores del frente del colector; el portal inferior mantiene la unión entre columnas. El bajante pantalón y sus dos ramales a F05/F06 permanecen iguales.
 
-Acabado: perfiles reconstruidos desde su sección nativa correcta, sin heredar cortes. Encuentros en T, diagonales, conexiones cortas e ingletes; sin tapas decorativas automáticas. Cada estructura tiene un camino de contacto de malla hasta una columna y el piso, con tolerancia de 0,5 mm, comprobado en alturas 0 y ±300 mm.
+J01 reduce el vuelo de las ménsulas; J02 y H01 ajustan los bastidores de motor a sus bases de 800 mm. H01 elimina además el vano vacío de 353 mm. G01 ya coincide con sus apoyos de resortes: se verifica y conserva. T02 mantiene sus dimensiones y apoyos aprobados.
 
-Verificación: sin cruces estructura-cinta, sin intrusiones estructurales en bajantes, sin bloqueos de flujo y sin piezas estructurales desconectadas. Se inspeccionaron los ocho equipos en vistas frontal, lateral e inferior, disponibles en REVISION_ESTRUCTURAS. Masa geométrica de acero: 17,568 → 16,479 t, una reducción aproximada de 1,088 t. El único aumento por equipo es de 8,305 kg en los calces necesarios de T02; detalle en COMPARACION_MATERIAL.md.
+Verificación: contactos reales de malla con tolerancia 0,5 mm y continuidad hasta el piso a 0/±300 mm. En la configuración aprobada no hay cruces estructura-cinta, estructura-bajante ni bloqueos de flujo. Se revisan los ocho equipos en vistas frontal, lateral e inferior. Al bajar J01/H01 300 mm con las cintas inmóviles permanecen los mismos 15 pares de interferencias de la revisión 7; no se declara ese escenario libre de cruces. Los movimientos siguen permitidos y sujetos a advertencias.
 
-Se mantienen máquinas, alturas de montaje, transmisiones, estaciones, circuito, longitudes 16/22/15/10/10/8 m y sus inclinaciones. La migración incorpora la revisión 6 y conserva las ediciones guardadas del usuario; los ajustes de piezas retiradas se archivan en retiredComponents. No se crea una alternativa adicional.
+Acero estructural modelado: 16.479 → 14.175 t; reducción de 2.305 t (14.0 %). Ningún equipo aumenta su masa estructural. Comparación de volúmenes de perfiles, placas y anclajes; excluye equipos, cintas, bajantes y concreto. Los perfiles siguen siendo una propuesta referencial sin cálculo resistente.
 
-Archivos: Alternativa_SSVCA.dwg, Alternativa_SSVCA.dxf y Alternativa_Propuesta_AutoCAD.ssvca.json. DWG AC1032 convertido con AutoCAD 2026, DXF auditado sin errores ni reparaciones. El DWG original entregado por el usuario mantiene su SHA256. El CAD 2D contiene vistas y cotas de montaje; los detalles 3D están en la plataforma. Los perfiles y uniones siguen siendo una propuesta referencial sin cálculo resistente.
+La revisión 7 se conserva en el historial de migración. Se mantienen las modificaciones guardadas de posición, altura, dimensiones, cotas y componentes; los ajustes a piezas retiradas se archivan. La geometría y poses de máquinas, motores, cintas, bajantes y cuerpo de T01 se comprueban contra la revisión 7.
+
+Archivos: Alternativa_SSVCA.dwg, Alternativa_SSVCA.dxf, Alternativa_Propuesta_AutoCAD.ssvca.json y REVISION_ESTRUCTURAS. CAD 2D con vistas y cotas de montaje; detalles 3D en la plataforma. El DWG original del usuario permanece intacto.
+
+Validación final: 347/347 pruebas aprobadas. CAD actualizado con AutoCAD 2026, DXF sin errores ni reparaciones y original intacto.

@@ -1,9 +1,9 @@
 {
   "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "revision": "CORRECCIONES-2026-10-03-7",
-  "components": 3386,
-  "parts": 1435,
-  "meshBytes": 24024816,
+  "revision": "CORRECCIONES-2026-10-03-8",
+  "components": 3378,
+  "parts": 1450,
+  "meshBytes": 24412032,
   "supportAudit": [
     {
       "delta": 0,
@@ -11,9 +11,9 @@
       "results": [
         {
           "owner": "T01",
-          "members": 37,
+          "members": 32,
           "grounded": 4,
-          "contacts": 68,
+          "contacts": 54,
           "disconnected": []
         },
         {
@@ -25,37 +25,37 @@
         },
         {
           "owner": "J01",
-          "members": 40,
+          "members": 41,
           "grounded": 4,
           "contacts": 54,
           "disconnected": []
         },
         {
           "owner": "C01",
-          "members": 41,
+          "members": 39,
           "grounded": 4,
-          "contacts": 73,
+          "contacts": 66,
           "disconnected": []
         },
         {
           "owner": "S01",
-          "members": 62,
+          "members": 59,
           "grounded": 4,
-          "contacts": 124,
+          "contacts": 126,
           "disconnected": []
         },
         {
           "owner": "J02",
           "members": 31,
           "grounded": 4,
-          "contacts": 45,
+          "contacts": 42,
           "disconnected": []
         },
         {
           "owner": "H01",
-          "members": 39,
+          "members": 40,
           "grounded": 4,
-          "contacts": 58,
+          "contacts": 60,
           "disconnected": []
         },
         {
@@ -74,9 +74,9 @@
       "results": [
         {
           "owner": "T01",
-          "members": 37,
+          "members": 32,
           "grounded": 4,
-          "contacts": 80,
+          "contacts": 54,
           "disconnected": []
         },
         {
@@ -88,37 +88,37 @@
         },
         {
           "owner": "J01",
-          "members": 40,
+          "members": 41,
           "grounded": 4,
-          "contacts": 54,
+          "contacts": 55,
           "disconnected": []
         },
         {
           "owner": "C01",
-          "members": 41,
+          "members": 39,
           "grounded": 4,
-          "contacts": 74,
+          "contacts": 66,
           "disconnected": []
         },
         {
           "owner": "S01",
-          "members": 62,
+          "members": 59,
           "grounded": 4,
-          "contacts": 124,
+          "contacts": 122,
           "disconnected": []
         },
         {
           "owner": "J02",
           "members": 31,
           "grounded": 4,
-          "contacts": 45,
+          "contacts": 42,
           "disconnected": []
         },
         {
           "owner": "H01",
-          "members": 39,
+          "members": 40,
           "grounded": 4,
-          "contacts": 58,
+          "contacts": 60,
           "disconnected": []
         },
         {
@@ -137,9 +137,9 @@
       "results": [
         {
           "owner": "T01",
-          "members": 37,
+          "members": 32,
           "grounded": 4,
-          "contacts": 68,
+          "contacts": 54,
           "disconnected": []
         },
         {
@@ -151,37 +151,37 @@
         },
         {
           "owner": "J01",
-          "members": 40,
+          "members": 41,
           "grounded": 4,
           "contacts": 54,
           "disconnected": []
         },
         {
           "owner": "C01",
-          "members": 41,
+          "members": 39,
           "grounded": 4,
-          "contacts": 73,
+          "contacts": 66,
           "disconnected": []
         },
         {
           "owner": "S01",
-          "members": 62,
+          "members": 59,
           "grounded": 4,
-          "contacts": 102,
+          "contacts": 106,
           "disconnected": []
         },
         {
           "owner": "J02",
           "members": 31,
           "grounded": 4,
-          "contacts": 45,
+          "contacts": 42,
           "disconnected": []
         },
         {
           "owner": "H01",
-          "members": 39,
+          "members": 40,
           "grounded": 4,
-          "contacts": 58,
+          "contacts": 60,
           "disconnected": []
         },
         {
@@ -204,68 +204,68 @@
         "massKg": 1875.0640684852833
       },
       "after": {
-        "members": 17,
-        "lengthMm": 67499.63867870235,
-        "massKg": 1875.0640684852833
+        "members": 16,
+        "lengthMm": 50816.00074136177,
+        "massKg": 1441.5898385398705
       },
-      "nominalProfileChangeKg": 0,
+      "nominalProfileChangeKg": -433.47422994541284,
       "meshSteelBeforeKg": 2108.6509502462945,
-      "meshSteelAfterKg": 2108.6509502462945,
-      "meshSteelChangeKg": 0,
+      "meshSteelAfterKg": 1596.9826554333204,
+      "meshSteelChangeKg": -511.6682948129742,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
       "owner": "G01",
       "before": {
-        "members": 24,
-        "lengthMm": 24733.371297792233,
-        "massKg": 1078.3964158444712
+        "members": 22,
+        "lengthMm": 25152.47127337817,
+        "massKg": 1103.3439947411937
       },
       "after": {
         "members": 22,
         "lengthMm": 25152.47127337817,
         "massKg": 1103.3439947411937
       },
-      "nominalProfileChangeKg": 24.94757889672246,
-      "meshSteelBeforeKg": 1251.7533874606015,
+      "nominalProfileChangeKg": 0,
+      "meshSteelBeforeKg": 1218.826105034241,
       "meshSteelAfterKg": 1218.826105034241,
-      "meshSteelChangeKg": -32.927282426360534,
+      "meshSteelChangeKg": 0,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
       "owner": "J01",
       "before": {
-        "members": 23,
-        "lengthMm": 24017.394645020548,
-        "massKg": 1267.1653265305874
-      },
-      "after": {
         "members": 21,
         "lengthMm": 20849.394645020548,
         "massKg": 1166.089231483313
       },
-      "nominalProfileChangeKg": -101.07609504727452,
-      "meshSteelBeforeKg": 1486.191225367073,
-      "meshSteelAfterKg": 1298.7299509753504,
-      "meshSteelChangeKg": -187.46127439172255,
+      "after": {
+        "members": 22,
+        "lengthMm": 19430.86515654165,
+        "massKg": 1081.649053977509
+      },
+      "nominalProfileChangeKg": -84.44017750580383,
+      "meshSteelBeforeKg": 1298.7299509753504,
+      "meshSteelAfterKg": 1202.0195644727223,
+      "meshSteelChangeKg": -96.71038650262813,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
       "owner": "C01",
       "before": {
-        "members": 31,
-        "lengthMm": 59078.618504236256,
-        "massKg": 4336.66098961469
-      },
-      "after": {
         "members": 25,
         "lengthMm": 49947.806677538,
         "massKg": 4090.5202096073585
       },
-      "nominalProfileChangeKg": -246.1407800073316,
-      "meshSteelBeforeKg": 4769.279959574963,
-      "meshSteelAfterKg": 4152.2460485346055,
-      "meshSteelChangeKg": -617.0339110403575,
+      "after": {
+        "members": 23,
+        "lengthMm": 40342.33506511274,
+        "massKg": 3200.22253760942
+      },
+      "nominalProfileChangeKg": -890.2976719979383,
+      "meshSteelBeforeKg": 4152.2460485346055,
+      "meshSteelAfterKg": 3282.778238857523,
+      "meshSteelChangeKg": -869.4678096770826,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
@@ -276,14 +276,14 @@
         "massKg": 3345.3511055475465
       },
       "after": {
-        "members": 46,
-        "lengthMm": 94121.41324131019,
-        "massKg": 3345.3511055475465
+        "members": 43,
+        "lengthMm": 80974.61259972061,
+        "massKg": 2848.892321214247
       },
-      "nominalProfileChangeKg": 0,
-      "meshSteelBeforeKg": 3506.7358807746537,
-      "meshSteelAfterKg": 3364.974175318774,
-      "meshSteelChangeKg": -141.76170545587956,
+      "nominalProfileChangeKg": -496.45878433329926,
+      "meshSteelBeforeKg": 3364.974175318774,
+      "meshSteelAfterKg": 2894.0988278513646,
+      "meshSteelChangeKg": -470.8753474674095,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
@@ -295,13 +295,13 @@
       },
       "after": {
         "members": 19,
-        "lengthMm": 25258.92803955078,
-        "massKg": 1380.6695783681032
+        "lengthMm": 21503.92803955078,
+        "massKg": 1163.516695722369
       },
-      "nominalProfileChangeKg": 0,
-      "meshSteelBeforeKg": 1566.3867628583944,
-      "meshSteelAfterKg": 1484.2460689602494,
-      "meshSteelChangeKg": -82.14069389814495,
+      "nominalProfileChangeKg": -217.15288264573428,
+      "meshSteelBeforeKg": 1484.2460689602494,
+      "meshSteelAfterKg": 1251.7114027247549,
+      "meshSteelChangeKg": -232.53466623549457,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
@@ -312,14 +312,14 @@
         "massKg": 1134.7399660351896
       },
       "after": {
-        "members": 19,
-        "lengthMm": 24864.14986665468,
-        "massKg": 1134.7399660351896
+        "members": 20,
+        "lengthMm": 22278.14986665468,
+        "massKg": 1015.5916080572006
       },
-      "nominalProfileChangeKg": 0,
-      "meshSteelBeforeKg": 1346.8763876089001,
-      "meshSteelAfterKg": 1311.4133835416133,
-      "meshSteelChangeKg": -35.463004067286874,
+      "nominalProfileChangeKg": -119.14835797798901,
+      "meshSteelBeforeKg": 1311.4133835416133,
+      "meshSteelAfterKg": 1188.0576848875141,
+      "meshSteelChangeKg": -123.35569865409911,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     },
     {
@@ -335,17 +335,101 @@
         "massKg": 1473.1865551532796
       },
       "nominalProfileChangeKg": 0,
-      "meshSteelBeforeKg": 1531.8574777179945,
+      "meshSteelBeforeKg": 1540.1627777179945,
       "meshSteelAfterKg": 1540.1627777179945,
-      "meshSteelChangeKg": 8.305299999999988,
+      "meshSteelChangeKg": 0,
       "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
     }
   ],
+  "frameFootprints": [
+    {
+      "owner": "T01",
+      "beforeColumnSpanMm": [
+        3450,
+        3450
+      ],
+      "afterColumnSpanMm": [
+        2550,
+        2550
+      ]
+    },
+    {
+      "owner": "G01",
+      "beforeColumnSpanMm": [
+        1160.2736004171165,
+        1060
+      ],
+      "afterColumnSpanMm": [
+        1160.2736004171165,
+        1060
+      ]
+    },
+    {
+      "owner": "J01",
+      "beforeColumnSpanMm": [
+        900,
+        2100
+      ],
+      "afterColumnSpanMm": [
+        900,
+        1460
+      ]
+    },
+    {
+      "owner": "C01",
+      "beforeColumnSpanMm": [
+        2000.0000000000002,
+        2000
+      ],
+      "afterColumnSpanMm": [
+        1800.0000000000002,
+        1250.0000000000002
+      ]
+    },
+    {
+      "owner": "S01",
+      "beforeColumnSpanMm": [
+        3264,
+        2549
+      ],
+      "afterColumnSpanMm": [
+        2900,
+        2100
+      ]
+    },
+    {
+      "owner": "J02",
+      "beforeColumnSpanMm": [
+        2710,
+        2000
+      ],
+      "afterColumnSpanMm": [
+        2590,
+        1600
+      ]
+    },
+    {
+      "owner": "H01",
+      "beforeColumnSpanMm": [
+        2413,
+        2000
+      ],
+      "afterColumnSpanMm": [
+        2060,
+        1630
+      ]
+    },
+    {
+      "owner": "T02",
+      "beforeColumnSpanMm": null,
+      "afterColumnSpanMm": null
+    }
+  ],
   "structureFinishes": {
-    "memberFaces": 74,
-    "members": 153,
-    "columnFaces": 60,
-    "miterPairs": 34,
+    "memberFaces": 75,
+    "members": 149,
+    "columnFaces": 57,
+    "miterPairs": 33,
     "integratedCaps": 0,
     "addedOccurrences": 0
   },
@@ -413,6 +497,32 @@
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-4",
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-6",
       "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-5",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-6",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-7",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-8",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-6",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-5",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4__detalle_anclajes",
       "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-3",
       "PROPUESTA_T01_ASIENTO_REAL_0",
       "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-2",
@@ -432,9 +542,40 @@
       "PROPUESTA_T01_ASIENTO_REAL_3"
     ],
     "removedOccurrenceIds": [
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3"
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-6"
     ],
     "supportOccurrenceIds": [
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-5",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-6",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-7",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-8",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-6",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-2",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-5",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3__detalle_anclajes",
+      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4__detalle_anclajes",
       "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-3",
       "PROPUESTA_T01_ASIENTO_REAL_0",
       "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-2",
@@ -450,7 +591,7 @@
     ],
     "formula": "V = h/6 × (2W0D0 + W0D1 + W1D0 + 2W1D1) + WiDiH; dimensiones en m",
     "previousCapacityBasis": "Envolvente ideal cerrada normalizada con chapa9.525mm en ambos lados; original tenía tres paredes superiores, por lo que el volumen geométrico hasta rebose sin montículo era solo el tronco.",
-    "note": "Collar de1000mm cerrado por cuatro costados, abierto arriba; tronco estrechado manteniendo sus alturas y boca inferior. Cuatro pilares prolongados hasta asientos en L bajo aro inferior; retirado solo el amarre que cruzaba F01. Alimentador, fundaciones, posición y conexiones conservados. Capacidad geométrica hasta borde de chapa, sin montículo ni deducción de rigidizadores; modelo adaptado, no cálculo resistente ni capacidad de producción."
+    "note": "Collar de1000mm cerrado por cuatro costados, abierto arriba; tronco estrechado manteniendo sus alturas y boca inferior. Cuatro pilares compactos bajo el aro lateral del tronco, con asientos de300mm y canales exteriores apoyados; se acortan amarres y diagonales y se retiran cartelas sobrantes y el amarre que cruzaba F01. Alimentador, posición y conexiones conservados; fundaciones acercadas con sus pilares. Capacidad geométrica hasta borde de chapa, sin montículo ni deducción de rigidizadores; modelo adaptado, no cálculo resistente ni capacidad de producción."
   },
   "belts": [
     {
