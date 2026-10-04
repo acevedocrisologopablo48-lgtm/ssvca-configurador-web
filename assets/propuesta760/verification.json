@@ -1,838 +1,422 @@
 {
-  "revision": "CORRECCIONES-2026-10-04-11",
+  "revision": "CORRECCIONES-2026-10-04-12",
   "date": "2026-10-04",
-  "secondary": {
-    "station": {
-      "id": "J02",
-      "label": "Chancadora secundaria",
+  "layout": {
+    "settings": [
+      {
+        "id": "F01",
+        "length": 16000,
+        "inclination": 14,
+        "oldLength": 16000,
+        "oldInclination": 16
+      },
+      {
+        "id": "F02",
+        "length": 21000,
+        "inclination": 14,
+        "oldLength": 22000,
+        "oldInclination": 14
+      },
+      {
+        "id": "F03",
+        "length": 16000,
+        "inclination": 14,
+        "oldLength": 15000,
+        "oldInclination": 22.23173044464262
+      },
+      {
+        "id": "F04",
+        "length": 10000,
+        "inclination": 18.7,
+        "oldLength": 10000,
+        "oldInclination": 20
+      },
+      {
+        "id": "F05",
+        "length": 10000,
+        "inclination": 14.5,
+        "oldLength": 10000,
+        "oldInclination": 18
+      }
+    ],
+    "cone": {
+      "id": "C01",
+      "label": "Cono S75 · 3 pies",
       "position": [
-        39860,
-        -4400,
+        24520.201177494724,
+        -1800,
         0
       ],
-      "yaw": 0,
-      "height": 1450,
-      "width": 2590,
-      "depth": 2000,
+      "yaw": 180,
+      "height": 2200,
+      "width": 1800,
+      "depth": 1250,
       "floorId": "CV_LOSA_PRINCIPAL"
     },
-    "belt": {
-      "id": "F03",
-      "label": "F03 · Retorno",
-      "tail": [
-        40145.65959137751,
-        -4361.176976426019,
-        454.9999999999991
-      ],
-      "head": [
-        26499,
-        -1799.9999999999995,
-        6130.30214988503
-      ],
-      "length": 15000,
-      "inclination": 22.23173044464262,
-      "azimuth": 169.37049601615752,
-      "mode": "parameters",
-      "anchor": "head",
-      "supports": [
-        800,
-        4800,
-        8800,
-        12800
-      ],
-      "floorId": "CV_LOSA_PRINCIPAL",
-      "supportOverrides": {}
-    },
-    "columnAxes": [
-      [
-        70,
-        -800
-      ],
-      [
-        70,
-        1000
-      ],
-      [
-        1290,
-        -800
-      ],
-      [
-        1290,
-        1000
-      ],
-      [
-        -1300,
-        -800
-      ],
-      [
-        -1300,
-        1200
-      ]
+    "direct": [
+      {
+        "id": "TR01_F01_GRIZZLY",
+        "receiver": "G01",
+        "localLanding": [
+          -800.2756991847345,
+          0,
+          865.8519999999999
+        ],
+        "mouthBounds": [
+          [
+            -1024,
+            -636
+          ],
+          [
+            -318,
+            318
+          ]
+        ],
+        "startPort": {
+          "owner": "F01",
+          "basis": "belt",
+          "axialReference": "head",
+          "local": [
+            0,
+            0,
+            250
+          ]
+        },
+        "start": [
+          18418.69114651603,
+          0,
+          4568.9542611636825
+        ],
+        "landing": [
+          19099.724300815265,
+          0,
+          3794.852
+        ],
+        "velocity": [
+          1552.4731620415944,
+          0,
+          387.0750329594684
+        ],
+        "duration": 0.43867628178746476,
+        "dropMm": 774.1022611636827,
+        "horizontalMm": 681.0331542992353
+      },
+      {
+        "id": "TR04_F02_ZARANDA",
+        "receiver": "S01",
+        "localLanding": [
+          1800,
+          504.0379666232694,
+          1660
+        ],
+        "mouthBounds": [
+          [
+            1600,
+            1900
+          ],
+          [
+            -664,
+            664
+          ]
+        ],
+        "startPort": {
+          "owner": "F02",
+          "basis": "belt",
+          "axialReference": "head",
+          "local": [
+            0,
+            0,
+            250
+          ]
+        },
+        "start": [
+          41032.06977789602,
+          0,
+          5782.933739162022
+        ],
+        "landing": [
+          41649.96203337673,
+          0,
+          5160
+        ],
+        "velocity": [
+          1552.4731620415946,
+          0,
+          387.0750329594684
+        ],
+        "duration": 0.39800511248011045,
+        "dropMm": 622.933739162022,
+        "horizontalMm": 617.8922554807141
+      },
+      {
+        "id": "TR07A_F03_CONO",
+        "receiver": "C01",
+        "localLanding": [
+          -5.012143989154619e-28,
+          4.092726157978177e-12,
+          2182.32143765789
+        ],
+        "mouthBounds": [
+          [
+            -500,
+            500
+          ],
+          [
+            -500,
+            500
+          ]
+        ],
+        "startPort": {
+          "owner": "F03",
+          "basis": "belt",
+          "axialReference": "head",
+          "local": [
+            0,
+            0,
+            250
+          ]
+        },
+        "start": [
+          24885.050496226744,
+          -1859.8026406809927,
+          4568.3242611636815
+        ],
+        "landing": [
+          24520.201177494724,
+          -1800.000000000004,
+          4382.32143765789
+        ],
+        "velocity": [
+          -1532.029312778393,
+          251.11571764266478,
+          387.0750329594684
+        ],
+        "duration": 0.23814774018282378,
+        "dropMm": 186.00282350579164,
+        "horizontalMm": 369.7179752346896
+      },
+      {
+        "id": "TR11_F05_MARTILLOS",
+        "receiver": "H01",
+        "localLanding": [
+          856.7401313536338,
+          5.246020297816553e-14,
+          1032
+        ],
+        "mouthBounds": [
+          [
+            350,
+            990
+          ],
+          [
+            -435,
+            435
+          ]
+        ],
+        "startPort": {
+          "owner": "F05",
+          "basis": "belt",
+          "axialReference": "head",
+          "local": [
+            0,
+            0,
+            250
+          ]
+        },
+        "start": [
+          42154,
+          -12179.881402767467,
+          3200.8369506389413
+        ],
+        "landing": [
+          42154,
+          -12594.259868646366,
+          2957
+        ],
+        "velocity": [
+          0,
+          -1549.0362246049726,
+          400.6080064871063
+        ],
+        "duration": 0.2675072792339457,
+        "dropMm": 243.8369506389413,
+        "horizontalMm": 414.3784658788991
+      },
+      {
+        "id": "TR12_F04_TOLVA",
+        "receiver": "T02",
+        "localLanding": [
+          137.41910904122778,
+          8.414493601451035e-15,
+          1500
+        ],
+        "mouthBounds": [
+          [
+            -1500,
+            1500
+          ],
+          [
+            -1500,
+            1500
+          ]
+        ],
+        "startPort": {
+          "owner": "F04",
+          "basis": "belt",
+          "axialReference": "head",
+          "local": [
+            0,
+            0,
+            250
+          ]
+        },
+        "start": [
+          42154,
+          -21861.949529813868,
+          3897.9324752932707
+        ],
+        "landing": [
+          42154,
+          -22557.580890958772,
+          3100
+        ],
+        "velocity": [
+          0,
+          -1515.5364443936462,
+          512.9807849370821
+        ],
+        "duration": 0.4590000878687011,
+        "dropMm": 797.9324752932707,
+        "horizontalMm": 695.6313611449041
+      }
     ],
-    "flangeSeatTop": 1450,
-    "motorSeatTop": 1950,
-    "created": [
-      "PROPUESTA_J02_R11_PEDESTAL_0",
-      "PROPUESTA_J02_R11_PLACA_BASE_0",
-      "PROPUESTA_J02_R11_ANCLAJES_0",
-      "PROPUESTA_J02_R11_COLUMNA_0",
-      "PROPUESTA_J02_R11_PEDESTAL_1",
-      "PROPUESTA_J02_R11_PLACA_BASE_1",
-      "PROPUESTA_J02_R11_ANCLAJES_1",
-      "PROPUESTA_J02_R11_COLUMNA_1",
-      "PROPUESTA_J02_R11_PEDESTAL_2",
-      "PROPUESTA_J02_R11_PLACA_BASE_2",
-      "PROPUESTA_J02_R11_ANCLAJES_2",
-      "PROPUESTA_J02_R11_COLUMNA_2",
-      "PROPUESTA_J02_R11_PEDESTAL_3",
-      "PROPUESTA_J02_R11_PLACA_BASE_3",
-      "PROPUESTA_J02_R11_ANCLAJES_3",
-      "PROPUESTA_J02_R11_COLUMNA_3",
-      "PROPUESTA_J02_R11_PEDESTAL_4",
-      "PROPUESTA_J02_R11_PLACA_BASE_4",
-      "PROPUESTA_J02_R11_ANCLAJES_4",
-      "PROPUESTA_J02_R11_COLUMNA_4",
-      "PROPUESTA_J02_R11_PEDESTAL_5",
-      "PROPUESTA_J02_R11_PLACA_BASE_5",
-      "PROPUESTA_J02_R11_ANCLAJES_5",
-      "PROPUESTA_J02_R11_COLUMNA_5",
-      "PROPUESTA_J02_R11_CABEZAL_POSTERIOR",
-      "PROPUESTA_J02_R11_CABEZAL_FRONTAL",
-      "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_0",
-      "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_1",
-      "PROPUESTA_J02_R11_ASIENTO_BRIDA_0",
-      "PROPUESTA_J02_R11_ASIENTO_BRIDA_1",
-      "PROPUESTA_J02_R11_PORTICO_MOTOR",
-      "PROPUESTA_J02_R11_BRAZO_MOTOR_0",
-      "PROPUESTA_J02_R11_BRAZO_MOTOR_1",
-      "PROPUESTA_J02_R11_ASIENTO_MOTOR_0",
-      "PROPUESTA_J02_R11_ASIENTO_MOTOR_1",
-      "PROPUESTA_J02_R11_ASIENTO_MOTOR_2"
+    "removedHeads": [
+      "REVISION_F01_CABEZAL_LATERAL_ABIERTO_1",
+      "REVISION_F01_CABEZAL_LATERAL_ABIERTO_2",
+      "REVISION_F01_CABEZAL_FRENTE_3",
+      "REVISION_F01_CABEZAL_RECEPTOR_0_4",
+      "REVISION_F01_CABEZAL_RECEPTOR_1_5",
+      "REVISION_F01_CABEZAL_RECEPTOR_2_6",
+      "REVISION_F01_CABEZAL_RECEPTOR_3_7",
+      "REVISION_F02_CABEZAL_LATERAL_ABIERTO_1",
+      "REVISION_F02_CABEZAL_LATERAL_ABIERTO_2",
+      "REVISION_F02_CABEZAL_FRENTE_3",
+      "REVISION_F02_CABEZAL_RECEPTOR_0_4",
+      "REVISION_F02_CABEZAL_RECEPTOR_1_5",
+      "REVISION_F02_CABEZAL_RECEPTOR_2_6",
+      "REVISION_F02_CABEZAL_RECEPTOR_3_7",
+      "F05__REVISION_F04_CABEZAL_LATERAL_ABIERTO_1",
+      "F05__REVISION_F04_CABEZAL_LATERAL_ABIERTO_2",
+      "F05__REVISION_F04_CABEZAL_FRENTE_3",
+      "F05__REVISION_F04_CABEZAL_RECEPTOR_0_4",
+      "F05__REVISION_F04_CABEZAL_RECEPTOR_1_5",
+      "F05__REVISION_F04_CABEZAL_RECEPTOR_2_6",
+      "F05__REVISION_F04_CABEZAL_RECEPTOR_3_7",
+      "REVISION_F03_CABEZAL_LATERAL_ABIERTO_1",
+      "REVISION_F03_CABEZAL_LATERAL_ABIERTO_2",
+      "REVISION_F03_CABEZAL_FRENTE_3",
+      "REVISION_F03_CABEZAL_RECEPTOR_0_4",
+      "REVISION_F03_CABEZAL_RECEPTOR_1_5",
+      "REVISION_F03_CABEZAL_RECEPTOR_2_6",
+      "REVISION_F03_CABEZAL_RECEPTOR_3_7",
+      "REVISION_F04_CABEZAL_LATERAL_ABIERTO_1",
+      "REVISION_F04_CABEZAL_LATERAL_ABIERTO_2",
+      "REVISION_F04_CABEZAL_FRENTE_3",
+      "REVISION_F04_CABEZAL_RECEPTOR_0_4",
+      "REVISION_F04_CABEZAL_RECEPTOR_1_5",
+      "REVISION_F04_CABEZAL_RECEPTOR_2_6",
+      "REVISION_F04_CABEZAL_RECEPTOR_3_7"
     ],
-    "transfers": [
-      "TR05_RECHAZO_SECUNDARIA",
+    "affectedTransfers": [
+      "TR00_TOLVA_F01",
+      "TR01_F01_GRIZZLY",
+      "TR02_PASANTE_GRIZZLY",
+      "TR03B_PRIMARIA_F02",
+      "TR04_F02_ZARANDA",
       "TR06_SECUNDARIA_F03",
       "TR07A_F03_CONO",
-      "TR10_INTERMEDIO_F06"
+      "TR08_CONO_F02",
+      "TR09A_ZARANDA_MARTILLOS",
+      "TR09B_MARTILLOS_F04",
+      "TR10_INTERMEDIO_F06",
+      "TR11_F05_MARTILLOS",
+      "TR12_F04_TOLVA"
     ],
-    "provenance": "R11: secundaria restaurada sobre retorno; cola F03 Z455, cabeza fija y longitud 15000. Pórtico de seis columnas, asientos de brida de 25 mm y plataforma de motor a su cota original. Geometría referencial; chapas, voladizos y perfiles pendientes de cálculo resistente."
+    "f01TailShiftMm": -300,
+    "f02TailShiftMm": 0,
+    "retainedConeMouthMm": 2182.32143765789
   },
-  "hopper": {
-    "position": [
-      42154,
-      -22695,
+  "butterfly": {
+    "angleDeg": 90,
+    "rangeDeg": [
+      0,
+      90
+    ],
+    "discDiameterMm": 248,
+    "discThicknessMm": 6,
+    "shaftDiameterMm": 16,
+    "pivotLocal": [
+      0,
+      0,
+      1600
+    ],
+    "shaftAxisLocal": [
+      0,
+      1,
       0
     ],
-    "mouthMm": 3200,
-    "upperWallHeightMm": 500,
-    "transitionHeightMm": 1000,
-    "totalHeightMm": 3100,
-    "throatElevationMm": 1600,
-    "outletElevationMm": 1400,
-    "outletInsideDiameterMm": 250,
-    "outletOutsideDiameterMm": 262,
-    "outletHeightMm": 200,
-    "columnAxesMm": [
-      3200,
-      3365.479995727539
+    "handwheelCenterLocal": [
+      0,
+      2050,
+      1600
     ],
-    "crownAxesMm": [
-      3360.14599609375,
-      3360.14599609375
-    ],
-    "crownTopMm": 3100,
-    "columnTopMm": 2935.85400390625,
-    "gate": {
-      "operation": "open",
-      "travelMm": 350,
-      "plateCenter": [
-        350,
-        0,
-        1382
-      ],
-      "handwheelCenter": [
-        920,
-        0,
-        1382
-      ],
-      "handwheelDiameterMm": 180,
-      "shaftAxis": [
-        1,
-        0,
-        0
-      ]
+    "handwheelDiameterMm": 180,
+    "neckMm": {
+      "insideDiameter": 250,
+      "outsideDiameter": 262,
+      "bottom": 1400,
+      "top": 1600
     },
-    "footingSizeMm": 400,
-    "footingSlabMarginMm": 105,
-    "f04": {
-      "inclination": 20,
-      "length": 10000,
-      "tail": [
-        42154,
-        -12470,
-        455
-      ],
-      "head": [
-        42154,
-        -21866.926207859084,
-        3875.2014332566873
-      ],
-      "supports": [
-        800,
-        4800,
-        8600
-      ]
-    },
+    "radialSweepMm": 124.03628501370073,
+    "openAxialExtensionMm": 124,
+    "openProjectedObstructionMm": 16,
     "removedOccurrenceIds": [
-      "CIRCUITO_T02_CHAPA_TOLVA_35",
-      "CIRCUITO_T02_COLLAR_BOCA_36",
-      "CIRCUITO_T02_CHAPA_TOLVA_37",
-      "CIRCUITO_T02_COLLAR_BOCA_38",
-      "CIRCUITO_T02_CHAPA_TOLVA_39",
-      "CIRCUITO_T02_COLLAR_BOCA_40",
-      "CIRCUITO_T02_CHAPA_TOLVA_41",
-      "CIRCUITO_T02_COLLAR_BOCA_42",
-      "CIRCUITO_T02_BRIDA_SALIDA_43",
-      "CIRCUITO_T02_PLACA_BASE_2",
-      "CIRCUITO_T02_ANCLAJE_3",
-      "CIRCUITO_T02_ANCLAJE_4",
-      "CIRCUITO_T02_ANCLAJE_5",
-      "CIRCUITO_T02_ANCLAJE_6",
-      "PROPUESTA_T02_PEDESTAL_0",
-      "PROPUESTA_T02_CALCE_0",
-      "R9_T02_COLUMNA_0",
-      "R9_T02_PLACA_APOYO_CORONA_0",
-      "CIRCUITO_T02_PLACA_BASE_8",
-      "CIRCUITO_T02_ANCLAJE_9",
-      "CIRCUITO_T02_ANCLAJE_10",
-      "CIRCUITO_T02_ANCLAJE_11",
-      "CIRCUITO_T02_ANCLAJE_12",
-      "PROPUESTA_T02_PEDESTAL_1",
-      "PROPUESTA_T02_CALCE_1",
-      "R9_T02_COLUMNA_1",
-      "R9_T02_PLACA_APOYO_CORONA_1",
-      "CIRCUITO_T02_PLACA_BASE_14",
-      "CIRCUITO_T02_ANCLAJE_15",
-      "CIRCUITO_T02_ANCLAJE_16",
-      "CIRCUITO_T02_ANCLAJE_17",
-      "CIRCUITO_T02_ANCLAJE_18",
-      "PROPUESTA_T02_PEDESTAL_2",
-      "PROPUESTA_T02_CALCE_2",
-      "R9_T02_COLUMNA_2",
-      "R9_T02_PLACA_APOYO_CORONA_2",
-      "CIRCUITO_T02_PLACA_BASE_20",
-      "CIRCUITO_T02_ANCLAJE_21",
-      "CIRCUITO_T02_ANCLAJE_22",
-      "CIRCUITO_T02_ANCLAJE_23",
-      "CIRCUITO_T02_ANCLAJE_24",
-      "PROPUESTA_T02_PEDESTAL_3",
-      "PROPUESTA_T02_CALCE_3",
-      "R9_T02_COLUMNA_3",
-      "R9_T02_PLACA_APOYO_CORONA_3",
-      "R9_T02_CORONA_0",
-      "R9_T02_CORONA_1",
-      "R9_T02_CORONA_2",
-      "R9_T02_CORONA_3",
-      "R9_T02_MONTURA_PLACA_0",
-      "R9_T02_MONTURA_CHAFA_0",
-      "R9_T02_MONTURA_CARTELA_0_0",
-      "R9_T02_MONTURA_CARTELA_0_1",
-      "R9_T02_MONTURA_PLACA_1",
-      "R9_T02_MONTURA_CHAFA_1",
-      "R9_T02_MONTURA_CARTELA_1_0",
-      "R9_T02_MONTURA_CARTELA_1_1",
-      "R9_T02_MONTURA_PLACA_2",
-      "R9_T02_MONTURA_CHAFA_2",
-      "R9_T02_MONTURA_CARTELA_2_0",
-      "R9_T02_MONTURA_CARTELA_2_1",
-      "R9_T02_MONTURA_PLACA_3",
-      "R9_T02_MONTURA_CHAFA_3",
-      "R9_T02_MONTURA_CARTELA_3_0",
-      "R9_T02_MONTURA_CARTELA_3_1"
-    ]
+      "R11_T02_ADAPTADOR_ABIERTO",
+      "R11_T02_CUELLO_CILINDRICO",
+      "R11_T02_COMPUERTA_MARCO_ABIERTO",
+      "R11_T02_COMPUERTA_DESLIZANTE_ABIERTA",
+      "R11_T02_GUIA_COMPUERTA_-1",
+      "R11_T02_GUIA_LABIO_-1",
+      "R11_T02_GUIA_COMPUERTA_1",
+      "R11_T02_GUIA_LABIO_1",
+      "R11_T02_TRAVESANO_COMPUERTA",
+      "R11_T02_SOPORTE_HUSILLO",
+      "R11_T02_COJINETE_HUSILLO",
+      "R11_T02_HUSILLO_COMPUERTA",
+      "R11_T02_TUERCA_COMPUERTA",
+      "R11_T02_TIMON_LATERAL"
+    ],
+    "createdOccurrenceIds": [
+      "R12_T02_CUELLO_INFERIOR",
+      "R12_T02_CUELLO_VENTANA_0",
+      "R12_T02_CUELLO_VENTANA_1",
+      "R12_T02_ADAPTADOR_CON_EJE_-1",
+      "R12_T02_ADAPTADOR_CON_EJE_1",
+      "R12_T02_PALETA_MARIPOSA",
+      "R12_T02_EJE_MARIPOSA",
+      "R12_T02_COJINETE_CUELLO_-1",
+      "R12_T02_PASAEJE_CUELLO_-1",
+      "R12_T02_COJINETE_CUELLO_1",
+      "R12_T02_PASAEJE_CUELLO_1",
+      "R12_T02_TIMON_EXTERIOR",
+      "R12_T02_COLGANTE_COJINETE",
+      "R12_T02_BRAZO_COJINETE",
+      "R12_T02_COJINETE_EXTERIOR"
+    ],
+    "note": "0° cerrada, 90° abierta. Eje y timón en Z1600, como la corrección del usuario. Abierta, la paleta ocupa Z1476–1724 dentro del cuello y del embudo libre. El eje Ø16 y el canto de paleta siguen presentes en la sección abierta; la abertura no equivale a un conducto vacío."
   },
-  "joints": {
-    "members": 24,
-    "columnFaces": 1,
-    "memberFaces": 8,
-    "miterPairs": 6,
-    "integratedCaps": 0,
-    "addedOccurrences": 0,
-    "joints": [
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_0",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_0",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_1",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_1",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_2",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_2",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_3",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_3",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_4",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_4",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_5",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_COLUMNA_5",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_CABEZAL_POSTERIOR",
-        "side": 0,
-        "kind": "column-face",
-        "host": "PROPUESTA_J02_R11_COLUMNA_4",
-        "plane": {
-          "normal": [
-            1,
-            0,
-            0
-          ],
-          "point": [
-            38636.45400238037,
-            -5200,
-            1343.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_CABEZAL_POSTERIOR",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_CABEZAL_FRONTAL",
-        "side": 0,
-        "kind": "miter",
-        "host": "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_0",
-        "plane": {
-          "normal": [
-            0.7071067811865475,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            39930,
-            -3400,
-            1343.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_CABEZAL_FRONTAL",
-        "side": 1,
-        "kind": "miter",
-        "host": "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_1",
-        "plane": {
-          "normal": [
-            -0.7071067811865475,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            41150,
-            -3400,
-            1343.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_0",
-        "side": 0,
-        "kind": "miter",
-        "host": "PROPUESTA_J02_R11_CABEZAL_FRONTAL",
-        "plane": {
-          "normal": [
-            0.7071067811865475,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            39930,
-            -3400,
-            1343.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_0",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_1",
-        "side": 0,
-        "kind": "miter",
-        "host": "PROPUESTA_J02_R11_CABEZAL_FRONTAL",
-        "plane": {
-          "normal": [
-            -0.7071067811865475,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            41150,
-            -3400,
-            1343.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_ASIENTO_BRIDA_1",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_PORTICO_MOTOR",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_PORTICO_MOTOR",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_MOTOR_0",
-        "side": 0,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_PORTICO_MOTOR",
-        "plane": {
-          "normal": [
-            1,
-            0,
-            0
-          ],
-          "point": [
-            38637.215995788574,
-            -4800,
-            1868.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_MOTOR_0",
-        "side": 1,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_ASIENTO_MOTOR_2",
-        "plane": {
-          "normal": [
-            -1,
-            0,
-            0
-          ],
-          "point": [
-            39283.54599761963,
-            -4800,
-            1871.2600021362305
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_MOTOR_1",
-        "side": 0,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_PORTICO_MOTOR",
-        "plane": {
-          "normal": [
-            1,
-            0,
-            0
-          ],
-          "point": [
-            38637.215995788574,
-            -4000,
-            1868.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_BRAZO_MOTOR_1",
-        "side": 1,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_ASIENTO_MOTOR_2",
-        "plane": {
-          "normal": [
-            -1,
-            0,
-            0
-          ],
-          "point": [
-            39283.54599761963,
-            -4000,
-            1871.2600021362305
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_ASIENTO_MOTOR_0",
-        "side": 0,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_BRAZO_MOTOR_0",
-        "plane": {
-          "normal": [
-            0,
-            1,
-            0
-          ],
-          "point": [
-            38770,
-            -4722.784004211426,
-            1868.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_ASIENTO_MOTOR_0",
-        "side": 1,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_BRAZO_MOTOR_1",
-        "plane": {
-          "normal": [
-            0,
-            -1,
-            0
-          ],
-          "point": [
-            38770,
-            -4077.215995788574,
-            1868.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_ASIENTO_MOTOR_1",
-        "side": 0,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_BRAZO_MOTOR_0",
-        "plane": {
-          "normal": [
-            0,
-            1,
-            0
-          ],
-          "point": [
-            39150,
-            -4722.784004211426,
-            1868.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_ASIENTO_MOTOR_1",
-        "side": 1,
-        "kind": "member-face",
-        "host": "PROPUESTA_J02_R11_BRAZO_MOTOR_1",
-        "plane": {
-          "normal": [
-            0,
-            -1,
-            0
-          ],
-          "point": [
-            39150,
-            -4077.215995788574,
-            1868.9739990234375
-          ]
-        }
-      },
-      {
-        "member": "PROPUESTA_J02_R11_ASIENTO_MOTOR_2",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "PROPUESTA_J02_R11_ASIENTO_MOTOR_2",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_0",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_0",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_1",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_1",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_2",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_2",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_3",
-        "side": 0,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_COLUMNA_3",
-        "side": 1,
-        "kind": "square"
-      },
-      {
-        "member": "R11_T02_CORONA_0",
-        "side": 0,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_3",
-        "plane": {
-          "normal": [
-            0.7071067811865476,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            43834.072998046875,
-            -24375.072998046875,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_0",
-        "side": 1,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_1",
-        "plane": {
-          "normal": [
-            0.7071067811865475,
-            -0.7071067811865476,
-            0
-          ],
-          "point": [
-            43834.072998046875,
-            -21014.927001953125,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_1",
-        "side": 0,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_0",
-        "plane": {
-          "normal": [
-            0.7071067811865475,
-            -0.7071067811865476,
-            0
-          ],
-          "point": [
-            43834.072998046875,
-            -21014.927001953125,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_1",
-        "side": 1,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_2",
-        "plane": {
-          "normal": [
-            0.7071067811865476,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            40473.927001953125,
-            -21014.927001953125,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_2",
-        "side": 0,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_1",
-        "plane": {
-          "normal": [
-            0.7071067811865476,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            40473.927001953125,
-            -21014.927001953125,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_2",
-        "side": 1,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_3",
-        "plane": {
-          "normal": [
-            -0.7071067811865475,
-            0.7071067811865476,
-            0
-          ],
-          "point": [
-            40473.927001953125,
-            -24375.072998046875,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_3",
-        "side": 0,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_2",
-        "plane": {
-          "normal": [
-            -0.7071067811865475,
-            0.7071067811865476,
-            0
-          ],
-          "point": [
-            40473.927001953125,
-            -24375.072998046875,
-            3023.927001953125
-          ]
-        }
-      },
-      {
-        "member": "R11_T02_CORONA_3",
-        "side": 1,
-        "kind": "miter",
-        "host": "R11_T02_CORONA_0",
-        "plane": {
-          "normal": [
-            0.7071067811865476,
-            0.7071067811865475,
-            0
-          ],
-          "point": [
-            43834.072998046875,
-            -24375.072998046875,
-            3023.927001953125
-          ]
-        }
-      }
-    ]
-  },
-  "transferIds": [
-    "TR05_RECHAZO_SECUNDARIA",
-    "TR06_SECUNDARIA_F03",
-    "TR07A_F03_CONO",
-    "TR09B_MARTILLOS_F04",
-    "TR10_INTERMEDIO_F06",
-    "TR12_F04_TOLVA"
-  ],
-  "material": [
-    {
-      "owner": "T01",
-      "beforeKg": 952.2077973525327,
-      "afterKg": 952.2077973525327,
-      "changeKg": 0
-    },
-    {
-      "owner": "G01",
-      "beforeKg": 764.6137304636057,
-      "afterKg": 764.6137304636057,
-      "changeKg": 0
-    },
-    {
-      "owner": "J01",
-      "beforeKg": 804.134362753694,
-      "afterKg": 804.134362753694,
-      "changeKg": 0
-    },
-    {
-      "owner": "C01",
-      "beforeKg": 1368.7158384840675,
-      "afterKg": 1368.7158384840675,
-      "changeKg": 0
-    },
-    {
-      "owner": "S01",
-      "beforeKg": 1242.22871165864,
-      "afterKg": 1242.22871165864,
-      "changeKg": 0
-    },
-    {
-      "owner": "J02",
-      "beforeKg": 798.364237216488,
-      "afterKg": 841.5080070007723,
-      "changeKg": 43.143769784284245
-    },
-    {
-      "owner": "H01",
-      "beforeKg": 832.0094384876478,
-      "afterKg": 832.0094384876478,
-      "changeKg": 0
-    },
-    {
-      "owner": "T02",
-      "beforeKg": 395.9024265564062,
-      "afterKg": 769.5450561841353,
-      "changeKg": 373.6426296277291
-    }
-  ],
   "beltConflicts": [],
+  "machineConflicts": [],
   "chuteConflicts": [],
   "supportAudits": [
     {
@@ -864,7 +448,7 @@
           "owner": "C01",
           "members": 39,
           "grounded": 4,
-          "contacts": 63,
+          "contacts": 64,
           "disconnected": []
         },
         {
@@ -890,9 +474,9 @@
         },
         {
           "owner": "T02",
-          "members": 44,
+          "members": 46,
           "grounded": 4,
-          "contacts": 76,
+          "contacts": 78,
           "disconnected": []
         }
       ],
@@ -927,7 +511,7 @@
           "owner": "C01",
           "members": 39,
           "grounded": 4,
-          "contacts": 66,
+          "contacts": 63,
           "disconnected": []
         },
         {
@@ -953,9 +537,9 @@
         },
         {
           "owner": "T02",
-          "members": 44,
+          "members": 46,
           "grounded": 4,
-          "contacts": 76,
+          "contacts": 78,
           "disconnected": []
         }
       ],
@@ -990,7 +574,7 @@
           "owner": "C01",
           "members": 39,
           "grounded": 4,
-          "contacts": 62,
+          "contacts": 65,
           "disconnected": []
         },
         {
@@ -1016,9 +600,9 @@
         },
         {
           "owner": "T02",
-          "members": 44,
+          "members": 46,
           "grounded": 4,
-          "contacts": 76,
+          "contacts": 78,
           "disconnected": []
         }
       ],
@@ -1028,6 +612,7 @@
   "drops": [
     {
       "id": "TR00_TOLVA_F01",
+      "direct": true,
       "points": [
         [
           3254.4400000000023,
@@ -1035,33 +620,35 @@
           1869
         ],
         [
-          3300.882064558351,
-          5.687512570717618e-15,
-          729.0219066826196
+          3254.4400000000023,
+          0,
+          788.0818081904288
         ]
       ],
-      "dropMm": 1139.9780933173804,
+      "dropMm": 1080.9181918095712,
       "ascendingSegments": []
     },
     {
       "id": "TR01_F01_GRIZZLY",
+      "direct": true,
       "points": [
         [
-          18826.02164483486,
-          1.9069687619008684e-12,
-          4379.75347897491
+          18418.69114651603,
+          0,
+          4568.9542611636825
         ],
         [
-          19070,
+          19099.724300815265,
           0,
           3794.852
         ]
       ],
-      "dropMm": 584.9014789749099,
+      "dropMm": 774.1022611636827,
       "ascendingSegments": []
     },
     {
       "id": "TR02_PASANTE_GRIZZLY",
+      "direct": false,
       "points": [
         [
           20074.632670948915,
@@ -1075,7 +662,7 @@
         ],
         [
           21238.03696186568,
-          6.388945144737049e-14,
+          0,
           847.7270689287998
         ]
       ],
@@ -1084,6 +671,7 @@
     },
     {
       "id": "TR03_GRIZZLY_PRIMARIA",
+      "direct": false,
       "points": [
         [
           21026.52557450302,
@@ -1101,6 +689,7 @@
     },
     {
       "id": "TR03B_PRIMARIA_F02",
+      "direct": false,
       "points": [
         [
           22000,
@@ -1108,33 +697,35 @@
           1800
         ],
         [
-          21839.519526100084,
-          1.3754982115063076e-13,
-          997.6935154143583
+          21803.23124176013,
+          0,
+          1143.2378743557579
         ]
       ],
-      "dropMm": 802.3064845856417,
+      "dropMm": 656.7621256442421,
       "ascendingSegments": []
     },
     {
       "id": "TR04_F02_ZARANDA",
+      "direct": true,
       "points": [
         [
-          42237.16015009755,
-          2.6355403511842824e-12,
-          5289.824020309154
+          41032.06977789602,
+          0,
+          5782.933739162022
         ],
         [
-          42154,
+          41649.96203337673,
           0,
           5160
         ]
       ],
-      "dropMm": 129.82402030915364,
+      "dropMm": 622.933739162022,
       "ascendingSegments": []
     },
     {
       "id": "TR05_RECHAZO_SECUNDARIA",
+      "direct": false,
       "points": [
         [
           42154,
@@ -1157,6 +748,7 @@
     },
     {
       "id": "TR06_SECUNDARIA_F03",
+      "direct": false,
       "points": [
         [
           40540,
@@ -1164,50 +756,53 @@
           1395
         ],
         [
-          40247.921398866194,
-          -4380.369261919328,
-          709.5568284424728
+          40211.31202727399,
+          -4371.938101175802,
+          721.8313247258982
         ]
       ],
-      "dropMm": 685.4431715575272,
+      "dropMm": 673.1686752741018,
       "ascendingSegments": []
     },
     {
       "id": "TR07A_F03_CONO",
+      "direct": true,
       "points": [
         [
-          26260.14335326227,
-          -1755.1718762972923,
-          5667.876002663121
+          24885.050496226744,
+          -1859.8026406809927,
+          4568.3242611636815
         ],
         [
-          26751,
-          -1800,
-          5442.321
+          24520.201177494724,
+          -1800.000000000004,
+          4382.32143765789
         ]
       ],
-      "dropMm": 225.55500266312083,
+      "dropMm": 186.00282350579164,
       "ascendingSegments": []
     },
     {
       "id": "TR08_CONO_F02",
+      "direct": false,
       "points": [
         [
-          26601,
+          24520.201177494724,
           -1800,
-          2855.355
+          1855.355
         ],
         [
-          26564.71171566005,
-          7.162189701806994e-13,
-          2072.754884152551
+          24520.201177494724,
+          0,
+          1769.1238807499335
         ]
       ],
-      "dropMm": 782.6001158474492,
+      "dropMm": 86.23111925006651,
       "ascendingSegments": []
     },
     {
       "id": "TR09A_ZARANDA_MARTILLOS",
+      "direct": false,
       "points": [
         [
           42154,
@@ -1216,15 +811,16 @@
         ],
         [
           42154,
-          -3149.4853128128707,
-          909.0760251362516
+          -3176.108347251065,
+          872.302912932636
         ]
       ],
-      "dropMm": 1170.9239748637483,
+      "dropMm": 1207.697087067364,
       "ascendingSegments": []
     },
     {
       "id": "TR09B_MARTILLOS_F04",
+      "direct": false,
       "points": [
         [
           42154,
@@ -1233,15 +829,16 @@
         ],
         [
           42154,
-          -12776.57483062293,
-          928.4045555637598
+          -12787.236208186583,
+          921.3273401972042
         ]
       ],
-      "dropMm": 996.5954444362402,
+      "dropMm": 1003.6726598027958,
       "ascendingSegments": []
     },
     {
       "id": "TR10_INTERMEDIO_F06",
+      "direct": false,
       "points": [
         [
           42154,
@@ -1259,16 +856,17 @@
           2300
         ],
         [
-          38019.96077340419,
-          -3962.230198648314,
-          1771.1481693820112
+          37847.358242374336,
+          -3984.4612126999496,
+          1447.9230295095672
         ]
       ],
-      "dropMm": 1556.1346788672129,
+      "dropMm": 1879.359818739657,
       "ascendingSegments": []
     },
     {
       "id": "TR13_ZARANDA_F06",
+      "direct": false,
       "points": [
         [
           42154,
@@ -1286,40 +884,50 @@
     },
     {
       "id": "TR11_F05_MARTILLOS",
+      "direct": true,
       "points": [
         [
           42154,
-          -12279.806825841268,
-          3066.071404994741
+          -12179.881402767467,
+          3200.8369506389413
         ],
         [
           42154,
-          -12781,
+          -12594.259868646366,
           2957
         ]
       ],
-      "dropMm": 109.07140499474099,
+      "dropMm": 243.8369506389413,
       "ascendingSegments": []
     },
     {
       "id": "TR12_F04_TOLVA",
+      "direct": true,
       "points": [
         [
           42154,
-          -22091.761313427727,
-          3403.6622776142985
+          -21861.949529813868,
+          3897.9324752932707
         ],
         [
           42154,
-          -22695,
+          -22557.580890958772,
           3100
         ]
       ],
-      "dropMm": 303.66227761429855,
+      "dropMm": 797.9324752932707,
       "ascendingSegments": []
     }
   ],
   "flowBlocked": [],
+  "previousMetrics": {
+    "length": 47400,
+    "width": 32100.000000000007,
+    "maxZ": 7038.276625771054,
+    "floorZ": 0,
+    "discharge": 3241.2052454144664,
+    "height": 7038.276625771054
+  },
   "metrics": {
     "length": 47400,
     "width": 32100.000000000007,
@@ -1327,5 +935,25 @@
     "floorZ": 0,
     "discharge": 3241.2052454144664
   },
+  "physicalTransfers": [
+    "TR02_PASANTE_GRIZZLY",
+    "TR03_GRIZZLY_PRIMARIA",
+    "TR03B_PRIMARIA_F02",
+    "TR05_RECHAZO_SECUNDARIA",
+    "TR06_SECUNDARIA_F03",
+    "TR08_CONO_F02",
+    "TR09A_ZARANDA_MARTILLOS",
+    "TR09B_MARTILLOS_F04",
+    "TR10_INTERMEDIO_F06",
+    "TR13_ZARANDA_F06"
+  ],
+  "directTransfers": [
+    "TR00_TOLVA_F01",
+    "TR01_F01_GRIZZLY",
+    "TR04_F02_ZARANDA",
+    "TR07A_F03_CONO",
+    "TR11_F05_MARTILLOS",
+    "TR12_F04_TOLVA"
+  ],
   "issues": []
 }

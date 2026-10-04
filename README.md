@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** incluye la revisión **R11**: secundaria sobre F03, retorno de 15 m con cola a 455 mm, y F04 de 10 m a 20°. La tolva adicional tiene boca de 3200 × 3200 mm, corona superior a 3100 mm, cuatro patas y descarga cilíndrica hueca Ø250 × 200 mm con compuerta y timón lateral. La compuerta se representa abierta. Los archivos y enlaces anteriores se migran conservando sus ajustes explícitos, cotas e historial.
+La alternativa **Propuesta AutoCAD** incluye la revisión **R12**: compuerta mariposa con disco circular y timón exterior en la tolva, seis descargas directas y diez bajantes indispensables. El cono de3pies se acerca2,08m al grizzly por el otro eje y baja1m; F02 se acorta de22a21m. Las inclinaciones F01/F03/F04/F05 pasan a14°/14°/18,7°/14,5°. Al seleccionar T02 puede girar la compuerta entre0°cerrada y90°abierta. Se conservan ajustes guardados, cotas, enlaces y el historial R11.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
