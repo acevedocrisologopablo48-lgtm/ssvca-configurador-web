@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** incluye la revisión **R12**: compuerta mariposa con disco circular y timón exterior en la tolva, seis descargas directas y diez bajantes indispensables. El cono de3pies se acerca2,08m al grizzly por el otro eje y baja1m; F02 se acorta de22a21m. Las inclinaciones F01/F03/F04/F05 pasan a14°/14°/18,7°/14,5°. Al seleccionar T02 puede girar la compuerta entre0°cerrada y90°abierta. Se conservan ajustes guardados, cotas, enlaces y el historial R11.
+La alternativa **Propuesta AutoCAD** incluye la revisión **R12**: compuerta mariposa con disco circular y timón exterior en la tolva, seis descargas directas y diez bajantes indispensables. El cono de 3 pies se acerca 2,08 m al grizzly por el otro eje y baja 1 m; F02 se acorta de 22 a 21 m. Las inclinaciones F01/F03/F04/F05 pasan a 14°/14°/18,7°/14,5°. Al seleccionar T02 puede girar la compuerta entre 0° cerrada y 90° abierta. Se conservan ajustes guardados, cotas, enlaces y el historial R11.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
