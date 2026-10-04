@@ -1,5 +1,7 @@
 # Configurador SSVCA en la web
 
+La alternativa **Propuesta AutoCAD** incluye la revisión **R11**: secundaria sobre F03, retorno de 15 m con cola a 455 mm, y F04 de 10 m a 20°. La tolva adicional tiene boca de 3200 × 3200 mm, corona superior a 3100 mm, cuatro patas y descarga cilíndrica hueca Ø250 × 200 mm con compuerta y timón lateral. La compuerta se representa abierta. Los archivos y enlaces anteriores se migran conservando sus ajustes explícitos, cotas e historial.
+
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
 La base predeterminada es **Original 760**, recuperada del modelo original SW01 y de **PLANO GENERAL.pdf**, con fajas nominales de 25, 27, 19 y 10 m. Incluye estructuras completas, torres V, arriostres y posiciones originales. En **Alternativas** se puede abrir **B650 · R2 anterior** para continuar trabajos previos; cada versión conserva su autoguardado.
