@@ -1,54 +1,491 @@
 {
-  "version": "ORIGINAL-760-AJUSTE-PROPUESTA-2026-10-02",
-  "revision": "CORRECCIONES-2026-10-03-8",
-  "components": 3378,
-  "parts": 1450,
-  "meshBytes": 24412032,
-  "supportAudit": [
+  "revision": "CORRECCIONES-2026-10-04-10",
+  "changes": {
+    "created": [
+      "PROPUESTA_J01_R10_LARGUERO_ANCLAJES_-1",
+      "PROPUESTA_J01_R10_LARGUERO_ANCLAJES_1",
+      "PROPUESTA_J02_R10_CABEZAL_FRONTAL_REBAJADO",
+      "PROPUESTA_J02_R10_MONTANTE_CIERRE_-500",
+      "PROPUESTA_J02_R10_MONTANTE_CIERRE_70",
+      "PROPUESTA_J02_R10_TRAVESANO_MOTOR_INFERIOR",
+      "PROPUESTA_J02_R10_ASIENTO_BRIDA_0"
+    ],
+    "jawAnchorCentres": [
+      [
+        -450,
+        -460,
+        1800
+      ],
+      [
+        -450,
+        460,
+        1800
+      ],
+      [
+        0,
+        -460,
+        1800
+      ],
+      [
+        0,
+        460,
+        1800
+      ],
+      [
+        450,
+        -460,
+        1800
+      ],
+      [
+        450,
+        460,
+        1800
+      ]
+    ],
+    "frontHeaderTop": 1050
+  },
+  "date": "2026-10-04",
+  "unchangedMachines": true,
+  "unchangedBelts": true,
+  "joints": {
+    "members": 7,
+    "columnFaces": 0,
+    "memberFaces": 0,
+    "miterPairs": 0,
+    "integratedCaps": 0,
+    "addedOccurrences": 0,
+    "joints": [
+      {
+        "member": "PROPUESTA_J01_R10_LARGUERO_ANCLAJES_-1",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J01_R10_LARGUERO_ANCLAJES_-1",
+        "side": 1,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J01_R10_LARGUERO_ANCLAJES_1",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J01_R10_LARGUERO_ANCLAJES_1",
+        "side": 1,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_CABEZAL_FRONTAL_REBAJADO",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_CABEZAL_FRONTAL_REBAJADO",
+        "side": 1,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_MONTANTE_CIERRE_-500",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_MONTANTE_CIERRE_-500",
+        "side": 1,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_MONTANTE_CIERRE_70",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_MONTANTE_CIERRE_70",
+        "side": 1,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_TRAVESANO_MOTOR_INFERIOR",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_TRAVESANO_MOTOR_INFERIOR",
+        "side": 1,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_ASIENTO_BRIDA_0",
+        "side": 0,
+        "kind": "square"
+      },
+      {
+        "member": "PROPUESTA_J02_R10_ASIENTO_BRIDA_0",
+        "side": 1,
+        "kind": "square"
+      }
+    ]
+  },
+  "material": [
+    {
+      "owner": "T01",
+      "beforeKg": 952.2077973525327,
+      "afterKg": 952.2077973525327,
+      "changeKg": 0
+    },
+    {
+      "owner": "G01",
+      "beforeKg": 764.6137304636057,
+      "afterKg": 764.6137304636057,
+      "changeKg": 0
+    },
+    {
+      "owner": "J01",
+      "beforeKg": 783.6756785413363,
+      "afterKg": 804.134362753694,
+      "changeKg": 20.45868421235764
+    },
+    {
+      "owner": "C01",
+      "beforeKg": 1368.7158384840675,
+      "afterKg": 1368.7158384840675,
+      "changeKg": 0
+    },
+    {
+      "owner": "S01",
+      "beforeKg": 1242.22871165864,
+      "afterKg": 1242.22871165864,
+      "changeKg": 0
+    },
+    {
+      "owner": "J02",
+      "beforeKg": 739.3792195881323,
+      "afterKg": 798.364237216488,
+      "changeKg": 58.98501762835576
+    },
+    {
+      "owner": "H01",
+      "beforeKg": 832.0094384876478,
+      "afterKg": 832.0094384876478,
+      "changeKg": 0
+    },
+    {
+      "owner": "T02",
+      "beforeKg": 395.9024265564062,
+      "afterKg": 395.9024265564062,
+      "changeKg": 0
+    }
+  ],
+  "beltConflicts": [],
+  "chuteConflicts": [],
+  "equipmentContacts": [
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_0",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_0",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_1",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_1",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_2",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_2",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_3",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1"
+    },
+    {
+      "structure": "PROPUESTA_T01_ASIENTO_REAL_3",
+      "equipment": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2"
+    },
+    {
+      "structure": "PROPUESTA_G01_R9_BASTIDOR_ASIENTO_RESORTE_2",
+      "equipment": "REAL_G01_RESORTE_50"
+    },
+    {
+      "structure": "PROPUESTA_G01_R9_BASTIDOR_ASIENTO_RESORTE_3",
+      "equipment": "REAL_G01_RESORTE_52"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_-1_-450",
+      "equipment": "REAL_J01_BASE_125"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_-1_0",
+      "equipment": "REAL_J01_BASE_125"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_-1_450",
+      "equipment": "REAL_J01_BASE_125"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_1_-450",
+      "equipment": "REAL_J01_BASE_125"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_1_0",
+      "equipment": "REAL_J01_BASE_125"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_1_450",
+      "equipment": "REAL_J01_BASE_125"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_LARGUERO_MOTOR_1772",
+      "equipment": "REAL_J01_BASE_MOTOR_142"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_MOTOR_924.5",
+      "equipment": "REAL_J01_BASE_MOTOR_142"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_ASIENTO_MOTOR_1894.5",
+      "equipment": "REAL_J01_BASE_MOTOR_142"
+    },
+    {
+      "structure": "PROPUESTA_J01_R9_BASTIDOR_COJINETE_EXTENSION_0",
+      "equipment": "CIRCUITO_J01_ZOCALO_COJINETE_EXTENSION_41"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_VIGA_EXTREMO_1290",
+      "equipment": "E_J02_ESTACION-1/E_J02_CHANCADORA-1/E_J02_BASTIDOR_CAJA-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_VIGA_EXTREMO_1290",
+      "equipment": "E_J02_ESTACION-1/E_J02_CHANCADORA-1/E_J02_BRIDA_BASE-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_LARGUERO_MOTOR_-400",
+      "equipment": "E_J02_ESTACION-1/E_J02_ACCIONAMIENTO-1/E_J02_BASE_DESLIZANTE-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_LARGUERO_MOTOR_400",
+      "equipment": "E_J02_ESTACION-1/E_J02_ACCIONAMIENTO-1/E_J02_BASE_DESLIZANTE-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_ASIENTO_MOTOR_-1300",
+      "equipment": "E_J02_ESTACION-1/E_J02_ACCIONAMIENTO-1/E_J02_BASE_DESLIZANTE-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_ASIENTO_MOTOR_-1090",
+      "equipment": "E_J02_ESTACION-1/E_J02_ACCIONAMIENTO-1/E_J02_BASE_DESLIZANTE-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_ASIENTO_MOTOR_-710",
+      "equipment": "E_J02_ESTACION-1/E_J02_ACCIONAMIENTO-1/E_J02_BASE_DESLIZANTE-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R9_BASTIDOR_ASIENTO_MOTOR_-500",
+      "equipment": "E_J02_ESTACION-1/E_J02_ACCIONAMIENTO-1/E_J02_BASE_DESLIZANTE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_-335_-500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_BRIDA_BASE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_-335_-500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_TAPA_LATERAL-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_-335_-500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_PLACA_TRASERA-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_-335_500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_BRIDA_BASE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_-335_500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_TAPA_LATERAL-2"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_-335_500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_PLACA_TRASERA-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_835_-500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_BRIDA_BASE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_835_-500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_PLACA_FRENTE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_835_-500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_TAPA_LATERAL-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_835_500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_BRIDA_BASE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_835_500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_PLACA_FRENTE-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_PLACA_ASIENTO_835_500",
+      "equipment": "E_H01_ESTACION-1/E_H01_MARTILLOS-1/E_H01_TAPA_LATERAL-2"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_LARGUERO_MOTOR_-400",
+      "equipment": "E_H01_ESTACION-1/E_H01_ACCIONAMIENTO-1/E_H01_BASE_MOTOR-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_LARGUERO_MOTOR_400",
+      "equipment": "E_H01_ESTACION-1/E_H01_ACCIONAMIENTO-1/E_H01_BASE_MOTOR-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_ASIENTO_MOTOR_-1225",
+      "equipment": "E_H01_ESTACION-1/E_H01_ACCIONAMIENTO-1/E_H01_BASE_MOTOR-1"
+    },
+    {
+      "structure": "PROPUESTA_H01_R9_BASTIDOR_ASIENTO_MOTOR_-575",
+      "equipment": "E_H01_ESTACION-1/E_H01_ACCIONAMIENTO-1/E_H01_BASE_MOTOR-1"
+    },
+    {
+      "structure": "PROPUESTA_S01_PLACA_RESORTE_0",
+      "equipment": "REAL_S01_RESORTE_421"
+    },
+    {
+      "structure": "PROPUESTA_S01_PLACA_RESORTE_1",
+      "equipment": "REAL_S01_RESORTE_423"
+    },
+    {
+      "structure": "R9_S01_ASIENTO_MOTOR_0",
+      "equipment": "REAL_S01_BASE_MOTOR_433"
+    },
+    {
+      "structure": "R9_S01_ASIENTO_MOTOR_1",
+      "equipment": "REAL_S01_BASE_MOTOR_433"
+    },
+    {
+      "structure": "R9_T02_MONTURA_CHAFA_0",
+      "equipment": "CIRCUITO_T02_CHAPA_TOLVA_37"
+    },
+    {
+      "structure": "R9_T02_MONTURA_CHAFA_1",
+      "equipment": "CIRCUITO_T02_CHAPA_TOLVA_39"
+    },
+    {
+      "structure": "R9_T02_MONTURA_CHAFA_2",
+      "equipment": "CIRCUITO_T02_CHAPA_TOLVA_41"
+    },
+    {
+      "structure": "R9_T02_MONTURA_CHAFA_3",
+      "equipment": "CIRCUITO_T02_CHAPA_TOLVA_35"
+    },
+    {
+      "structure": "R9_C01_PLACA_MONTAJE_0",
+      "equipment": "REAL_C01_BRIDA_BASE_195"
+    },
+    {
+      "structure": "R9_C01_PLACA_MONTAJE_1",
+      "equipment": "REAL_C01_BRIDA_BASE_195"
+    },
+    {
+      "structure": "R9_C01_PLACA_MONTAJE_2",
+      "equipment": "REAL_C01_BRIDA_BASE_195"
+    },
+    {
+      "structure": "R9_C01_PLACA_MONTAJE_3",
+      "equipment": "REAL_C01_BRIDA_BASE_195"
+    },
+    {
+      "structure": "R9_C01_MOTOR_CORONA_0",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "R9_C01_MOTOR_CORONA_1",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "R9_C01_MOTOR_CORONA_2",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "R9_C01_MOTOR_CORONA_3",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "R9_C01_MOTOR_ASIENTO_0",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "R9_C01_MOTOR_ASIENTO_1",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "R9_C01_MOTOR_BRAZO_1",
+      "equipment": "REAL_C01_BASE_MOTOR_239"
+    },
+    {
+      "structure": "PROPUESTA_J02_R10_ASIENTO_BRIDA_0",
+      "equipment": "E_J02_ESTACION-1/E_J02_CHANCADORA-1/E_J02_BASTIDOR_CAJA-1"
+    },
+    {
+      "structure": "PROPUESTA_J02_R10_ASIENTO_BRIDA_0",
+      "equipment": "E_J02_ESTACION-1/E_J02_CHANCADORA-1/E_J02_BRIDA_BASE-1"
+    }
+  ],
+  "audits": [
     {
       "delta": 0,
       "toleranceMm": 0.5,
       "results": [
         {
           "owner": "T01",
-          "members": 32,
+          "members": 28,
           "grounded": 4,
-          "contacts": 54,
+          "contacts": 37,
           "disconnected": []
         },
         {
           "owner": "G01",
           "members": 38,
           "grounded": 4,
-          "contacts": 51,
+          "contacts": 52,
           "disconnected": []
         },
         {
           "owner": "J01",
-          "members": 41,
+          "members": 40,
           "grounded": 4,
-          "contacts": 54,
+          "contacts": 61,
           "disconnected": []
         },
         {
           "owner": "C01",
           "members": 39,
           "grounded": 4,
-          "contacts": 66,
+          "contacts": 63,
           "disconnected": []
         },
         {
           "owner": "S01",
-          "members": 59,
+          "members": 45,
           "grounded": 4,
-          "contacts": 126,
+          "contacts": 70,
           "disconnected": []
         },
         {
           "owner": "J02",
-          "members": 31,
+          "members": 35,
           "grounded": 4,
-          "contacts": 42,
+          "contacts": 56,
           "disconnected": []
         },
         {
@@ -60,9 +497,9 @@
         },
         {
           "owner": "T02",
-          "members": 26,
+          "members": 56,
           "grounded": 4,
-          "contacts": 72,
+          "contacts": 84,
           "disconnected": []
         }
       ],
@@ -74,23 +511,23 @@
       "results": [
         {
           "owner": "T01",
-          "members": 32,
+          "members": 28,
           "grounded": 4,
-          "contacts": 54,
+          "contacts": 38,
           "disconnected": []
         },
         {
           "owner": "G01",
           "members": 38,
           "grounded": 4,
-          "contacts": 51,
+          "contacts": 52,
           "disconnected": []
         },
         {
           "owner": "J01",
-          "members": 41,
+          "members": 40,
           "grounded": 4,
-          "contacts": 55,
+          "contacts": 63,
           "disconnected": []
         },
         {
@@ -102,16 +539,16 @@
         },
         {
           "owner": "S01",
-          "members": 59,
+          "members": 45,
           "grounded": 4,
-          "contacts": 122,
+          "contacts": 70,
           "disconnected": []
         },
         {
           "owner": "J02",
-          "members": 31,
+          "members": 35,
           "grounded": 4,
-          "contacts": 42,
+          "contacts": 56,
           "disconnected": []
         },
         {
@@ -123,9 +560,9 @@
         },
         {
           "owner": "T02",
-          "members": 26,
+          "members": 56,
           "grounded": 4,
-          "contacts": 72,
+          "contacts": 84,
           "disconnected": []
         }
       ],
@@ -137,562 +574,62 @@
       "results": [
         {
           "owner": "T01",
-          "members": 32,
+          "members": 28,
           "grounded": 4,
-          "contacts": 54,
+          "contacts": 37,
           "disconnected": []
         },
         {
           "owner": "G01",
           "members": 38,
           "grounded": 4,
-          "contacts": 51,
+          "contacts": 50,
           "disconnected": []
         },
         {
           "owner": "J01",
-          "members": 41,
-          "grounded": 4,
-          "contacts": 54,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 39,
-          "grounded": 4,
-          "contacts": 66,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 59,
-          "grounded": 4,
-          "contacts": 106,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 31,
-          "grounded": 4,
-          "contacts": 42,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
           "members": 40,
           "grounded": 4,
           "contacts": 60,
           "disconnected": []
         },
         {
-          "owner": "T02",
-          "members": 26,
+          "owner": "C01",
+          "members": 39,
           "grounded": 4,
-          "contacts": 72,
+          "contacts": 62,
+          "disconnected": []
+        },
+        {
+          "owner": "S01",
+          "members": 45,
+          "grounded": 4,
+          "contacts": 70,
+          "disconnected": []
+        },
+        {
+          "owner": "J02",
+          "members": 35,
+          "grounded": 4,
+          "contacts": 56,
+          "disconnected": []
+        },
+        {
+          "owner": "H01",
+          "members": 40,
+          "grounded": 4,
+          "contacts": 58,
+          "disconnected": []
+        },
+        {
+          "owner": "T02",
+          "members": 56,
+          "grounded": 4,
+          "contacts": 84,
           "disconnected": []
         }
       ],
       "disconnected": []
     }
-  ],
-  "materialComparison": [
-    {
-      "owner": "T01",
-      "before": {
-        "members": 17,
-        "lengthMm": 67499.63867870235,
-        "massKg": 1875.0640684852833
-      },
-      "after": {
-        "members": 16,
-        "lengthMm": 50816.00074136177,
-        "massKg": 1441.5898385398705
-      },
-      "nominalProfileChangeKg": -433.47422994541284,
-      "meshSteelBeforeKg": 2108.6509502462945,
-      "meshSteelAfterKg": 1596.9826554333204,
-      "meshSteelChangeKg": -511.6682948129742,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "G01",
-      "before": {
-        "members": 22,
-        "lengthMm": 25152.47127337817,
-        "massKg": 1103.3439947411937
-      },
-      "after": {
-        "members": 22,
-        "lengthMm": 25152.47127337817,
-        "massKg": 1103.3439947411937
-      },
-      "nominalProfileChangeKg": 0,
-      "meshSteelBeforeKg": 1218.826105034241,
-      "meshSteelAfterKg": 1218.826105034241,
-      "meshSteelChangeKg": 0,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "J01",
-      "before": {
-        "members": 21,
-        "lengthMm": 20849.394645020548,
-        "massKg": 1166.089231483313
-      },
-      "after": {
-        "members": 22,
-        "lengthMm": 19430.86515654165,
-        "massKg": 1081.649053977509
-      },
-      "nominalProfileChangeKg": -84.44017750580383,
-      "meshSteelBeforeKg": 1298.7299509753504,
-      "meshSteelAfterKg": 1202.0195644727223,
-      "meshSteelChangeKg": -96.71038650262813,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "C01",
-      "before": {
-        "members": 25,
-        "lengthMm": 49947.806677538,
-        "massKg": 4090.5202096073585
-      },
-      "after": {
-        "members": 23,
-        "lengthMm": 40342.33506511274,
-        "massKg": 3200.22253760942
-      },
-      "nominalProfileChangeKg": -890.2976719979383,
-      "meshSteelBeforeKg": 4152.2460485346055,
-      "meshSteelAfterKg": 3282.778238857523,
-      "meshSteelChangeKg": -869.4678096770826,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "S01",
-      "before": {
-        "members": 46,
-        "lengthMm": 94121.41324131019,
-        "massKg": 3345.3511055475465
-      },
-      "after": {
-        "members": 43,
-        "lengthMm": 80974.61259972061,
-        "massKg": 2848.892321214247
-      },
-      "nominalProfileChangeKg": -496.45878433329926,
-      "meshSteelBeforeKg": 3364.974175318774,
-      "meshSteelAfterKg": 2894.0988278513646,
-      "meshSteelChangeKg": -470.8753474674095,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "J02",
-      "before": {
-        "members": 19,
-        "lengthMm": 25258.92803955078,
-        "massKg": 1380.6695783681032
-      },
-      "after": {
-        "members": 19,
-        "lengthMm": 21503.92803955078,
-        "massKg": 1163.516695722369
-      },
-      "nominalProfileChangeKg": -217.15288264573428,
-      "meshSteelBeforeKg": 1484.2460689602494,
-      "meshSteelAfterKg": 1251.7114027247549,
-      "meshSteelChangeKg": -232.53466623549457,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "H01",
-      "before": {
-        "members": 19,
-        "lengthMm": 24864.14986665468,
-        "massKg": 1134.7399660351896
-      },
-      "after": {
-        "members": 20,
-        "lengthMm": 22278.14986665468,
-        "massKg": 1015.5916080572006
-      },
-      "nominalProfileChangeKg": -119.14835797798901,
-      "meshSteelBeforeKg": 1311.4133835416133,
-      "meshSteelAfterKg": 1188.0576848875141,
-      "meshSteelChangeKg": -123.35569865409911,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    },
-    {
-      "owner": "T02",
-      "before": {
-        "members": 14,
-        "lengthMm": 24748.391491383827,
-        "massKg": 1473.1865551532796
-      },
-      "after": {
-        "members": 14,
-        "lengthMm": 24748.391491383827,
-        "massKg": 1473.1865551532796
-      },
-      "nominalProfileChangeKg": 0,
-      "meshSteelBeforeKg": 1540.1627777179945,
-      "meshSteelAfterKg": 1540.1627777179945,
-      "meshSteelChangeKg": 0,
-      "basis": "Volumen cerrado de mallas de perfiles, placas y anclajes ×7850kg/m³; excluye concreto y equipos. Estimación geométrica sin cálculo resistente."
-    }
-  ],
-  "frameFootprints": [
-    {
-      "owner": "T01",
-      "beforeColumnSpanMm": [
-        3450,
-        3450
-      ],
-      "afterColumnSpanMm": [
-        2550,
-        2550
-      ]
-    },
-    {
-      "owner": "G01",
-      "beforeColumnSpanMm": [
-        1160.2736004171165,
-        1060
-      ],
-      "afterColumnSpanMm": [
-        1160.2736004171165,
-        1060
-      ]
-    },
-    {
-      "owner": "J01",
-      "beforeColumnSpanMm": [
-        900,
-        2100
-      ],
-      "afterColumnSpanMm": [
-        900,
-        1460
-      ]
-    },
-    {
-      "owner": "C01",
-      "beforeColumnSpanMm": [
-        2000.0000000000002,
-        2000
-      ],
-      "afterColumnSpanMm": [
-        1800.0000000000002,
-        1250.0000000000002
-      ]
-    },
-    {
-      "owner": "S01",
-      "beforeColumnSpanMm": [
-        3264,
-        2549
-      ],
-      "afterColumnSpanMm": [
-        2900,
-        2100
-      ]
-    },
-    {
-      "owner": "J02",
-      "beforeColumnSpanMm": [
-        2710,
-        2000
-      ],
-      "afterColumnSpanMm": [
-        2590,
-        1600
-      ]
-    },
-    {
-      "owner": "H01",
-      "beforeColumnSpanMm": [
-        2413,
-        2000
-      ],
-      "afterColumnSpanMm": [
-        2060,
-        1630
-      ]
-    },
-    {
-      "owner": "T02",
-      "beforeColumnSpanMm": null,
-      "afterColumnSpanMm": null
-    }
-  ],
-  "structureFinishes": {
-    "memberFaces": 75,
-    "members": 149,
-    "columnFaces": 57,
-    "miterPairs": 33,
-    "integratedCaps": 0,
-    "addedOccurrences": 0
-  },
-  "hopperCapacity": {
-    "capacityM3": 20,
-    "previousCapacityM3": 34.578680082999995,
-    "previousUsefulCapacityM3": 15.5611246,
-    "outletHeightMm": 1892,
-    "outletWorldZMm": 1892,
-    "floorWorldZMm": 0,
-    "upperWallHeightMm": 1000,
-    "previousUpperWallHeightMm": 1200,
-    "frustumCapacityM3": 10.12517965285673,
-    "upperCapacityM3": 9.874820347143265,
-    "plateThicknessMm": 9.525,
-    "interiorUpperSizeMm": [
-      3142.422687536364,
-      3142.422687536364
-    ],
-    "bodyUpperSizeMm": [
-      3161.472687536364,
-      3161.472687536364
-    ],
-    "bodyOutletSizeMm": [
-      550,
-      556
-    ],
-    "bodyHeightMm": 2521,
-    "upperBaseZMm": 4413,
-    "upperRimZMm": 5413,
-    "changedOccurrenceIds": [
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-6",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-5",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-6",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-7",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-8",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-6",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-5",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-3",
-      "PROPUESTA_T01_ASIENTO_REAL_0",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-2",
-      "PROPUESTA_T01_ASIENTO_REAL_1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-1",
-      "PROPUESTA_T01_ASIENTO_REAL_2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-4",
-      "PROPUESTA_T01_ASIENTO_REAL_3"
-    ],
-    "addedOccurrenceIds": [
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR",
-      "PROPUESTA_T01_ASIENTO_REAL_0",
-      "PROPUESTA_T01_ASIENTO_REAL_1",
-      "PROPUESTA_T01_ASIENTO_REAL_2",
-      "PROPUESTA_T01_ASIENTO_REAL_3"
-    ],
-    "removedOccurrenceIds": [
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_CARTELA-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-6"
-    ],
-    "supportOccurrenceIds": [
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-5",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-6",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-7",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_C4x7.25_4168p70_2-8",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-6",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W6x12_3450p00_1-5",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4__detalle_anclajes",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-3",
-      "PROPUESTA_T01_ASIENTO_REAL_0",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-2",
-      "PROPUESTA_T01_ASIENTO_REAL_1",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-1",
-      "PROPUESTA_T01_ASIENTO_REAL_2",
-      "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_PERFIL_W8x48_3500p00_0-4",
-      "PROPUESTA_T01_ASIENTO_REAL_3"
-    ],
-    "previousBodyUpperSizeMm": [
-      4000,
-      4000
-    ],
-    "formula": "V = h/6 × (2W0D0 + W0D1 + W1D0 + 2W1D1) + WiDiH; dimensiones en m",
-    "previousCapacityBasis": "Envolvente ideal cerrada normalizada con chapa9.525mm en ambos lados; original tenía tres paredes superiores, por lo que el volumen geométrico hasta rebose sin montículo era solo el tronco.",
-    "note": "Collar de1000mm cerrado por cuatro costados, abierto arriba; tronco estrechado manteniendo sus alturas y boca inferior. Cuatro pilares compactos bajo el aro lateral del tronco, con asientos de300mm y canales exteriores apoyados; se acortan amarres y diagonales y se retiran cartelas sobrantes y el amarre que cruzaba F01. Alimentador, posición y conexiones conservados; fundaciones acercadas con sus pilares. Capacidad geométrica hasta borde de chapa, sin montículo ni deducción de rigidizadores; modelo adaptado, no cálculo resistente ni capacidad de producción."
-  },
-  "belts": [
-    {
-      "id": "F01",
-      "length": 16000,
-      "inclination": 16
-    },
-    {
-      "id": "F02",
-      "length": 22000,
-      "inclination": 14
-    },
-    {
-      "id": "F03",
-      "length": 15000,
-      "inclination": 20
-    },
-    {
-      "id": "F04",
-      "length": 10000,
-      "inclination": 15
-    },
-    {
-      "id": "F05",
-      "length": 10000,
-      "inclination": 18
-    },
-    {
-      "id": "F06",
-      "length": 8000,
-      "inclination": 18
-    }
-  ],
-  "drops": [
-    {
-      "id": "TR00_TOLVA_F01",
-      "drop": 1139.9780933173804
-    },
-    {
-      "id": "TR01_F01_GRIZZLY",
-      "drop": 584.9014789749099
-    },
-    {
-      "id": "TR02_PASANTE_GRIZZLY",
-      "drop": 1431.2729310712002
-    },
-    {
-      "id": "TR03_GRIZZLY_PRIMARIA",
-      "drop": 423.10093233246744
-    },
-    {
-      "id": "TR03B_PRIMARIA_F02",
-      "drop": 802.3064845856417
-    },
-    {
-      "id": "TR04_F02_ZARANDA",
-      "drop": 129.82402030915364
-    },
-    {
-      "id": "TR05_RECHAZO_SECUNDARIA",
-      "drop": 623.2828482492223
-    },
-    {
-      "id": "TR06_SECUNDARIA_F03",
-      "drop": 136.5845292838751
-    },
-    {
-      "id": "TR07A_F03_CONO",
-      "drop": 216.44199424263843
-    },
-    {
-      "id": "TR08_CONO_F02",
-      "drop": 782.6001158474492
-    },
-    {
-      "id": "TR09A_ZARANDA_MARTILLOS",
-      "drop": 1170.9239748637483
-    },
-    {
-      "id": "TR09B_MARTILLOS_F04",
-      "drop": 1025.1166487655823
-    },
-    {
-      "id": "TR10_INTERMEDIO_F06",
-      "drop": 1711.9916996068928
-    },
-    {
-      "id": "TR13_ZARANDA_F06",
-      "drop": 1275.9239748637483
-    },
-    {
-      "id": "TR11_F05_MARTILLOS",
-      "drop": 109.07140499474099
-    },
-    {
-      "id": "TR12_F04_TOLVA",
-      "drop": 219.84997361001842
-    }
-  ],
-  "flowBlocked": [],
-  "structuralConflicts": [],
-  "structureBeltConflicts": [],
-  "issues": []
+  ]
 }
