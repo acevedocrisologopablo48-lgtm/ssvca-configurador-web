@@ -1,345 +1,55 @@
 {
-  "revision": "CORRECCIONES-2026-10-05-13",
-  "date": "2026-10-05",
-  "transfer": {
-    "transferId": "TR10_INTERMEDIO_F06",
-    "oldTransfer": {
-      "id": "TR10_INTERMEDIO_F06",
-      "label": "Zaranda · intermedios → F03",
-      "start": {
-        "owner": "S01",
-        "local": [
-          -1750.9312688865982,
-          0,
-          -172.71715175077588
-        ],
-        "basis": "station"
-      },
-      "end": {
-        "owner": "F03",
-        "basis": "belt",
-        "axialReference": "tail",
-        "local": [
-          2500,
-          0,
-          400
-        ]
-      },
-      "waypoints": [
-        [
-          42154,
-          -5900,
-          2900
-        ],
-        [
-          37800,
-          -5900,
-          2300
-        ]
+  "revision": "CORRECCIONES-2026-10-05-14",
+  "repair": {
+    "removed": [
+      "R9_C01_ARRIOSTRE_POSTERIOR",
+      "R9_C01_MOTOR_PATA_GALLO_0",
+      "R9_C01_MOTOR_PATA_GALLO_1"
+    ],
+    "added": [
+      "CIRCUITO_C01_R14_MOTOR_DADO_0_1",
+      "CIRCUITO_C01_R14_MOTOR_PLACA_BASE_0_2",
+      "CIRCUITO_C01_R14_MOTOR_COLUMNA_0_3",
+      "CIRCUITO_C01_R14_MOTOR_DADO_1_4",
+      "CIRCUITO_C01_R14_MOTOR_PLACA_BASE_1_5",
+      "CIRCUITO_C01_R14_MOTOR_COLUMNA_1_6",
+      "CIRCUITO_C01_R14_MOTOR_AMARRE_BAJO_7",
+      "CIRCUITO_C01_R14_ARRIOSTRE_POSTERIOR_8"
+    ],
+    "oldHighestBraceMm": 2802.004761830736,
+    "motorBaseBottomMm": 1730,
+    "postRingContacts": [
+      [
+        "R9_C01_MOTOR_CORONA_1",
+        "R9_C01_MOTOR_CORONA_3"
       ],
-      "sizes": [
-        [
-          1140,
-          220
-        ],
-        [
-          650,
-          260
-        ],
-        [
-          650,
-          260
-        ],
-        [
-          500,
-          400
-        ]
-      ],
-      "thickness": 6,
-      "adaptation": "auto",
-      "sectionFrames": {
-        "start": "exit",
-        "end": "port",
-        "route": "sweep"
-      },
-      "routeReference": {
-        "start": [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        "end": [
-          37847.358242374336,
-          -3984.4612126999496,
-          1447.9230295095672
-        ],
-        "waypoints": [
-          [
-            42154,
-            -5900,
-            2900
-          ],
-          [
-            37800,
-            -5900,
-            2300
-          ]
-        ]
-      }
-    },
-    "newTransfer": {
-      "id": "TR10_INTERMEDIO_F06",
-      "label": "Zaranda · intermedios → F03",
-      "start": {
-        "owner": "S01",
-        "local": [
-          -1750.9312688865982,
-          0,
-          -172.71715175077588
-        ],
-        "basis": "station"
-      },
-      "end": {
-        "owner": "F03",
-        "basis": "belt",
-        "axialReference": "tail",
-        "local": [
-          2000,
-          0,
-          400
-        ]
-      },
-      "waypoints": [
-        [
-          41800,
-          -5650,
-          2800
-        ],
-        [
-          38100,
-          -5650,
-          1750
-        ]
-      ],
-      "sizes": [
-        [
-          1140,
-          220
-        ],
-        [
-          500,
-          260
-        ],
-        [
-          500,
-          260
-        ],
-        [
-          500,
-          400
-        ]
-      ],
-      "thickness": 6,
-      "adaptation": "auto",
-      "sectionFrames": {
-        "start": "exit",
-        "end": "port",
-        "route": "sweep"
-      },
-      "routeReference": {
-        "start": [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        "end": [
-          38326.11740261758,
-          -4062.9348744632825,
-          1326.9620817097332
-        ],
-        "waypoints": [
-          [
-            41800,
-            -5650,
-            2800
-          ],
-          [
-            38100,
-            -5650,
-            1750
-          ]
-        ]
-      }
-    },
-    "previous": {
-      "points": [
-        [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        [
-          42154,
-          -5900,
-          2900
-        ],
-        [
-          37800,
-          -5900,
-          2300
-        ],
-        [
-          37847.358242374336,
-          -3984.4612126999496,
-          1447.9230295095672
-        ]
-      ],
-      "lengthMm": 8879.797224162248,
-      "segmentLengthsMm": [
-        2387.6127273707298,
-        4395.146868990842,
-        2097.0376278006765
-      ],
-      "segmentSlopeDeg": [
-        10.309083112652496,
-        7.846188401324714,
-        23.974130013979117
+      [
+        "R9_C01_MOTOR_CORONA_2",
+        "R9_C01_MOTOR_CORONA_3"
       ]
+    ],
+    "padPlatePost": [
+      true,
+      true
+    ],
+    "harmful": [],
+    "support": {
+      "grounded": 6,
+      "disconnected": []
     },
-    "current": {
-      "points": [
-        [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        [
-          41800,
-          -5650,
-          2800
-        ],
-        [
-          38100,
-          -5650,
-          1750
-        ],
-        [
-          38326.11740261758,
-          -4062.9348744632825,
-          1326.9620817097332
-        ]
-      ],
-      "lengthMm": 7697.114222399327,
-      "segmentLengthsMm": [
-        2193.04189198379,
-        3846.101922726437,
-        1657.9704076891
-      ],
-      "segmentSlopeDeg": [
-        13.912184092948564,
-        15.84308211768701,
-        14.782715455245864
-      ]
-    },
-    "reduction": {
-      "lengthPercent": 13.318806408605788,
-      "sheetVolumePercent": 22.341961956800883
-    },
-    "sheetVolumeMm3": {
-      "previous": 89679575.10101661,
-      "current": 69643398.5489268
-    },
-    "conflicts": [],
-    "secondaryWithin100Mm": [],
-    "verifiedSecondaryClearanceMm": 100,
-    "receiverFromTailMm": 2000,
-    "retainedElbows": 2,
-    "note": "Tres tramos descendentes detrás de J02. Se conserva boca1140×220, salida500×400 y chapa6; sección intermedia500×260. Los dos codos evitan F05, la secundaria y sus apoyos, TR06 y los faldones de F03. Sección geométrica referencial; capacidad requiere caudal y granulometría."
+    "description": "Dos columnas exteriores bajo la corona del motor, con dados, placas perforadas y amarre inferior. Se retiran las dos riostras que sobresalían por encima de la plataforma y se corrige el arriostre posterior para terminar en la cabeza de su columna. Brazos, corona, asientos y posición del motor se conservan."
   },
-  "chuteConflicts": [],
-  "drops": [
+  "collisions": [],
+  "feet": [
     {
-      "id": "TR00_TOLVA_F01",
-      "direct": true,
-      "ascendingSegments": []
+      "id": "CIRCUITO_C01_R14_MOTOR_DADO_0_1",
+      "inside": true
     },
     {
-      "id": "TR01_F01_GRIZZLY",
-      "direct": true,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR02_PASANTE_GRIZZLY",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR03_GRIZZLY_PRIMARIA",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR03B_PRIMARIA_F02",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR04_F02_ZARANDA",
-      "direct": true,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR05_RECHAZO_SECUNDARIA",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR06_SECUNDARIA_F03",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR07A_F03_CONO",
-      "direct": true,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR08_CONO_F02",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR09A_ZARANDA_MARTILLOS",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR09B_MARTILLOS_F04",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR10_INTERMEDIO_F06",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR13_ZARANDA_F06",
-      "direct": false,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR11_F05_MARTILLOS",
-      "direct": true,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR12_F04_TOLVA",
-      "direct": true,
-      "ascendingSegments": []
+      "id": "CIRCUITO_C01_R14_MOTOR_DADO_1_4",
+      "inside": true
     }
   ],
-  "flowBlocked": [],
   "issues": [],
   "metrics": {
     "length": 47400,
@@ -348,6 +58,5 @@
     "floorZ": 0,
     "discharge": 3241.2052454144664
   },
-  "editingRepair": "Stored route references are rebuilt when their bend count differs; explicit route operations refresh their datum; reset removes obsolete optional fields.",
-  "scope": "Only TR10 chute geometry changes; all R12 equipment, belts, structures, dimensions and other transfers are retained."
+  "scope": "Motor support of C01 only. Cone and motor positions, belt poses, transfer routes and all other structures retain R13 dimensions."
 }

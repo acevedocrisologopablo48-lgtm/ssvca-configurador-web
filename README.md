@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** incluye la revisión **R13**: corrige la edición de bajantes con referencias antiguas, sincroniza los avisos de cruces y simplifica el bajante de intermedios de zaranda por detrás de la secundaria. El recorrido pasa de 8,88 a 7,70 m, con dos codos y al menos 100 mm de separación de J02. Se conservan los equipos, fajas, compuerta mariposa, ajustes guardados, cotas y el historial R12.
+La alternativa **Propuesta AutoCAD** incorpora **R14**: la plataforma del motor del cono de 3 pies se apoya en dos columnas exteriores con bases y amarre inferior; las riostras que sobresalían se sustituyen y el arriostre posterior termina en su columna. R13, sus correcciones de edición y el bajante de zaranda permanecen en el historial. Se conservan las posiciones, cotas y ajustes guardados.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
