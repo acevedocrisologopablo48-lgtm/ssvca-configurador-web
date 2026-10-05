@@ -1,844 +1,177 @@
 {
-  "revision": "CORRECCIONES-2026-10-04-12",
-  "date": "2026-10-04",
-  "layout": {
-    "settings": [
-      {
-        "id": "F01",
-        "length": 16000,
-        "inclination": 14,
-        "oldLength": 16000,
-        "oldInclination": 16
-      },
-      {
-        "id": "F02",
-        "length": 21000,
-        "inclination": 14,
-        "oldLength": 22000,
-        "oldInclination": 14
-      },
-      {
-        "id": "F03",
-        "length": 16000,
-        "inclination": 14,
-        "oldLength": 15000,
-        "oldInclination": 22.23173044464262
-      },
-      {
-        "id": "F04",
-        "length": 10000,
-        "inclination": 18.7,
-        "oldLength": 10000,
-        "oldInclination": 20
-      },
-      {
-        "id": "F05",
-        "length": 10000,
-        "inclination": 14.5,
-        "oldLength": 10000,
-        "oldInclination": 18
-      }
-    ],
-    "cone": {
-      "id": "C01",
-      "label": "Cono S75 · 3 pies",
-      "position": [
-        24520.201177494724,
-        -1800,
-        0
-      ],
-      "yaw": 180,
-      "height": 2200,
-      "width": 1800,
-      "depth": 1250,
-      "floorId": "CV_LOSA_PRINCIPAL"
-    },
-    "direct": [
-      {
-        "id": "TR01_F01_GRIZZLY",
-        "receiver": "G01",
-        "localLanding": [
-          -800.2756991847345,
+  "revision": "CORRECCIONES-2026-10-05-13",
+  "date": "2026-10-05",
+  "transfer": {
+    "transferId": "TR10_INTERMEDIO_F06",
+    "oldTransfer": {
+      "id": "TR10_INTERMEDIO_F06",
+      "label": "Zaranda · intermedios → F03",
+      "start": {
+        "owner": "S01",
+        "local": [
+          -1750.9312688865982,
           0,
-          865.8519999999999
+          -172.71715175077588
         ],
-        "mouthBounds": [
-          [
-            -1024,
-            -636
-          ],
-          [
-            -318,
-            318
-          ]
-        ],
-        "startPort": {
-          "owner": "F01",
-          "basis": "belt",
-          "axialReference": "head",
-          "local": [
-            0,
-            0,
-            250
-          ]
-        },
-        "start": [
-          18418.69114651603,
-          0,
-          4568.9542611636825
-        ],
-        "landing": [
-          19099.724300815265,
-          0,
-          3794.852
-        ],
-        "velocity": [
-          1552.4731620415944,
-          0,
-          387.0750329594684
-        ],
-        "duration": 0.43867628178746476,
-        "dropMm": 774.1022611636827,
-        "horizontalMm": 681.0331542992353
+        "basis": "station"
       },
-      {
-        "id": "TR04_F02_ZARANDA",
-        "receiver": "S01",
-        "localLanding": [
-          1800,
-          504.0379666232694,
-          1660
-        ],
-        "mouthBounds": [
-          [
-            1600,
-            1900
-          ],
-          [
-            -664,
-            664
-          ]
-        ],
-        "startPort": {
-          "owner": "F02",
-          "basis": "belt",
-          "axialReference": "head",
-          "local": [
-            0,
-            0,
-            250
-          ]
-        },
-        "start": [
-          41032.06977789602,
+      "end": {
+        "owner": "F03",
+        "basis": "belt",
+        "axialReference": "tail",
+        "local": [
+          2500,
           0,
-          5782.933739162022
-        ],
-        "landing": [
-          41649.96203337673,
-          0,
-          5160
-        ],
-        "velocity": [
-          1552.4731620415946,
-          0,
-          387.0750329594684
-        ],
-        "duration": 0.39800511248011045,
-        "dropMm": 622.933739162022,
-        "horizontalMm": 617.8922554807141
+          400
+        ]
       },
-      {
-        "id": "TR07A_F03_CONO",
-        "receiver": "C01",
-        "localLanding": [
-          -5.012143989154619e-28,
-          4.092726157978177e-12,
-          2182.32143765789
-        ],
-        "mouthBounds": [
-          [
-            -500,
-            500
-          ],
-          [
-            -500,
-            500
-          ]
-        ],
-        "startPort": {
-          "owner": "F03",
-          "basis": "belt",
-          "axialReference": "head",
-          "local": [
-            0,
-            0,
-            250
-          ]
-        },
-        "start": [
-          24885.050496226744,
-          -1859.8026406809927,
-          4568.3242611636815
-        ],
-        "landing": [
-          24520.201177494724,
-          -1800.000000000004,
-          4382.32143765789
-        ],
-        "velocity": [
-          -1532.029312778393,
-          251.11571764266478,
-          387.0750329594684
-        ],
-        "duration": 0.23814774018282378,
-        "dropMm": 186.00282350579164,
-        "horizontalMm": 369.7179752346896
-      },
-      {
-        "id": "TR11_F05_MARTILLOS",
-        "receiver": "H01",
-        "localLanding": [
-          856.7401313536338,
-          5.246020297816553e-14,
-          1032
-        ],
-        "mouthBounds": [
-          [
-            350,
-            990
-          ],
-          [
-            -435,
-            435
-          ]
-        ],
-        "startPort": {
-          "owner": "F05",
-          "basis": "belt",
-          "axialReference": "head",
-          "local": [
-            0,
-            0,
-            250
-          ]
-        },
-        "start": [
+      "waypoints": [
+        [
           42154,
-          -12179.881402767467,
-          3200.8369506389413
+          -5900,
+          2900
         ],
-        "landing": [
-          42154,
-          -12594.259868646366,
-          2957
+        [
+          37800,
+          -5900,
+          2300
+        ]
+      ],
+      "sizes": [
+        [
+          1140,
+          220
         ],
-        "velocity": [
-          0,
-          -1549.0362246049726,
-          400.6080064871063
+        [
+          650,
+          260
         ],
-        "duration": 0.2675072792339457,
-        "dropMm": 243.8369506389413,
-        "horizontalMm": 414.3784658788991
+        [
+          650,
+          260
+        ],
+        [
+          500,
+          400
+        ]
+      ],
+      "thickness": 6,
+      "adaptation": "auto",
+      "sectionFrames": {
+        "start": "exit",
+        "end": "port",
+        "route": "sweep"
       },
-      {
-        "id": "TR12_F04_TOLVA",
-        "receiver": "T02",
-        "localLanding": [
-          137.41910904122778,
-          8.414493601451035e-15,
-          1500
-        ],
-        "mouthBounds": [
-          [
-            -1500,
-            1500
-          ],
-          [
-            -1500,
-            1500
-          ]
-        ],
-        "startPort": {
-          "owner": "F04",
-          "basis": "belt",
-          "axialReference": "head",
-          "local": [
-            0,
-            0,
-            250
-          ]
-        },
+      "routeReference": {
         "start": [
-          42154,
-          -21861.949529813868,
-          3897.9324752932707
-        ],
-        "landing": [
-          42154,
-          -22557.580890958772,
-          3100
-        ],
-        "velocity": [
-          0,
-          -1515.5364443936462,
-          512.9807849370821
-        ],
-        "duration": 0.4590000878687011,
-        "dropMm": 797.9324752932707,
-        "horizontalMm": 695.6313611449041
-      }
-    ],
-    "removedHeads": [
-      "REVISION_F01_CABEZAL_LATERAL_ABIERTO_1",
-      "REVISION_F01_CABEZAL_LATERAL_ABIERTO_2",
-      "REVISION_F01_CABEZAL_FRENTE_3",
-      "REVISION_F01_CABEZAL_RECEPTOR_0_4",
-      "REVISION_F01_CABEZAL_RECEPTOR_1_5",
-      "REVISION_F01_CABEZAL_RECEPTOR_2_6",
-      "REVISION_F01_CABEZAL_RECEPTOR_3_7",
-      "REVISION_F02_CABEZAL_LATERAL_ABIERTO_1",
-      "REVISION_F02_CABEZAL_LATERAL_ABIERTO_2",
-      "REVISION_F02_CABEZAL_FRENTE_3",
-      "REVISION_F02_CABEZAL_RECEPTOR_0_4",
-      "REVISION_F02_CABEZAL_RECEPTOR_1_5",
-      "REVISION_F02_CABEZAL_RECEPTOR_2_6",
-      "REVISION_F02_CABEZAL_RECEPTOR_3_7",
-      "F05__REVISION_F04_CABEZAL_LATERAL_ABIERTO_1",
-      "F05__REVISION_F04_CABEZAL_LATERAL_ABIERTO_2",
-      "F05__REVISION_F04_CABEZAL_FRENTE_3",
-      "F05__REVISION_F04_CABEZAL_RECEPTOR_0_4",
-      "F05__REVISION_F04_CABEZAL_RECEPTOR_1_5",
-      "F05__REVISION_F04_CABEZAL_RECEPTOR_2_6",
-      "F05__REVISION_F04_CABEZAL_RECEPTOR_3_7",
-      "REVISION_F03_CABEZAL_LATERAL_ABIERTO_1",
-      "REVISION_F03_CABEZAL_LATERAL_ABIERTO_2",
-      "REVISION_F03_CABEZAL_FRENTE_3",
-      "REVISION_F03_CABEZAL_RECEPTOR_0_4",
-      "REVISION_F03_CABEZAL_RECEPTOR_1_5",
-      "REVISION_F03_CABEZAL_RECEPTOR_2_6",
-      "REVISION_F03_CABEZAL_RECEPTOR_3_7",
-      "REVISION_F04_CABEZAL_LATERAL_ABIERTO_1",
-      "REVISION_F04_CABEZAL_LATERAL_ABIERTO_2",
-      "REVISION_F04_CABEZAL_FRENTE_3",
-      "REVISION_F04_CABEZAL_RECEPTOR_0_4",
-      "REVISION_F04_CABEZAL_RECEPTOR_1_5",
-      "REVISION_F04_CABEZAL_RECEPTOR_2_6",
-      "REVISION_F04_CABEZAL_RECEPTOR_3_7"
-    ],
-    "affectedTransfers": [
-      "TR00_TOLVA_F01",
-      "TR01_F01_GRIZZLY",
-      "TR02_PASANTE_GRIZZLY",
-      "TR03B_PRIMARIA_F02",
-      "TR04_F02_ZARANDA",
-      "TR06_SECUNDARIA_F03",
-      "TR07A_F03_CONO",
-      "TR08_CONO_F02",
-      "TR09A_ZARANDA_MARTILLOS",
-      "TR09B_MARTILLOS_F04",
-      "TR10_INTERMEDIO_F06",
-      "TR11_F05_MARTILLOS",
-      "TR12_F04_TOLVA"
-    ],
-    "f01TailShiftMm": -300,
-    "f02TailShiftMm": 0,
-    "retainedConeMouthMm": 2182.32143765789
-  },
-  "butterfly": {
-    "angleDeg": 90,
-    "rangeDeg": [
-      0,
-      90
-    ],
-    "discDiameterMm": 248,
-    "discThicknessMm": 6,
-    "shaftDiameterMm": 16,
-    "pivotLocal": [
-      0,
-      0,
-      1600
-    ],
-    "shaftAxisLocal": [
-      0,
-      1,
-      0
-    ],
-    "handwheelCenterLocal": [
-      0,
-      2050,
-      1600
-    ],
-    "handwheelDiameterMm": 180,
-    "neckMm": {
-      "insideDiameter": 250,
-      "outsideDiameter": 262,
-      "bottom": 1400,
-      "top": 1600
-    },
-    "radialSweepMm": 124.03628501370073,
-    "openAxialExtensionMm": 124,
-    "openProjectedObstructionMm": 16,
-    "removedOccurrenceIds": [
-      "R11_T02_ADAPTADOR_ABIERTO",
-      "R11_T02_CUELLO_CILINDRICO",
-      "R11_T02_COMPUERTA_MARCO_ABIERTO",
-      "R11_T02_COMPUERTA_DESLIZANTE_ABIERTA",
-      "R11_T02_GUIA_COMPUERTA_-1",
-      "R11_T02_GUIA_LABIO_-1",
-      "R11_T02_GUIA_COMPUERTA_1",
-      "R11_T02_GUIA_LABIO_1",
-      "R11_T02_TRAVESANO_COMPUERTA",
-      "R11_T02_SOPORTE_HUSILLO",
-      "R11_T02_COJINETE_HUSILLO",
-      "R11_T02_HUSILLO_COMPUERTA",
-      "R11_T02_TUERCA_COMPUERTA",
-      "R11_T02_TIMON_LATERAL"
-    ],
-    "createdOccurrenceIds": [
-      "R12_T02_CUELLO_INFERIOR",
-      "R12_T02_CUELLO_VENTANA_0",
-      "R12_T02_CUELLO_VENTANA_1",
-      "R12_T02_ADAPTADOR_CON_EJE_-1",
-      "R12_T02_ADAPTADOR_CON_EJE_1",
-      "R12_T02_PALETA_MARIPOSA",
-      "R12_T02_EJE_MARIPOSA",
-      "R12_T02_COJINETE_CUELLO_-1",
-      "R12_T02_PASAEJE_CUELLO_-1",
-      "R12_T02_COJINETE_CUELLO_1",
-      "R12_T02_PASAEJE_CUELLO_1",
-      "R12_T02_TIMON_EXTERIOR",
-      "R12_T02_COLGANTE_COJINETE",
-      "R12_T02_BRAZO_COJINETE",
-      "R12_T02_COJINETE_EXTERIOR"
-    ],
-    "note": "0° cerrada, 90° abierta. Eje y timón en Z1600, como la corrección del usuario. Abierta, la paleta ocupa Z1476–1724 dentro del cuello y del embudo libre. El eje Ø16 y el canto de paleta siguen presentes en la sección abierta; la abertura no equivale a un conducto vacío."
-  },
-  "beltConflicts": [],
-  "machineConflicts": [],
-  "chuteConflicts": [],
-  "supportAudits": [
-    {
-      "delta": 0,
-      "toleranceMm": 0.5,
-      "results": [
-        {
-          "owner": "T01",
-          "members": 28,
-          "grounded": 4,
-          "contacts": 37,
-          "disconnected": []
-        },
-        {
-          "owner": "G01",
-          "members": 38,
-          "grounded": 4,
-          "contacts": 52,
-          "disconnected": []
-        },
-        {
-          "owner": "J01",
-          "members": 40,
-          "grounded": 4,
-          "contacts": 61,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 39,
-          "grounded": 4,
-          "contacts": 64,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 45,
-          "grounded": 4,
-          "contacts": 70,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 36,
-          "grounded": 6,
-          "contacts": 47,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
-          "members": 40,
-          "grounded": 4,
-          "contacts": 60,
-          "disconnected": []
-        },
-        {
-          "owner": "T02",
-          "members": 46,
-          "grounded": 4,
-          "contacts": 78,
-          "disconnected": []
-        }
-      ],
-      "disconnected": []
-    },
-    {
-      "delta": -300,
-      "toleranceMm": 0.5,
-      "results": [
-        {
-          "owner": "T01",
-          "members": 28,
-          "grounded": 4,
-          "contacts": 38,
-          "disconnected": []
-        },
-        {
-          "owner": "G01",
-          "members": 38,
-          "grounded": 4,
-          "contacts": 52,
-          "disconnected": []
-        },
-        {
-          "owner": "J01",
-          "members": 40,
-          "grounded": 4,
-          "contacts": 63,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 39,
-          "grounded": 4,
-          "contacts": 63,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 45,
-          "grounded": 4,
-          "contacts": 70,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 36,
-          "grounded": 6,
-          "contacts": 47,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
-          "members": 40,
-          "grounded": 4,
-          "contacts": 60,
-          "disconnected": []
-        },
-        {
-          "owner": "T02",
-          "members": 46,
-          "grounded": 4,
-          "contacts": 78,
-          "disconnected": []
-        }
-      ],
-      "disconnected": []
-    },
-    {
-      "delta": 300,
-      "toleranceMm": 0.5,
-      "results": [
-        {
-          "owner": "T01",
-          "members": 28,
-          "grounded": 4,
-          "contacts": 37,
-          "disconnected": []
-        },
-        {
-          "owner": "G01",
-          "members": 38,
-          "grounded": 4,
-          "contacts": 50,
-          "disconnected": []
-        },
-        {
-          "owner": "J01",
-          "members": 40,
-          "grounded": 4,
-          "contacts": 60,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 39,
-          "grounded": 4,
-          "contacts": 65,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 45,
-          "grounded": 4,
-          "contacts": 70,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 36,
-          "grounded": 6,
-          "contacts": 47,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
-          "members": 40,
-          "grounded": 4,
-          "contacts": 58,
-          "disconnected": []
-        },
-        {
-          "owner": "T02",
-          "members": 46,
-          "grounded": 4,
-          "contacts": 78,
-          "disconnected": []
-        }
-      ],
-      "disconnected": []
-    }
-  ],
-  "drops": [
-    {
-      "id": "TR00_TOLVA_F01",
-      "direct": true,
-      "points": [
-        [
-          3254.4400000000023,
-          0,
-          1869
-        ],
-        [
-          3254.4400000000023,
-          0,
-          788.0818081904288
-        ]
-      ],
-      "dropMm": 1080.9181918095712,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR01_F01_GRIZZLY",
-      "direct": true,
-      "points": [
-        [
-          18418.69114651603,
-          0,
-          4568.9542611636825
-        ],
-        [
-          19099.724300815265,
-          0,
-          3794.852
-        ]
-      ],
-      "dropMm": 774.1022611636827,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR02_PASANTE_GRIZZLY",
-      "direct": false,
-      "points": [
-        [
-          20074.632670948915,
-          0,
-          2279
-        ],
-        [
-          20074.632670948915,
-          0,
-          2079
-        ],
-        [
-          21238.03696186568,
-          0,
-          847.7270689287998
-        ]
-      ],
-      "dropMm": 1431.2729310712002,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR03_GRIZZLY_PRIMARIA",
-      "direct": false,
-      "points": [
-        [
-          21026.52557450302,
-          0,
-          3268.1009323324674
-        ],
-        [
-          21750,
-          0,
-          2845
-        ]
-      ],
-      "dropMm": 423.10093233246744,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR03B_PRIMARIA_F02",
-      "direct": false,
-      "points": [
-        [
-          22000,
-          0,
-          1800
-        ],
-        [
-          21803.23124176013,
-          0,
-          1143.2378743557579
-        ]
-      ],
-      "dropMm": 656.7621256442421,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR04_F02_ZARANDA",
-      "direct": true,
-      "points": [
-        [
-          41032.06977789602,
-          0,
-          5782.933739162022
-        ],
-        [
-          41649.96203337673,
-          0,
-          5160
-        ]
-      ],
-      "dropMm": 622.933739162022,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR05_RECHAZO_SECUNDARIA",
-      "direct": false,
-      "points": [
-        [
           42154,
           -3550.9312688865984,
-          3857.2828482492223
+          3327.282848249224
         ],
-        [
-          42154,
-          -4100,
-          3660
+        "end": [
+          37847.358242374336,
+          -3984.4612126999496,
+          1447.9230295095672
         ],
-        [
-          41000,
-          -4400,
-          3234
+        "waypoints": [
+          [
+            42154,
+            -5900,
+            2900
+          ],
+          [
+            37800,
+            -5900,
+            2300
+          ]
         ]
-      ],
-      "dropMm": 623.2828482492223,
-      "ascendingSegments": []
+      }
     },
-    {
-      "id": "TR06_SECUNDARIA_F03",
-      "direct": false,
-      "points": [
-        [
-          40540,
-          -4400,
-          1395
-        ],
-        [
-          40211.31202727399,
-          -4371.938101175802,
-          721.8313247258982
-        ]
-      ],
-      "dropMm": 673.1686752741018,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR07A_F03_CONO",
-      "direct": true,
-      "points": [
-        [
-          24885.050496226744,
-          -1859.8026406809927,
-          4568.3242611636815
-        ],
-        [
-          24520.201177494724,
-          -1800.000000000004,
-          4382.32143765789
-        ]
-      ],
-      "dropMm": 186.00282350579164,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR08_CONO_F02",
-      "direct": false,
-      "points": [
-        [
-          24520.201177494724,
-          -1800,
-          1855.355
-        ],
-        [
-          24520.201177494724,
-          0,
-          1769.1238807499335
-        ]
-      ],
-      "dropMm": 86.23111925006651,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR09A_ZARANDA_MARTILLOS",
-      "direct": false,
-      "points": [
-        [
-          42154,
-          -1991.7528703475673,
-          2080
-        ],
-        [
-          42154,
-          -3176.108347251065,
-          872.302912932636
-        ]
-      ],
-      "dropMm": 1207.697087067364,
-      "ascendingSegments": []
-    },
-    {
-      "id": "TR09B_MARTILLOS_F04",
-      "direct": false,
-      "points": [
-        [
-          42154,
-          -13201,
-          1925
-        ],
-        [
-          42154,
-          -12787.236208186583,
-          921.3273401972042
-        ]
-      ],
-      "dropMm": 1003.6726598027958,
-      "ascendingSegments": []
-    },
-    {
+    "newTransfer": {
       "id": "TR10_INTERMEDIO_F06",
-      "direct": false,
+      "label": "Zaranda · intermedios → F03",
+      "start": {
+        "owner": "S01",
+        "local": [
+          -1750.9312688865982,
+          0,
+          -172.71715175077588
+        ],
+        "basis": "station"
+      },
+      "end": {
+        "owner": "F03",
+        "basis": "belt",
+        "axialReference": "tail",
+        "local": [
+          2000,
+          0,
+          400
+        ]
+      },
+      "waypoints": [
+        [
+          41800,
+          -5650,
+          2800
+        ],
+        [
+          38100,
+          -5650,
+          1750
+        ]
+      ],
+      "sizes": [
+        [
+          1140,
+          220
+        ],
+        [
+          500,
+          260
+        ],
+        [
+          500,
+          260
+        ],
+        [
+          500,
+          400
+        ]
+      ],
+      "thickness": 6,
+      "adaptation": "auto",
+      "sectionFrames": {
+        "start": "exit",
+        "end": "port",
+        "route": "sweep"
+      },
+      "routeReference": {
+        "start": [
+          42154,
+          -3550.9312688865984,
+          3327.282848249224
+        ],
+        "end": [
+          38326.11740261758,
+          -4062.9348744632825,
+          1326.9620817097332
+        ],
+        "waypoints": [
+          [
+            41800,
+            -5650,
+            2800
+          ],
+          [
+            38100,
+            -5650,
+            1750
+          ]
+        ]
+      }
+    },
+    "previous": {
       "points": [
         [
           42154,
@@ -861,73 +194,153 @@
           1447.9230295095672
         ]
       ],
-      "dropMm": 1879.359818739657,
+      "lengthMm": 8879.797224162248,
+      "segmentLengthsMm": [
+        2387.6127273707298,
+        4395.146868990842,
+        2097.0376278006765
+      ],
+      "segmentSlopeDeg": [
+        10.309083112652496,
+        7.846188401324714,
+        23.974130013979117
+      ]
+    },
+    "current": {
+      "points": [
+        [
+          42154,
+          -3550.9312688865984,
+          3327.282848249224
+        ],
+        [
+          41800,
+          -5650,
+          2800
+        ],
+        [
+          38100,
+          -5650,
+          1750
+        ],
+        [
+          38326.11740261758,
+          -4062.9348744632825,
+          1326.9620817097332
+        ]
+      ],
+      "lengthMm": 7697.114222399327,
+      "segmentLengthsMm": [
+        2193.04189198379,
+        3846.101922726437,
+        1657.9704076891
+      ],
+      "segmentSlopeDeg": [
+        13.912184092948564,
+        15.84308211768701,
+        14.782715455245864
+      ]
+    },
+    "reduction": {
+      "lengthPercent": 13.318806408605788,
+      "sheetVolumePercent": 22.341961956800883
+    },
+    "sheetVolumeMm3": {
+      "previous": 89679575.10101661,
+      "current": 69643398.5489268
+    },
+    "conflicts": [],
+    "secondaryWithin100Mm": [],
+    "verifiedSecondaryClearanceMm": 100,
+    "receiverFromTailMm": 2000,
+    "retainedElbows": 2,
+    "note": "Tres tramos descendentes detrás de J02. Se conserva boca1140×220, salida500×400 y chapa6; sección intermedia500×260. Los dos codos evitan F05, la secundaria y sus apoyos, TR06 y los faldones de F03. Sección geométrica referencial; capacidad requiere caudal y granulometría."
+  },
+  "chuteConflicts": [],
+  "drops": [
+    {
+      "id": "TR00_TOLVA_F01",
+      "direct": true,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR01_F01_GRIZZLY",
+      "direct": true,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR02_PASANTE_GRIZZLY",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR03_GRIZZLY_PRIMARIA",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR03B_PRIMARIA_F02",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR04_F02_ZARANDA",
+      "direct": true,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR05_RECHAZO_SECUNDARIA",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR06_SECUNDARIA_F03",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR07A_F03_CONO",
+      "direct": true,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR08_CONO_F02",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR09A_ZARANDA_MARTILLOS",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR09B_MARTILLOS_F04",
+      "direct": false,
+      "ascendingSegments": []
+    },
+    {
+      "id": "TR10_INTERMEDIO_F06",
+      "direct": false,
       "ascendingSegments": []
     },
     {
       "id": "TR13_ZARANDA_F06",
       "direct": false,
-      "points": [
-        [
-          42154,
-          -1768.7528703475673,
-          2080
-        ],
-        [
-          42154,
-          -1211.5146871871293,
-          804.0760251362516
-        ]
-      ],
-      "dropMm": 1275.9239748637483,
       "ascendingSegments": []
     },
     {
       "id": "TR11_F05_MARTILLOS",
       "direct": true,
-      "points": [
-        [
-          42154,
-          -12179.881402767467,
-          3200.8369506389413
-        ],
-        [
-          42154,
-          -12594.259868646366,
-          2957
-        ]
-      ],
-      "dropMm": 243.8369506389413,
       "ascendingSegments": []
     },
     {
       "id": "TR12_F04_TOLVA",
       "direct": true,
-      "points": [
-        [
-          42154,
-          -21861.949529813868,
-          3897.9324752932707
-        ],
-        [
-          42154,
-          -22557.580890958772,
-          3100
-        ]
-      ],
-      "dropMm": 797.9324752932707,
       "ascendingSegments": []
     }
   ],
   "flowBlocked": [],
-  "previousMetrics": {
-    "length": 47400,
-    "width": 32100.000000000007,
-    "maxZ": 7038.276625771054,
-    "floorZ": 0,
-    "discharge": 3241.2052454144664,
-    "height": 7038.276625771054
-  },
+  "issues": [],
   "metrics": {
     "length": 47400,
     "width": 32100.000000000007,
@@ -935,25 +348,6 @@
     "floorZ": 0,
     "discharge": 3241.2052454144664
   },
-  "physicalTransfers": [
-    "TR02_PASANTE_GRIZZLY",
-    "TR03_GRIZZLY_PRIMARIA",
-    "TR03B_PRIMARIA_F02",
-    "TR05_RECHAZO_SECUNDARIA",
-    "TR06_SECUNDARIA_F03",
-    "TR08_CONO_F02",
-    "TR09A_ZARANDA_MARTILLOS",
-    "TR09B_MARTILLOS_F04",
-    "TR10_INTERMEDIO_F06",
-    "TR13_ZARANDA_F06"
-  ],
-  "directTransfers": [
-    "TR00_TOLVA_F01",
-    "TR01_F01_GRIZZLY",
-    "TR04_F02_ZARANDA",
-    "TR07A_F03_CONO",
-    "TR11_F05_MARTILLOS",
-    "TR12_F04_TOLVA"
-  ],
-  "issues": []
+  "editingRepair": "Stored route references are rebuilt when their bend count differs; explicit route operations refresh their datum; reset removes obsolete optional fields.",
+  "scope": "Only TR10 chute geometry changes; all R12 equipment, belts, structures, dimensions and other transfers are retained."
 }
