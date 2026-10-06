@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** incorpora **R16**: tolva principal de 3500 × 3500 mm exteriores, alerón de 1000 mm y **20 m³ interiores totales entre cono y alerón**. El cono mide 1648,266 mm de altura; la descarga conserva 550 × 556 mm y Z1892 mm sobre la losa. El borde de chapa baja a Z4540,266 mm. Se actualizan los apoyos de T01 y se conserva el resto de R15, su historial y los ajustes guardados.
+La alternativa **Propuesta AutoCAD** incorpora **R17**: marco portante de vigas W8x24 y cuatro sillas exteriores para T01, arriostres con el frente libre hacia F01 y correcciones de uniones de motores y soportes de fajas. Se conservan el casco de 20 m³ de R16, la descarga y las posiciones de equipos, fajas y bajantes, así como el historial y las modificaciones guardadas.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 

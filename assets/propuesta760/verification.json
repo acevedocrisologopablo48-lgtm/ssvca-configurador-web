@@ -1,105 +1,1908 @@
 {
-  "revision": "CORRECCIONES-2026-10-06-16",
+  "revision": "CORRECCIONES-2026-10-06-17",
   "date": "2026-10-06",
+  "owners": [
+    "T01",
+    "G01",
+    "J01",
+    "S01",
+    "C01",
+    "J02",
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06"
+  ],
+  "changedIds": [
+    "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+    "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+    "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+    "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+    "PROPUESTA_T01_ASIENTO_REAL_0",
+    "PROPUESTA_T01_ASIENTO_REAL_1",
+    "PROPUESTA_T01_ASIENTO_REAL_2",
+    "PROPUESTA_T01_ASIENTO_REAL_3",
+    "PROPUESTA_G01_R9_BASTIDOR_RIOSTRA_MOTOR_-755",
+    "PROPUESTA_G01_R9_BASTIDOR_RIOSTRA_MOTOR_405",
+    "PROPUESTA_J01_R9_BASTIDOR_RIOSTRA_MOTOR_1772",
+    "PROPUESTA_S01_PEDESTAL_1",
+    "PROPUESTA_S01_PLACA_ANCLAJE_1",
+    "R9_S01_MENSULA_MOTOR_0",
+    "R9_S01_MENSULA_MOTOR_1",
+    "R9_T01_COLUMNA_0",
+    "R9_T01_COLUMNA_1",
+    "R9_T01_COLUMNA_2",
+    "R9_T01_COLUMNA_3",
+    "R9_T01_AMARRE_LATERAL_0",
+    "R9_T01_AMARRE_LATERAL_1",
+    "R9_T01_AMARRE_POSTERIOR_1",
+    "R9_T01_ARRIOSTRE_0",
+    "R9_T01_ARRIOSTRE_1",
+    "R9_T01_ARRIOSTRE_2",
+    "PROPUESTA_J02_R11_PEDESTAL_3",
+    "PROPUESTA_J02_R11_PLACA_BASE_3",
+    "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1",
+    "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1",
+    "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1",
+    "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1",
+    "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1",
+    "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1",
+    "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1",
+    "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1",
+    "CIRCUITO_C01_R14_MOTOR_AMARRE_BAJO_7",
+    "CIRCUITO_C01_R14_ARRIOSTRE_POSTERIOR_8",
+    "R17_T01_SILLA_0_CHAPA",
+    "R17_T01_SILLA_0_ASIENTO",
+    "R17_T01_SILLA_0_CARTELA_0",
+    "R17_T01_SILLA_0_CARTELA_1",
+    "R17_T01_SILLA_1_CHAPA",
+    "R17_T01_SILLA_1_ASIENTO",
+    "R17_T01_SILLA_1_CARTELA_0",
+    "R17_T01_SILLA_1_CARTELA_1",
+    "R17_T01_SILLA_2_CHAPA",
+    "R17_T01_SILLA_2_ASIENTO",
+    "R17_T01_SILLA_2_CARTELA_0",
+    "R17_T01_SILLA_2_CARTELA_1",
+    "R17_T01_SILLA_3_CHAPA",
+    "R17_T01_SILLA_3_ASIENTO",
+    "R17_T01_SILLA_3_CARTELA_0",
+    "R17_T01_SILLA_3_CARTELA_1",
+    "R17_T01_NUDO_0_0",
+    "R17_T01_NUDO_0_1",
+    "R17_T01_AMARRE_NUDO_0_0",
+    "R17_T01_AMARRE_NUDO_0_1",
+    "R17_T01_NUDO_1_0",
+    "R17_T01_NUDO_1_1",
+    "R17_T01_AMARRE_NUDO_1_0",
+    "R17_T01_AMARRE_NUDO_1_1",
+    "R17_T01_NUDO_2_0",
+    "R17_T01_NUDO_2_1",
+    "R17_T01_AMARRE_NUDO_2_0",
+    "R17_T01_AMARRE_NUDO_2_1",
+    "R17_J01_PLACA_RIOSTRA_MOTOR_1772"
+  ],
   "hopper": {
-    "revision": "T01-TOTAL20M3-3500-1000-R16-2026-10-06",
-    "sourceRevision": "R15",
-    "capacityBasis": "interior-total-cone-plus-upper-wall",
-    "totalCapacityM3": 20,
-    "frustumCapacityM3": 7.882987097500002,
-    "upperCapacityM3": 12.117012902499997,
-    "bodyOutletInteriorMm": [
-      550,
-      556
+    "owner": "T01",
+    "revision": "T01-MARCO-SILLAS-R17-2026-10-06",
+    "sourceRevision": "R16",
+    "added": [
+      "R17_T01_SILLA_0_CHAPA",
+      "R17_T01_SILLA_0_ASIENTO",
+      "R17_T01_SILLA_0_CARTELA_0",
+      "R17_T01_SILLA_0_CARTELA_1",
+      "R17_T01_SILLA_1_CHAPA",
+      "R17_T01_SILLA_1_ASIENTO",
+      "R17_T01_SILLA_1_CARTELA_0",
+      "R17_T01_SILLA_1_CARTELA_1",
+      "R17_T01_SILLA_2_CHAPA",
+      "R17_T01_SILLA_2_ASIENTO",
+      "R17_T01_SILLA_2_CARTELA_0",
+      "R17_T01_SILLA_2_CARTELA_1",
+      "R17_T01_SILLA_3_CHAPA",
+      "R17_T01_SILLA_3_ASIENTO",
+      "R17_T01_SILLA_3_CARTELA_0",
+      "R17_T01_SILLA_3_CARTELA_1",
+      "R17_T01_NUDO_0_0",
+      "R17_T01_NUDO_0_1",
+      "R17_T01_AMARRE_NUDO_0_0",
+      "R17_T01_AMARRE_NUDO_0_1",
+      "R17_T01_NUDO_1_0",
+      "R17_T01_NUDO_1_1",
+      "R17_T01_AMARRE_NUDO_1_0",
+      "R17_T01_AMARRE_NUDO_1_1",
+      "R17_T01_NUDO_2_0",
+      "R17_T01_NUDO_2_1",
+      "R17_T01_AMARRE_NUDO_2_0",
+      "R17_T01_AMARRE_NUDO_2_1"
     ],
-    "interiorUpperSizeMm": [
-      3480.95,
-      3480.95
+    "removed": [
+      "R9_T01_AMARRE_POSTERIOR_0",
+      "R9_T01_ARRIOSTRE_3"
     ],
-    "bodyUpperExteriorMm": [
-      3500,
-      3500
-    ],
-    "plateThicknessMm": 9.525,
-    "bodyHeightMm": 1648.2664337511171,
-    "upperWallHeightMm": 1000,
-    "outletZMm": 1892,
-    "upperBaseZMm": 3540.266433751117,
-    "upperRimZMm": 4540.266433751117,
-    "supportZMm": 2826.616685735665,
-    "supportDeltaMm": -1571.7461820502363,
-    "previous": {
-      "sourceRevision": "R15",
-      "innerUpperMm": [
-        3480.95,
-        3480.9500000000007
-      ],
-      "bodyHeightMm": 4181.832123697999,
-      "frustumCapacityM3": 20.000000000000018,
-      "upperCapacityM3": 12.117012902500003,
-      "totalCapacityM3": 32.11701290250002
-    },
-    "changedOccurrenceIds": [
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-6",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-4",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
-      "PROPUESTA_T01_COLLAR_CIERRE_REMATE_SUPERIOR",
-      "PROPUESTA_T01_ASIENTO_REAL_0",
-      "PROPUESTA_T01_ASIENTO_REAL_1",
-      "PROPUESTA_T01_ASIENTO_REAL_2",
-      "PROPUESTA_T01_ASIENTO_REAL_3",
+    "changed": [
       "R9_T01_COLUMNA_0",
       "R9_T01_COLUMNA_1",
       "R9_T01_COLUMNA_2",
       "R9_T01_COLUMNA_3",
+      "PROPUESTA_T01_ASIENTO_REAL_0",
+      "PROPUESTA_T01_ASIENTO_REAL_1",
+      "PROPUESTA_T01_ASIENTO_REAL_2",
+      "PROPUESTA_T01_ASIENTO_REAL_3",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
       "R9_T01_ARRIOSTRE_0",
+      "R9_T01_AMARRE_LATERAL_0",
       "R9_T01_ARRIOSTRE_1",
+      "R9_T01_AMARRE_LATERAL_1",
       "R9_T01_ARRIOSTRE_2",
-      "R9_T01_ARRIOSTRE_3"
+      "R9_T01_AMARRE_POSTERIOR_1"
     ],
-    "formula": "V total = h/6 (2W0D0 + W0D1 + W1D0 + 2W1D1) + W1D1 × H alerón, dimensiones interiores",
-    "note": "20 m³ útiles interiores incluyen cono de 7.8829870975 m³ y alerón de 12.1170129025 m³, hasta borde de chapa y sin montículo ni deducción de rigidizadores. Exterior 3500×3500, alerón 1000 y chapa 9.525. Descarga interior 550×556 y Z1892 conservadas. Bases, pernos, alimentador, posición y enlaces permanecen. Se acortan columnas y extremos superiores de tornapuntas, se ajustan aro lateral y recortes de asientos sin acumular el cambio XY de R15."
+    "contacts": [
+      {
+        "a": "R9_T01_COLUMNA_0",
+        "b": "PROPUESTA_T01_ASIENTO_REAL_0",
+        "kind": "full-column-end-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_0",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+        "kind": "cap-flange-bearing",
+        "areaMm2": 36294.061584472656
+      },
+      {
+        "a": "R9_T01_COLUMNA_1",
+        "b": "PROPUESTA_T01_ASIENTO_REAL_1",
+        "kind": "full-column-end-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "kind": "cap-flange-bearing",
+        "areaMm2": 36294.061584472656
+      },
+      {
+        "a": "R9_T01_COLUMNA_2",
+        "b": "PROPUESTA_T01_ASIENTO_REAL_2",
+        "kind": "full-column-end-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_2",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+        "kind": "cap-flange-bearing",
+        "areaMm2": 36294.061584472656
+      },
+      {
+        "a": "R9_T01_COLUMNA_3",
+        "b": "PROPUESTA_T01_ASIENTO_REAL_3",
+        "kind": "full-column-end-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_3",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "kind": "cap-flange-bearing",
+        "areaMm2": 36294.061584472656
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_0",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+        "kind": "cap-return-flange-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+        "kind": "cap-return-flange-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_2",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+        "kind": "cap-return-flange-bearing"
+      },
+      {
+        "a": "PROPUESTA_T01_ASIENTO_REAL_3",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+        "kind": "cap-return-flange-bearing"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+        "kind": "square-web-and-flange-butt"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "kind": "square-web-and-flange-butt"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+        "kind": "square-web-and-flange-butt"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "kind": "square-web-and-flange-butt"
+      },
+      {
+        "a": "R17_T01_SILLA_0_CARTELA_0",
+        "b": "R17_T01_SILLA_0_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_0_CARTELA_0",
+        "b": "R17_T01_SILLA_0_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_0_CARTELA_1",
+        "b": "R17_T01_SILLA_0_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_0_CARTELA_1",
+        "b": "R17_T01_SILLA_0_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_0_ASIENTO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+        "kind": "saddle-flange-bearing",
+        "areaMm2": 42745.951080322266
+      },
+      {
+        "a": "R17_T01_SILLA_0_CHAPA",
+        "b": "R17_T01_SILLA_0_ASIENTO",
+        "kind": "pad-lower-edge-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_1_CARTELA_0",
+        "b": "R17_T01_SILLA_1_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_1_CARTELA_0",
+        "b": "R17_T01_SILLA_1_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_1_CARTELA_1",
+        "b": "R17_T01_SILLA_1_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_1_CARTELA_1",
+        "b": "R17_T01_SILLA_1_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_1_ASIENTO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+        "kind": "saddle-flange-bearing",
+        "areaMm2": 42745.951080322266
+      },
+      {
+        "a": "R17_T01_SILLA_1_CHAPA",
+        "b": "R17_T01_SILLA_1_ASIENTO",
+        "kind": "pad-lower-edge-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_2_CARTELA_0",
+        "b": "R17_T01_SILLA_2_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_2_CARTELA_0",
+        "b": "R17_T01_SILLA_2_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_2_CARTELA_1",
+        "b": "R17_T01_SILLA_2_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_2_CARTELA_1",
+        "b": "R17_T01_SILLA_2_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_2_ASIENTO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+        "kind": "saddle-flange-bearing",
+        "areaMm2": 42745.951080322266
+      },
+      {
+        "a": "R17_T01_SILLA_2_CHAPA",
+        "b": "R17_T01_SILLA_2_ASIENTO",
+        "kind": "pad-lower-edge-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_3_CARTELA_0",
+        "b": "R17_T01_SILLA_3_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_3_CARTELA_0",
+        "b": "R17_T01_SILLA_3_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_3_CARTELA_1",
+        "b": "R17_T01_SILLA_3_CHAPA",
+        "kind": "continuous-inclined-rib-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_3_CARTELA_1",
+        "b": "R17_T01_SILLA_3_ASIENTO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R17_T01_SILLA_3_ASIENTO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "kind": "saddle-flange-bearing",
+        "areaMm2": 42745.951080322266
+      },
+      {
+        "a": "R17_T01_SILLA_3_CHAPA",
+        "b": "R17_T01_SILLA_3_ASIENTO",
+        "kind": "pad-lower-edge-weld"
+      },
+      {
+        "a": "R17_T01_NUDO_0_0",
+        "b": "R9_T01_COLUMNA_0",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R17_T01_NUDO_0_1",
+        "b": "R9_T01_COLUMNA_2",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R9_T01_ARRIOSTRE_0",
+        "b": "R17_T01_NUDO_0_0",
+        "kind": "HSS-side-weld"
+      },
+      {
+        "a": "R9_T01_ARRIOSTRE_0",
+        "b": "R17_T01_NUDO_0_1",
+        "kind": "HSS-side-weld"
+      },
+      {
+        "a": "R9_T01_AMARRE_LATERAL_0",
+        "b": "R17_T01_AMARRE_NUDO_0_0",
+        "kind": "lower-tie-weld"
+      },
+      {
+        "a": "R17_T01_AMARRE_NUDO_0_0",
+        "b": "R9_T01_COLUMNA_0",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R9_T01_AMARRE_LATERAL_0",
+        "b": "R17_T01_AMARRE_NUDO_0_1",
+        "kind": "lower-tie-weld"
+      },
+      {
+        "a": "R17_T01_AMARRE_NUDO_0_1",
+        "b": "R9_T01_COLUMNA_2",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R17_T01_NUDO_1_0",
+        "b": "R9_T01_COLUMNA_1",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R17_T01_NUDO_1_1",
+        "b": "R9_T01_COLUMNA_3",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R9_T01_ARRIOSTRE_1",
+        "b": "R17_T01_NUDO_1_0",
+        "kind": "HSS-side-weld"
+      },
+      {
+        "a": "R9_T01_ARRIOSTRE_1",
+        "b": "R17_T01_NUDO_1_1",
+        "kind": "HSS-side-weld"
+      },
+      {
+        "a": "R9_T01_AMARRE_LATERAL_1",
+        "b": "R17_T01_AMARRE_NUDO_1_0",
+        "kind": "lower-tie-weld"
+      },
+      {
+        "a": "R17_T01_AMARRE_NUDO_1_0",
+        "b": "R9_T01_COLUMNA_1",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R9_T01_AMARRE_LATERAL_1",
+        "b": "R17_T01_AMARRE_NUDO_1_1",
+        "kind": "lower-tie-weld"
+      },
+      {
+        "a": "R17_T01_AMARRE_NUDO_1_1",
+        "b": "R9_T01_COLUMNA_3",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R17_T01_NUDO_2_0",
+        "b": "R9_T01_COLUMNA_0",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R17_T01_NUDO_2_1",
+        "b": "R9_T01_COLUMNA_1",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R9_T01_ARRIOSTRE_2",
+        "b": "R17_T01_NUDO_2_0",
+        "kind": "HSS-side-weld"
+      },
+      {
+        "a": "R9_T01_ARRIOSTRE_2",
+        "b": "R17_T01_NUDO_2_1",
+        "kind": "HSS-side-weld"
+      },
+      {
+        "a": "R9_T01_AMARRE_POSTERIOR_1",
+        "b": "R17_T01_AMARRE_NUDO_2_0",
+        "kind": "lower-tie-weld"
+      },
+      {
+        "a": "R17_T01_AMARRE_NUDO_2_0",
+        "b": "R9_T01_COLUMNA_0",
+        "kind": "column-exterior-flange-weld"
+      },
+      {
+        "a": "R9_T01_AMARRE_POSTERIOR_1",
+        "b": "R17_T01_AMARRE_NUDO_2_1",
+        "kind": "lower-tie-weld"
+      },
+      {
+        "a": "R17_T01_AMARRE_NUDO_2_1",
+        "b": "R9_T01_COLUMNA_1",
+        "kind": "column-exterior-flange-weld"
+      }
+    ],
+    "columnAxesMm": 2480,
+    "crownTopZMm": 2826.616685735665,
+    "crownBottomZMm": 2625.1946734065637,
+    "columnTopZMm": 2606.1946734065637,
+    "capThicknessMm": 19,
+    "crownProfile": "W8x24",
+    "crownDepthMm": 201.42201232910156,
+    "crownWidthMm": 164.97300720214844,
+    "columnProfile": "W6x25",
+    "caps": [
+      "PROPUESTA_T01_ASIENTO_REAL_0",
+      "PROPUESTA_T01_ASIENTO_REAL_1",
+      "PROPUESTA_T01_ASIENTO_REAL_2",
+      "PROPUESTA_T01_ASIENTO_REAL_3"
+    ],
+    "columns": [
+      "R9_T01_COLUMNA_0",
+      "R9_T01_COLUMNA_1",
+      "R9_T01_COLUMNA_2",
+      "R9_T01_COLUMNA_3"
+    ],
+    "throughBeams": [
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2"
+    ],
+    "returnBeams": [
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2"
+    ],
+    "saddles": [
+      {
+        "face": 0,
+        "pad": "R17_T01_SILLA_0_CHAPA",
+        "seat": "R17_T01_SILLA_0_ASIENTO",
+        "gussets": [
+          "R17_T01_SILLA_0_CARTELA_0",
+          "R17_T01_SILLA_0_CARTELA_1"
+        ],
+        "surfaceAreaMm2": 80285.74480154092,
+        "bearingAreaMm2": 42745.951080322266,
+        "normal": [
+          -0.747330676800901,
+          0,
+          -0.6644523004041052
+        ],
+        "innerPlanePoint": [
+          -1140.3328379147838,
+          0,
+          2850.932304138898
+        ]
+      },
+      {
+        "face": 1,
+        "pad": "R17_T01_SILLA_1_CHAPA",
+        "seat": "R17_T01_SILLA_1_ASIENTO",
+        "gussets": [
+          "R17_T01_SILLA_1_CARTELA_0",
+          "R17_T01_SILLA_1_CARTELA_1"
+        ],
+        "surfaceAreaMm2": 80285.74480154092,
+        "bearingAreaMm2": 42745.951080322266,
+        "normal": [
+          0.747330676800901,
+          0,
+          -0.6644523004041052
+        ],
+        "innerPlanePoint": [
+          1140.3328379147838,
+          0,
+          2850.932304138898
+        ]
+      },
+      {
+        "face": 2,
+        "pad": "R17_T01_SILLA_2_CHAPA",
+        "seat": "R17_T01_SILLA_2_ASIENTO",
+        "gussets": [
+          "R17_T01_SILLA_2_CARTELA_0",
+          "R17_T01_SILLA_2_CARTELA_1"
+        ],
+        "surfaceAreaMm2": 80213.22437744876,
+        "bearingAreaMm2": 42745.951080322266,
+        "normal": [
+          0,
+          -0.7480063351856538,
+          -0.6636915869002163
+        ],
+        "innerPlanePoint": [
+          0,
+          -1141.5705785436699,
+          2850.926218430867
+        ]
+      },
+      {
+        "face": 3,
+        "pad": "R17_T01_SILLA_3_CHAPA",
+        "seat": "R17_T01_SILLA_3_ASIENTO",
+        "gussets": [
+          "R17_T01_SILLA_3_CARTELA_0",
+          "R17_T01_SILLA_3_CARTELA_1"
+        ],
+        "surfaceAreaMm2": 80213.22437744876,
+        "bearingAreaMm2": 42745.951080322266,
+        "normal": [
+          0,
+          0.7480063351856538,
+          -0.6636915869002163
+        ],
+        "innerPlanePoint": [
+          0,
+          1141.5705785436699,
+          2850.926218430867
+        ]
+      }
+    ],
+    "braces": [
+      {
+        "id": "R9_T01_ARRIOSTRE_0",
+        "gussets": [
+          "R17_T01_NUDO_0_0",
+          "R17_T01_NUDO_0_1"
+        ],
+        "face": "-Y",
+        "mountStart": [
+          -1240,
+          -1369.0260009765625,
+          800
+        ],
+        "mountEnd": [
+          1240,
+          -1369.0260009765625,
+          2500
+        ],
+        "cutPlanesMm": [
+          -1162.7840042114258,
+          1162.7840042114258
+        ]
+      },
+      {
+        "id": "R9_T01_ARRIOSTRE_1",
+        "gussets": [
+          "R17_T01_NUDO_1_0",
+          "R17_T01_NUDO_1_1"
+        ],
+        "face": "+Y",
+        "mountStart": [
+          -1240,
+          1369.0260009765625,
+          800
+        ],
+        "mountEnd": [
+          1240,
+          1369.0260009765625,
+          2500
+        ],
+        "cutPlanesMm": [
+          -1162.7840042114258,
+          1162.7840042114258
+        ]
+      },
+      {
+        "id": "R9_T01_ARRIOSTRE_2",
+        "gussets": [
+          "R17_T01_NUDO_2_0",
+          "R17_T01_NUDO_2_1"
+        ],
+        "face": "-X",
+        "mountStart": [
+          -1365.2159957885742,
+          -1240,
+          800
+        ],
+        "mountEnd": [
+          -1365.2159957885742,
+          1240,
+          2500
+        ],
+        "cutPlanesMm": [
+          -1158.9739990234375,
+          1158.9739990234375
+        ]
+      }
+    ],
+    "openFace": "+X",
+    "vesselCapacityPreservedM3": 20,
+    "scope": "Marco portante de cuatro vigas con cuatro sillas soldadas exteriores y tres caras arriostradas. Casco, alimentador, equipos, fajas, bases, posición y enlaces conservados. Secciones y uniones geométricas preliminares, sin cálculo resistente."
+  },
+  "repairs": {
+    "owners": [
+      "G01",
+      "J01",
+      "S01",
+      "C01",
+      "J02",
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06"
+    ],
+    "added": [
+      "R17_J01_PLACA_RIOSTRA_MOTOR_1772"
+    ],
+    "removed": [
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+      "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_pasador",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_horquilla",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_oreja_0",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_oreja_1",
+      "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_horquilla",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_0",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+      "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_horquilla__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_0__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_1__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_horquilla__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_0__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_1__support_5",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador__support_5",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_horquilla",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_oreja_0",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_oreja_1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_pasador",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_horquilla__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_0__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_1__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_horquilla__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_0__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_1__support_3",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador__support_3",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+      "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador"
+    ],
+    "changed": [
+      "PROPUESTA_G01_R9_BASTIDOR_RIOSTRA_MOTOR_-755",
+      "PROPUESTA_G01_R9_BASTIDOR_RIOSTRA_MOTOR_405",
+      "PROPUESTA_J01_R9_BASTIDOR_RIOSTRA_MOTOR_1772",
+      "R9_S01_MENSULA_MOTOR_0",
+      "R9_S01_MENSULA_MOTOR_1",
+      "CIRCUITO_C01_R14_MOTOR_AMARRE_BAJO_7",
+      "CIRCUITO_C01_R14_ARRIOSTRE_POSTERIOR_8",
+      "PROPUESTA_S01_PEDESTAL_1",
+      "PROPUESTA_S01_PLACA_ANCLAJE_1",
+      "PROPUESTA_J02_R11_PEDESTAL_3",
+      "PROPUESTA_J02_R11_PLACA_BASE_3",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1",
+      "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1",
+      "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1"
+    ],
+    "report": {
+      "repairs": [
+        {
+          "id": "PROPUESTA_G01_R9_BASTIDOR_RIOSTRA_MOTOR_-755",
+          "host": "PROPUESTA_G01_R9_BASTIDOR_LARGUERO_MOTOR_1330",
+          "side": 1,
+          "point": [
+            19500.6,
+            1330,
+            2632.7543547598802
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "touches": true,
+          "bearingAreaMm2": 543.0364279394839
+        },
+        {
+          "id": "PROPUESTA_G01_R9_BASTIDOR_RIOSTRA_MOTOR_405",
+          "host": "PROPUESTA_G01_R9_BASTIDOR_LARGUERO_MOTOR_1330",
+          "side": 1,
+          "point": [
+            20130.6,
+            1330,
+            2632.7543547598802
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "touches": true,
+          "bearingAreaMm2": 516.6512468231431
+        },
+        {
+          "id": "PROPUESTA_J01_R9_BASTIDOR_RIOSTRA_MOTOR_1772",
+          "host": "PROPUESTA_J01_R9_BASTIDOR_LARGUERO_MOTOR_1772",
+          "side": 1,
+          "point": [
+            23794.5,
+            1772,
+            1642.520004272461
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "touches": true,
+          "bearingAreaMm2": 3007.2147860928044
+        },
+        {
+          "id": "PROPUESTA_J01_R9_BASTIDOR_RIOSTRA_MOTOR_1772",
+          "host": "R17_J01_PLACA_RIOSTRA_MOTOR_1772",
+          "side": 0,
+          "point": [
+            21534.45400238037,
+            820,
+            800
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 1888.5961406945848
+        },
+        {
+          "id": "R9_S01_MENSULA_MOTOR_0",
+          "host": "R9_S01_LARGUERO_1_2",
+          "side": 0,
+          "point": [
+            41332.078999996185,
+            -1923,
+            3398.927001953125
+          ],
+          "normal": [
+            -1,
+            6.123233995736766e-17,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 1594.6911410310533
+        },
+        {
+          "id": "R9_S01_MENSULA_MOTOR_0",
+          "host": "R9_S01_ASIENTO_MOTOR_0",
+          "side": 1,
+          "point": [
+            40565.5,
+            -1923,
+            3675.575913840212
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "touches": true,
+          "bearingAreaMm2": 2209.401992210187
+        },
+        {
+          "id": "R9_S01_MENSULA_MOTOR_1",
+          "host": "R9_S01_LARGUERO_1_2",
+          "side": 0,
+          "point": [
+            41332.078999996185,
+            -1677,
+            3398.927001953125
+          ],
+          "normal": [
+            -1,
+            6.123233995736766e-17,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 1594.6911410310533
+        },
+        {
+          "id": "R9_S01_MENSULA_MOTOR_1",
+          "host": "R9_S01_ASIENTO_MOTOR_1",
+          "side": 1,
+          "point": [
+            40565.5,
+            -1677,
+            3675.575913840212
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "touches": true,
+          "bearingAreaMm2": 2209.401992210187
+        },
+        {
+          "id": "CIRCUITO_C01_R14_MOTOR_AMARRE_BAJO_7",
+          "host": "CIRCUITO_C01_R14_MOTOR_COLUMNA_0_3",
+          "side": 0,
+          "point": [
+            22244.174653238937,
+            -2436.7399978637695,
+            650
+          ],
+          "normal": [
+            -1.2246467991473532e-16,
+            -1,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 2256.83555796917
+        },
+        {
+          "id": "CIRCUITO_C01_R14_MOTOR_AMARRE_BAJO_7",
+          "host": "CIRCUITO_C01_R14_MOTOR_COLUMNA_1_6",
+          "side": 1,
+          "point": [
+            22244.174653238937,
+            -3749.2600021362305,
+            650
+          ],
+          "normal": [
+            -1.2246467991473532e-16,
+            -1,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 2256.8355579691697
+        },
+        {
+          "id": "CIRCUITO_C01_R14_ARRIOSTRE_POSTERIOR_8",
+          "host": "R9_C01_COLUMNA_0",
+          "side": 0,
+          "point": [
+            25420.201177494724,
+            -1221.0260009765625,
+            1300
+          ],
+          "normal": [
+            -1.2246467991473532e-16,
+            -1,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 1348.828372180847
+        },
+        {
+          "id": "CIRCUITO_C01_R14_ARRIOSTRE_POSTERIOR_8",
+          "host": "R9_C01_COLUMNA_1",
+          "side": 1,
+          "point": [
+            25420.201177494724,
+            -2308.9739990234375,
+            1900
+          ],
+          "normal": [
+            -1.2246467991473532e-16,
+            -1,
+            0
+          ],
+          "touches": true,
+          "bearingAreaMm2": 1348.8313303033938
+        }
+      ],
+      "s01RootY": 821.9210000038147,
+      "webHalfMm": 2.9210000038146973,
+      "coneRearLowerAttachmentZMm": 1300,
+      "coneRearUpperAttachmentZMm": 1900,
+      "foundationSeamY": -3225,
+      "foundationGapMm": 1,
+      "jawBracePlateMm": [
+        200,
+        180,
+        8
+      ],
+      "belts": {
+        "contactToleranceMm": 0.1,
+        "kits": [
+          {
+            "owner": "F06",
+            "pin": "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F06",
+            "pin": "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F06",
+            "pin": "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F06",
+            "pin": "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F06",
+            "pin": "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F06",
+            "pin": "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+              "F06__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_00-1/F01_P00_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_04-1/F01_P04_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_05-1/F01_P05_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_01-1/F01_P01_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F01",
+            "pin": "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_horquilla",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_oreja_0",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_oreja_1",
+              "F01_CONJUNTO-1/F01_ESTRUCTURAS-1/F01_SOPORTE_02-1/F01_P02_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_02-1/F02_P02_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_03-1/F02_P03_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_01-1/F02_P01_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_horquilla",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_0",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_1",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F05",
+            "pin": "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F05",
+            "pin": "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F05",
+            "pin": "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F05",
+            "pin": "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F05",
+            "pin": "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F05",
+            "pin": "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+              "F05__F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador__support_5",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_horquilla__support_5",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_0__support_5",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_oreja_1__support_5",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_0-1__detalle_pasador__support_5"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F02",
+            "pin": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador__support_5",
+            "removed": [
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_horquilla__support_5",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_0__support_5",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_oreja_1__support_5",
+              "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_00-1/F02_P00_PATA_1-1__detalle_pasador__support_5"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_horquilla",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_oreja_0",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_oreja_1",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_01-1/F03_P01_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador__support_3",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_horquilla__support_3",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_0__support_3",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_oreja_1__support_3",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_0-1__detalle_pasador__support_3"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F03",
+            "pin": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador__support_3",
+            "removed": [
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_horquilla__support_3",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_0__support_3",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_oreja_1__support_3",
+              "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_00-1/F03_P00_PATA_1-1__detalle_pasador__support_3"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F04",
+            "pin": "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_horquilla",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_0",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_oreja_1",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F04",
+            "pin": "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_horquilla",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_0",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_oreja_1",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_02-1/F04_P02_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F04",
+            "pin": "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_horquilla",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_0",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_oreja_1",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F04",
+            "pin": "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_horquilla",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_0",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_oreja_1",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_00-1/F04_P00_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F04",
+            "pin": "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador",
+            "removed": [
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_horquilla",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_0",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_oreja_1",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_0-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          },
+          {
+            "owner": "F04",
+            "pin": "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador",
+            "removed": [
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_horquilla",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_0",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_oreja_1",
+              "F04_CONJUNTO-1/F04_ESTRUCTURAS-1/F04_SOPORTE_01-1/F04_P01_PATA_1-1__detalle_pasador"
+            ],
+            "receivers": [],
+            "reason": "Horquilla genérica vacía: no existe un miembro receptor con taladro coaxial. El apoyo real PATA → travesaño se conserva."
+          }
+        ],
+        "puntals": [
+          {
+            "owner": "F02",
+            "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1",
+            "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_-1-1",
+            "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_1-1",
+            "bottomZ": 15,
+            "topZ": 4332.924445780114,
+            "bottomBearingAreaMm2": 2720.0362133160233,
+            "topBearingAreaMm2": 786.4832704076543,
+            "minZ": 15.099999189851399
+          },
+          {
+            "owner": "F02",
+            "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1",
+            "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_1-1",
+            "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_0-1",
+            "bottomZ": 15,
+            "topZ": 3599.6258099418487,
+            "bottomBearingAreaMm2": 2794.0540640428662,
+            "topBearingAreaMm2": 783.2893320377916,
+            "minZ": 15.099999164939721
+          },
+          {
+            "owner": "F02",
+            "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1",
+            "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_-1-1",
+            "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_0-1",
+            "bottomZ": 15,
+            "topZ": 3599.6258099418487,
+            "bottomBearingAreaMm2": 2794.0540640428662,
+            "topBearingAreaMm2": 783.2893320387229,
+            "minZ": 15.099999164939721
+          },
+          {
+            "owner": "F02",
+            "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1",
+            "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_1-1",
+            "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_1-1",
+            "bottomZ": 15,
+            "topZ": 4332.924445780114,
+            "bottomBearingAreaMm2": 2720.0362133160233,
+            "topBearingAreaMm2": 786.4832704113796,
+            "minZ": 15.099999189851399
+          },
+          {
+            "owner": "F03",
+            "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1",
+            "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_-1-1",
+            "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_0-1",
+            "bottomZ": 15,
+            "topZ": 1840.6912853487174,
+            "bottomBearingAreaMm2": 4146.292702089995,
+            "topBearingAreaMm2": 781.6605559512973,
+            "minZ": 15.09999850821064
+          },
+          {
+            "owner": "F03",
+            "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1",
+            "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_1-1",
+            "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_0-1",
+            "bottomZ": 15,
+            "topZ": 1840.6912853487174,
+            "bottomBearingAreaMm2": 4155.756928943098,
+            "topBearingAreaMm2": 781.3704185113311,
+            "minZ": 15.099998400728595
+          },
+          {
+            "owner": "F03",
+            "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1",
+            "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_-1-1",
+            "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_1-1",
+            "bottomZ": 15,
+            "topZ": 2760.303520556457,
+            "bottomBearingAreaMm2": 2783.6581281758845,
+            "topBearingAreaMm2": 738.0030138343573,
+            "minZ": 15.09999918953125
+          },
+          {
+            "owner": "F03",
+            "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1",
+            "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_1-1",
+            "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_1-1",
+            "bottomZ": 15,
+            "topZ": 2760.303520556457,
+            "bottomBearingAreaMm2": 2789.3195818960667,
+            "topBearingAreaMm2": 742.0517182722688,
+            "minZ": 15.099999174887227
+          }
+        ]
+      },
+      "scope": "Encuentros de riostras G01/J01/S01, remates R14 de C01, separación de bases S01/J02, retirada de horquillas vacías y cortes sobre asientos reales de ocho puntales F02/F03; maquinaria y poses conservadas."
+    }
   },
   "collisions": [],
   "chuteConflicts": [],
   "supports": [
     {
       "owner": "T01",
-      "members": 28,
+      "members": 58,
       "grounded": 4,
-      "contacts": 37,
+      "contacts": 79,
+      "disconnected": []
+    },
+    {
+      "owner": "G01",
+      "members": 38,
+      "grounded": 4,
+      "contacts": 52,
+      "disconnected": []
+    },
+    {
+      "owner": "J01",
+      "members": 41,
+      "grounded": 4,
+      "contacts": 64,
+      "disconnected": []
+    },
+    {
+      "owner": "C01",
+      "members": 44,
+      "grounded": 6,
+      "contacts": 71,
+      "disconnected": []
+    },
+    {
+      "owner": "S01",
+      "members": 45,
+      "grounded": 4,
+      "contacts": 72,
+      "disconnected": []
+    },
+    {
+      "owner": "J02",
+      "members": 36,
+      "grounded": 6,
+      "contacts": 47,
+      "disconnected": []
+    },
+    {
+      "owner": "H01",
+      "members": 40,
+      "grounded": 4,
+      "contacts": 60,
+      "disconnected": []
+    },
+    {
+      "owner": "T02",
+      "members": 46,
+      "grounded": 4,
+      "contacts": 78,
       "disconnected": []
     }
   ],
@@ -108,6 +1911,7 @@
     "triangles": 0
   },
   "issues": [],
+  "materialBlocked": [],
   "metrics": {
     "length": 47400,
     "width": 32100.000000000007,
@@ -115,5 +1919,5 @@
     "floorZ": 0,
     "discharge": 3241.2052454144664
   },
-  "scope": "T01: 20 m³ interiores totales entre cono y alerón; boca exterior3500, alerón1000, descarga550×556 aZ1892 conservada. Resto de R15 conservado."
+  "scope": "Montaje estructural: marco superior y sillas de T01, uniones de apoyos de motores, arriostres de C01 y soportes de F01/F02/F03. Casco, capacidad, descarga y posiciones R16 conservadas."
 }
