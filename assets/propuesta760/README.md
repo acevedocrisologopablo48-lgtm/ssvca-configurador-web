@@ -1,14 +1,13 @@
-# Alternativa Propuesta AutoCAD · Revisión 10
+# Revisión R16 - tolva principal de 20 m³ totales
 
-Misma alternativa y versión de proyecto; estructuras R9 incorporadas a la plataforma con correcciones J01/J02.
+T01 conserva la boca superior exterior de 3500 × 3500 mm, el alerón vertical de 1000 mm y el espesor de chapa de 9,525 mm. La capacidad interior total es 20 m³: el alerón aporta 12.117012902 m³ y el cono 7.882987098 m³. No se incluye montículo ni se deducen rigidizadores.
 
-- J01: dos largueros continuos bajo las filas de anclajes, enlazados con los cabezales extremos; seis anclajes en sus posiciones originales.
-- J02: cierre frontal rebajado, con montantes cortos bajo los extremos transversales, para completar el camino de carga sin cruzar el bajante.
-- Se incorporan las columnas W6/W4, diagonales de tubo y apoyos compactos de R9. T02 conserva cuatro soportes y corona sin X; S01 tiene columnas continuas bajo los resortes.
-- Máquinas, alturas, transmisiones, cintas, bajantes y capacidad de T01 (20 m³, collar 1 m) conservados.
+La altura interior del cono es 1648.266434 mm. El hombro queda a Z3540.266434 mm y el borde superior de chapa a Z4540.266434 mm, ambos medidos desde la superficie de la losa. El remate metálico actual añade 101,6 mm al borde de chapa. La altura se reduce 2533,565690 mm respecto de R15.
 
-Sin interferencias con cintas/bajantes a las alturas nominales. Continuidad hasta bases y área de contacto bajo placas verificadas con tolerancia de 0,5 mm en cotas nominales y ±300 mm. La prueba de cambio de altura verifica apoyos; no sustituye revisar el circuito después de mover un equipo.
+La descarga interior mantiene 550 × 556 mm y su plano a Z1892 mm sobre la losa. Se conservan alimentador, conexión hacia F01, bases, pernos, anclajes inferiores y la ubicación de T01. El aro de apoyo baja a Z2826.616686 mm; se ajustan sus ejes horizontales, los asientos y los extremos superiores de columnas y tornapuntas.
 
-Perfiles y cargas estimadas: propuesta de predimensionamiento, no liberada para fabricación. Verificar resistencia, estabilidad, vibración, uniones y cimentación con datos definitivos.
+El cálculo utiliza planos interiores reales de las chapas: Vcono = h/6(2W0D0 + W0D1 + W1D0 + 2W1D1) y Valerón = W1D1Halerón. La comprobación independiente integra los cortes horizontales de la geometría.
 
-Los proyectos guardados conservan identidad y cambios explícitos mediante el historial de bases. Los ajustes a componentes retirados se archivan. La revisión no crea otra alternativa ni reemplaza manualmente los datos del navegador.
+R16 se construye desde una copia inmutable de R15 y conserva su historial, el formato de proyecto y las modificaciones guardadas del usuario. Los demás equipos, fajas, bajantes y la estructura C01 conservan R15. El paquete nativo R16 contiene la estructura y el conjunto completo de T01, con planos PDF y exportaciones STEP. Los archivos de revisiones anteriores permanecen disponibles.
+
+Configurador: https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta

@@ -1,10 +1,12 @@
 {
-  "revision": "CORRECCIONES-2026-10-06-15",
+  "revision": "CORRECCIONES-2026-10-06-16",
   "date": "2026-10-06",
   "hopper": {
-    "revision": "T01-CONO20M3-3500-1000-2026-10-06",
-    "capacityBasis": "interior-conical-body-only",
-    "frustumCapacityM3": 20.000000000000004,
+    "revision": "T01-TOTAL20M3-3500-1000-R16-2026-10-06",
+    "sourceRevision": "R15",
+    "capacityBasis": "interior-total-cone-plus-upper-wall",
+    "totalCapacityM3": 20,
+    "frustumCapacityM3": 7.882987097500002,
     "upperCapacityM3": 12.117012902499997,
     "bodyOutletInteriorMm": [
       550,
@@ -19,20 +21,23 @@
       3500
     ],
     "plateThicknessMm": 9.525,
-    "bodyHeightMm": 4181.832123697997,
+    "bodyHeightMm": 1648.2664337511171,
     "upperWallHeightMm": 1000,
     "outletZMm": 1892,
-    "upperBaseZMm": 6073.832123697997,
-    "upperRimZMm": 7073.832123697997,
-    "supportZMm": 4398.3628677859015,
-    "supportDeltaMm": 824.8558677859014,
+    "upperBaseZMm": 3540.266433751117,
+    "upperRimZMm": 4540.266433751117,
+    "supportZMm": 2826.616685735665,
+    "supportDeltaMm": -1571.7461820502363,
     "previous": {
+      "sourceRevision": "R15",
       "innerUpperMm": [
-        3161.4726875363635,
-        3161.472687536364
+        3480.95,
+        3480.9500000000007
       ],
-      "bodyHeightMm": 2521,
-      "frustumCapacityM3": 10.125179652856728
+      "bodyHeightMm": 4181.832123697999,
+      "frustumCapacityM3": 20.000000000000018,
+      "upperCapacityM3": 12.117012902500003,
+      "totalCapacityM3": 32.11701290250002
     },
     "changedOccurrenceIds": [
       "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
@@ -84,256 +89,8 @@
       "R9_T01_ARRIOSTRE_2",
       "R9_T01_ARRIOSTRE_3"
     ],
-    "formula": "V = h/6 (2W0D0 + W0D1 + W1D0 + 2W1D1), dimensiones interiores; válido para rectángulos no semejantes",
-    "note": "20 m³ interiores corresponden solamente al tronco, sin contar alerón, montículo ni deducir rigidizadores. Exterior superior3500×3500, alerón1000 y chapa existente9.525. Descarga interior real550×556 yZ1892 conservadas. Suelo, planta, alimentador, conexiones y resto de equipos permanecen. Se elevan únicamente aro lateral, asientos, columnas y extremos superiores de riostras para mantener apoyo."
-  },
-  "transfer": {
-    "transferId": "TR10_INTERMEDIO_F06",
-    "oldTransfer": {
-      "id": "TR10_INTERMEDIO_F06",
-      "label": "Zaranda · intermedios → F03",
-      "start": {
-        "owner": "S01",
-        "local": [
-          -1750.9312688865982,
-          0,
-          -172.71715175077588
-        ],
-        "basis": "station"
-      },
-      "end": {
-        "owner": "F03",
-        "basis": "belt",
-        "axialReference": "tail",
-        "local": [
-          2000,
-          0,
-          400
-        ]
-      },
-      "waypoints": [
-        [
-          41800,
-          -5650,
-          2800
-        ],
-        [
-          38100,
-          -5650,
-          1750
-        ]
-      ],
-      "sizes": [
-        [
-          1140,
-          220
-        ],
-        [
-          500,
-          260
-        ],
-        [
-          500,
-          260
-        ],
-        [
-          500,
-          400
-        ]
-      ],
-      "thickness": 6,
-      "adaptation": "auto",
-      "sectionFrames": {
-        "start": "exit",
-        "end": "port",
-        "route": "sweep"
-      },
-      "routeReference": {
-        "start": [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        "end": [
-          38326.11740261758,
-          -4062.9348744632825,
-          1326.9620817097332
-        ],
-        "waypoints": [
-          [
-            41800,
-            -5650,
-            2800
-          ],
-          [
-            38100,
-            -5650,
-            1750
-          ]
-        ]
-      }
-    },
-    "newTransfer": {
-      "id": "TR10_INTERMEDIO_F06",
-      "label": "Zaranda · intermedios → F03",
-      "start": {
-        "owner": "S01",
-        "local": [
-          -1750.9312688865982,
-          0,
-          -172.71715175077588
-        ],
-        "basis": "station"
-      },
-      "end": {
-        "owner": "F03",
-        "basis": "belt",
-        "axialReference": "tail",
-        "local": [
-          2000,
-          0,
-          400
-        ]
-      },
-      "waypoints": [
-        [
-          41700,
-          -5700,
-          2750
-        ],
-        [
-          38100,
-          -5700,
-          1800
-        ]
-      ],
-      "sizes": [
-        [
-          1140,
-          220
-        ],
-        [
-          500,
-          260
-        ],
-        [
-          500,
-          260
-        ],
-        [
-          500,
-          400
-        ]
-      ],
-      "thickness": 6,
-      "adaptation": "auto",
-      "sectionFrames": {
-        "start": "exit",
-        "end": "port",
-        "route": "sweep"
-      },
-      "routeReference": {
-        "start": [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        "end": [
-          38326.11740261758,
-          -4062.9348744632825,
-          1326.9620817097332
-        ],
-        "waypoints": [
-          [
-            41700,
-            -5700,
-            2750
-          ],
-          [
-            38100,
-            -5700,
-            1800
-          ]
-        ]
-      }
-    },
-    "previous": {
-      "points": [
-        [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        [
-          41800,
-          -5650,
-          2800
-        ],
-        [
-          38100,
-          -5650,
-          1750
-        ],
-        [
-          38326.11740261758,
-          -4062.9348744632825,
-          1326.9620817097332
-        ]
-      ],
-      "lengthMm": 7697.114222399327,
-      "segmentLengthsMm": [
-        2193.04189198379,
-        3846.101922726437,
-        1657.9704076891
-      ],
-      "segmentSlopeDeg": [
-        13.912184092948564,
-        15.84308211768701,
-        14.782715455245864
-      ]
-    },
-    "current": {
-      "points": [
-        [
-          42154,
-          -3550.9312688865984,
-          3327.282848249224
-        ],
-        [
-          41700,
-          -5700,
-          2750
-        ],
-        [
-          38100,
-          -5700,
-          1800
-        ],
-        [
-          38326.11740261758,
-          -4062.9348744632825,
-          1326.9620817097332
-        ]
-      ],
-      "lengthMm": 7713.30715293314,
-      "segmentLengthsMm": [
-        2271.093987031823,
-        3723.2378382262928,
-        1718.9753276750246
-      ],
-      "segmentSlopeDeg": [
-        14.725423761810953,
-        14.782726042615675,
-        15.97309794208272
-      ]
-    },
-    "lengthChangeMm": 16.192930533812614,
-    "conflicts": [],
-    "secondaryWithin100Mm": [],
-    "verifiedSecondaryClearanceMm": 100,
-    "receiverFromTailMm": 2000,
-    "retainedElbows": 2,
-    "note": "Bajante desde la salida intermedia de S01 hasta F03. Dos codos conservan caída en los tres tramos y separación100mm respecto a J02. La recta atraviesa tolvin, volante y bastidor; el paso frontal admite sólo2,4° y se descarta. Se conserva boca1140×220, salida500×400, chapa6 y equipo/fajas. Longitud similar aR13; capacidad requiere caudal y granulometría."
+    "formula": "V total = h/6 (2W0D0 + W0D1 + W1D0 + 2W1D1) + W1D1 × H alerón, dimensiones interiores",
+    "note": "20 m³ útiles interiores incluyen cono de 7.8829870975 m³ y alerón de 12.1170129025 m³, hasta borde de chapa y sin montículo ni deducción de rigidizadores. Exterior 3500×3500, alerón 1000 y chapa 9.525. Descarga interior 550×556 y Z1892 conservadas. Bases, pernos, alimentador, posición y enlaces permanecen. Se acortan columnas y extremos superiores de tornapuntas, se ajustan aro lateral y recortes de asientos sin acumular el cambio XY de R15."
   },
   "collisions": [],
   "chuteConflicts": [],
@@ -343,13 +100,6 @@
       "members": 28,
       "grounded": 4,
       "contacts": 37,
-      "disconnected": []
-    },
-    {
-      "owner": "C01",
-      "members": 44,
-      "grounded": 6,
-      "contacts": 74,
       "disconnected": []
     }
   ],
@@ -365,5 +115,5 @@
     "floorZ": 0,
     "discharge": 3241.2052454144664
   },
-  "scope": "T01: boca3500, alerón1000,20m³ útiles solo tronco y descarga conservada. TR10: intermedios de zaranda a retorno. C01: revisión geométrica sin cambios."
+  "scope": "T01: 20 m³ interiores totales entre cono y alerón; boca exterior3500, alerón1000, descarga550×556 aZ1892 conservada. Resto de R15 conservado."
 }
