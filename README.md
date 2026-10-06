@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** incorpora **R14**: la plataforma del motor del cono de 3 pies se apoya en dos columnas exteriores con bases y amarre inferior; las riostras que sobresalían se sustituyen y el arriostre posterior termina en su columna. R13, sus correcciones de edición y el bajante de zaranda permanecen en el historial. Se conservan las posiciones, cotas y ajustes guardados.
+La alternativa **Propuesta AutoCAD** incorpora **R15**: tolva principal 3500×3500 mm, alerón 1000 mm y 20 m³ útiles sólo en el tronco, con la descarga conservada; bajante de intermedios hacia el retorno. La estructura del cono de 3 pies conserva R14 después de verificar sus apoyos y contactos. Historial y ajustes guardados conservados.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
