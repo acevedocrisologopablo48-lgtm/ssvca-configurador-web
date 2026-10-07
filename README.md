@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** registra **R20**: distribucion R17 y otros soportes aceptados conservados. T01 incorpora un collar exterior continuo de 170 x 8 mm, un aro de apoyo de 2600 x 2600 x 19 mm y ocho cartelas cortas. Cuatro canales del cono se recortan para terminar contra el aro y el collar. Conserva casco, capacidad interior de 20 m3, boca de 3500 x 3500 mm y descarga a Z1892 mm. Geometria y montaje referenciales; se requiere calculo resistente antes de fabricar. Se conserva el historial y se migran los ajustes guardados.
+La alternativa **Propuesta AutoCAD** registra **R21**: conserva distribución, equipos, cintas, bajantes y demás soportes aceptados. La tolva principal tiene cuatro columnas exteriores y un marco superior bajo el alerón, a Z3540,266 mm, con aro de asiento continuo. La losa del circuito se toma del DWG INDUMIN rev.01, conservando su contorno y cotas. Mantiene casco de 3500 x 3500 mm, alerón de 1000 mm, 20 m3 interiores y descarga a Z1892 mm. Geometría y montaje referenciales; requiere cálculo resistente antes de fabricar. Se conserva el historial y se migran los ajustes guardados.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
