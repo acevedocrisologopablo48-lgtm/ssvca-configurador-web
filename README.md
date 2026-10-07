@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** incorpora **R18**: distribucion por gravedad, bajantes de zaranda simplificados y apoyos revisados del cono, secundaria y martillos. T01 conserva 20 m3 interiores, boca de 3500 x 3500 mm y descarga a Z1892 mm. La altura maxima real es 6,272308 m y las seis cintas suman 84 m. Se conserva el historial y se migran los ajustes guardados; una posicion previa editada puede conservar sus advertencias. Para usar la distribucion verificada, abra la base R18 o importe ABRIR_PROPUESTA_R18_VERIFICADA.ssvca.json como nueva alternativa.
+La alternativa **Propuesta AutoCAD** registra **R19**: distribucion, posiciones, alturas, cintas y bajantes de R17, conservando las mejoras de los otros soportes de R18 y adaptandolos a esa distribucion. El soporte T01 incorpora ocho sillas proximas a las columnas y dieciseis rigidizadores; mantiene casco, capacidad interior de 20 m3, boca de 3500 x 3500 mm y descarga a Z1892 mm. La altura maxima real es 6,278098 m y las seis cintas suman 81 m. Se conserva el historial y se migran los ajustes guardados. Para abrir la configuracion comprobada, importe ABRIR_PROPUESTA_R17_SOPORTE_MEJORADO.ssvca.json como nueva alternativa.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
