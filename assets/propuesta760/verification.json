@@ -1,100 +1,75 @@
 {
-  "revision": "CORRECCIONES-2026-10-07-19",
-  "date": "2026-10-07",
-  "scope": "Distribución, equipos, cintas y bajantes exactos R17; mejoras de soportes R18 conservadas y apoyo T01 corregido.",
+  "revision": "CORRECCIONES-2026-10-07-20",
+  "scope": "Corrección exclusiva del soporte T01; distribución R17 y demás soportes aceptados R19 intactos.",
   "hopper": {
     "owner": "T01",
-    "revision": "T01-OCHO-SILLAS-R19-2026-10-07",
-    "sourceRevision": "R17",
+    "revision": "T01-COLLAR-CONTINUO-R20-2026-10-07",
+    "sourceRevision": "R19",
     "added": [
+      "R20_T01_COLLAR_0",
+      "R20_T01_COLLAR_0_ARO",
+      "R20_T01_COLLAR_0_CARTELA_0",
+      "R20_T01_COLLAR_0_CARTELA_1",
+      "R20_T01_COLLAR_1",
+      "R20_T01_COLLAR_1_ARO",
+      "R20_T01_COLLAR_1_CARTELA_0",
+      "R20_T01_COLLAR_1_CARTELA_1",
+      "R20_T01_COLLAR_2",
+      "R20_T01_COLLAR_2_ARO",
+      "R20_T01_COLLAR_2_CARTELA_0",
+      "R20_T01_COLLAR_2_CARTELA_1",
+      "R20_T01_COLLAR_3",
+      "R20_T01_COLLAR_3_ARO",
+      "R20_T01_COLLAR_3_CARTELA_0",
+      "R20_T01_COLLAR_3_CARTELA_1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR"
+    ],
+    "removed": [
       "R19_T01_SILLA_0_0_CHAPA",
       "R19_T01_SILLA_0_0_ASIENTO",
       "R19_T01_SILLA_0_0_CARTELA_0",
       "R19_T01_SILLA_0_0_CARTELA_1",
-      "R19_T01_SILLA_0_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_0_0_RIGIDIZADOR_1",
       "R19_T01_SILLA_0_1_CHAPA",
       "R19_T01_SILLA_0_1_ASIENTO",
       "R19_T01_SILLA_0_1_CARTELA_0",
       "R19_T01_SILLA_0_1_CARTELA_1",
-      "R19_T01_SILLA_0_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_0_1_RIGIDIZADOR_1",
       "R19_T01_SILLA_1_0_CHAPA",
       "R19_T01_SILLA_1_0_ASIENTO",
       "R19_T01_SILLA_1_0_CARTELA_0",
       "R19_T01_SILLA_1_0_CARTELA_1",
-      "R19_T01_SILLA_1_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_1_0_RIGIDIZADOR_1",
       "R19_T01_SILLA_1_1_CHAPA",
       "R19_T01_SILLA_1_1_ASIENTO",
       "R19_T01_SILLA_1_1_CARTELA_0",
       "R19_T01_SILLA_1_1_CARTELA_1",
-      "R19_T01_SILLA_1_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_1_1_RIGIDIZADOR_1",
       "R19_T01_SILLA_2_0_CHAPA",
       "R19_T01_SILLA_2_0_ASIENTO",
       "R19_T01_SILLA_2_0_CARTELA_0",
       "R19_T01_SILLA_2_0_CARTELA_1",
-      "R19_T01_SILLA_2_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_2_0_RIGIDIZADOR_1",
       "R19_T01_SILLA_2_1_CHAPA",
       "R19_T01_SILLA_2_1_ASIENTO",
       "R19_T01_SILLA_2_1_CARTELA_0",
       "R19_T01_SILLA_2_1_CARTELA_1",
-      "R19_T01_SILLA_2_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_2_1_RIGIDIZADOR_1",
       "R19_T01_SILLA_3_0_CHAPA",
       "R19_T01_SILLA_3_0_ASIENTO",
       "R19_T01_SILLA_3_0_CARTELA_0",
       "R19_T01_SILLA_3_0_CARTELA_1",
-      "R19_T01_SILLA_3_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_3_0_RIGIDIZADOR_1",
       "R19_T01_SILLA_3_1_CHAPA",
       "R19_T01_SILLA_3_1_ASIENTO",
       "R19_T01_SILLA_3_1_CARTELA_0",
       "R19_T01_SILLA_3_1_CARTELA_1",
-      "R19_T01_SILLA_3_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_3_1_RIGIDIZADOR_1"
-    ],
-    "removed": [
-      "R17_T01_SILLA_0_CHAPA",
-      "R17_T01_SILLA_0_ASIENTO",
-      "R17_T01_SILLA_0_CARTELA_0",
-      "R17_T01_SILLA_0_CARTELA_1",
-      "R17_T01_SILLA_1_CHAPA",
-      "R17_T01_SILLA_1_ASIENTO",
-      "R17_T01_SILLA_1_CARTELA_0",
-      "R17_T01_SILLA_1_CARTELA_1",
-      "R17_T01_SILLA_2_CHAPA",
-      "R17_T01_SILLA_2_ASIENTO",
-      "R17_T01_SILLA_2_CARTELA_0",
-      "R17_T01_SILLA_2_CARTELA_1",
-      "R17_T01_SILLA_3_CHAPA",
-      "R17_T01_SILLA_3_ASIENTO",
-      "R17_T01_SILLA_3_CARTELA_0",
-      "R17_T01_SILLA_3_CARTELA_1"
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
+      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3"
     ],
     "contacts": [
-      {
-        "a": "R19_T01_SILLA_0_0_CARTELA_0",
-        "b": "R19_T01_SILLA_0_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_0_CARTELA_0",
-        "b": "R19_T01_SILLA_0_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_0_CARTELA_1",
-        "b": "R19_T01_SILLA_0_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_0_CARTELA_1",
-        "b": "R19_T01_SILLA_0_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
       {
         "a": "R19_T01_SILLA_0_0_RIGIDIZADOR_0",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
@@ -104,37 +79,6 @@
         "a": "R19_T01_SILLA_0_0_RIGIDIZADOR_1",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
         "kind": "web-and-flange-stiffener-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_0_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_0_0_CHAPA",
-        "b": "R19_T01_SILLA_0_0_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_1_CARTELA_0",
-        "b": "R19_T01_SILLA_0_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_1_CARTELA_0",
-        "b": "R19_T01_SILLA_0_1_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_1_CARTELA_1",
-        "b": "R19_T01_SILLA_0_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_0_1_CARTELA_1",
-        "b": "R19_T01_SILLA_0_1_ASIENTO",
-        "kind": "rib-foot-weld"
       },
       {
         "a": "R19_T01_SILLA_0_1_RIGIDIZADOR_0",
@@ -147,37 +91,6 @@
         "kind": "web-and-flange-stiffener-weld"
       },
       {
-        "a": "R19_T01_SILLA_0_1_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_0_1_CHAPA",
-        "b": "R19_T01_SILLA_0_1_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_0_CARTELA_0",
-        "b": "R19_T01_SILLA_1_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_0_CARTELA_0",
-        "b": "R19_T01_SILLA_1_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_0_CARTELA_1",
-        "b": "R19_T01_SILLA_1_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_0_CARTELA_1",
-        "b": "R19_T01_SILLA_1_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
         "a": "R19_T01_SILLA_1_0_RIGIDIZADOR_0",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
         "kind": "web-and-flange-stiffener-weld"
@@ -186,37 +99,6 @@
         "a": "R19_T01_SILLA_1_0_RIGIDIZADOR_1",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
         "kind": "web-and-flange-stiffener-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_0_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_1_0_CHAPA",
-        "b": "R19_T01_SILLA_1_0_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_1_CARTELA_0",
-        "b": "R19_T01_SILLA_1_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_1_CARTELA_0",
-        "b": "R19_T01_SILLA_1_1_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_1_CARTELA_1",
-        "b": "R19_T01_SILLA_1_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_1_1_CARTELA_1",
-        "b": "R19_T01_SILLA_1_1_ASIENTO",
-        "kind": "rib-foot-weld"
       },
       {
         "a": "R19_T01_SILLA_1_1_RIGIDIZADOR_0",
@@ -229,37 +111,6 @@
         "kind": "web-and-flange-stiffener-weld"
       },
       {
-        "a": "R19_T01_SILLA_1_1_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_1_1_CHAPA",
-        "b": "R19_T01_SILLA_1_1_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_0_CARTELA_0",
-        "b": "R19_T01_SILLA_2_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_0_CARTELA_0",
-        "b": "R19_T01_SILLA_2_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_0_CARTELA_1",
-        "b": "R19_T01_SILLA_2_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_0_CARTELA_1",
-        "b": "R19_T01_SILLA_2_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
         "a": "R19_T01_SILLA_2_0_RIGIDIZADOR_0",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
         "kind": "web-and-flange-stiffener-weld"
@@ -268,37 +119,6 @@
         "a": "R19_T01_SILLA_2_0_RIGIDIZADOR_1",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
         "kind": "web-and-flange-stiffener-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_0_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_2_0_CHAPA",
-        "b": "R19_T01_SILLA_2_0_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_1_CARTELA_0",
-        "b": "R19_T01_SILLA_2_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_1_CARTELA_0",
-        "b": "R19_T01_SILLA_2_1_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_1_CARTELA_1",
-        "b": "R19_T01_SILLA_2_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_2_1_CARTELA_1",
-        "b": "R19_T01_SILLA_2_1_ASIENTO",
-        "kind": "rib-foot-weld"
       },
       {
         "a": "R19_T01_SILLA_2_1_RIGIDIZADOR_0",
@@ -311,37 +131,6 @@
         "kind": "web-and-flange-stiffener-weld"
       },
       {
-        "a": "R19_T01_SILLA_2_1_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_2_1_CHAPA",
-        "b": "R19_T01_SILLA_2_1_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_0_CARTELA_0",
-        "b": "R19_T01_SILLA_3_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_0_CARTELA_0",
-        "b": "R19_T01_SILLA_3_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_0_CARTELA_1",
-        "b": "R19_T01_SILLA_3_0_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_0_CARTELA_1",
-        "b": "R19_T01_SILLA_3_0_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
         "a": "R19_T01_SILLA_3_0_RIGIDIZADOR_0",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
         "kind": "web-and-flange-stiffener-weld"
@@ -350,37 +139,6 @@
         "a": "R19_T01_SILLA_3_0_RIGIDIZADOR_1",
         "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
         "kind": "web-and-flange-stiffener-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_0_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
-      },
-      {
-        "a": "R19_T01_SILLA_3_0_CHAPA",
-        "b": "R19_T01_SILLA_3_0_ASIENTO",
-        "kind": "pad-lower-edge-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_1_CARTELA_0",
-        "b": "R19_T01_SILLA_3_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_1_CARTELA_0",
-        "b": "R19_T01_SILLA_3_1_ASIENTO",
-        "kind": "rib-foot-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_1_CARTELA_1",
-        "b": "R19_T01_SILLA_3_1_CHAPA",
-        "kind": "continuous-inclined-rib-weld"
-      },
-      {
-        "a": "R19_T01_SILLA_3_1_CARTELA_1",
-        "b": "R19_T01_SILLA_3_1_ASIENTO",
-        "kind": "rib-foot-weld"
       },
       {
         "a": "R19_T01_SILLA_3_1_RIGIDIZADOR_0",
@@ -393,292 +151,357 @@
         "kind": "web-and-flange-stiffener-weld"
       },
       {
-        "a": "R19_T01_SILLA_3_1_ASIENTO",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-        "kind": "saddle-flange-bearing",
-        "areaMm2": 28497.300720214844
+        "a": "R20_T01_COLLAR_0",
+        "b": "R20_T01_COLLAR_0_ARO",
+        "kind": "continuous-collar-bearing-and-weld"
       },
       {
-        "a": "R19_T01_SILLA_3_1_CHAPA",
-        "b": "R19_T01_SILLA_3_1_ASIENTO",
-        "kind": "pad-lower-edge-weld"
+        "a": "R20_T01_COLLAR_0_ARO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
+        "kind": "continuous-ring-flange-bearing"
+      },
+      {
+        "a": "R20_T01_COLLAR_0_CARTELA_0",
+        "b": "R20_T01_COLLAR_0",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0_CARTELA_0",
+        "b": "R20_T01_COLLAR_0_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0_CARTELA_1",
+        "b": "R20_T01_COLLAR_0",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0_CARTELA_1",
+        "b": "R20_T01_COLLAR_0_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1",
+        "b": "R20_T01_COLLAR_1_ARO",
+        "kind": "continuous-collar-bearing-and-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_ARO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
+        "kind": "continuous-ring-flange-bearing"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_CARTELA_0",
+        "b": "R20_T01_COLLAR_1",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_CARTELA_0",
+        "b": "R20_T01_COLLAR_1_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_CARTELA_1",
+        "b": "R20_T01_COLLAR_1",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_CARTELA_1",
+        "b": "R20_T01_COLLAR_1_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_2",
+        "b": "R20_T01_COLLAR_2_ARO",
+        "kind": "continuous-collar-bearing-and-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_2_ARO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
+        "kind": "continuous-ring-flange-bearing"
+      },
+      {
+        "a": "R20_T01_COLLAR_2_CARTELA_0",
+        "b": "R20_T01_COLLAR_2",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_2_CARTELA_0",
+        "b": "R20_T01_COLLAR_2_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_2_CARTELA_1",
+        "b": "R20_T01_COLLAR_2",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_2_CARTELA_1",
+        "b": "R20_T01_COLLAR_2_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_3",
+        "b": "R20_T01_COLLAR_3_ARO",
+        "kind": "continuous-collar-bearing-and-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_3_ARO",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "kind": "continuous-ring-flange-bearing"
+      },
+      {
+        "a": "R20_T01_COLLAR_3_CARTELA_0",
+        "b": "R20_T01_COLLAR_3",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_3_CARTELA_0",
+        "b": "R20_T01_COLLAR_3_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_3_CARTELA_1",
+        "b": "R20_T01_COLLAR_3",
+        "kind": "rib-inclined-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_3_CARTELA_1",
+        "b": "R20_T01_COLLAR_3_ARO",
+        "kind": "rib-foot-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0",
+        "b": "R20_T01_COLLAR_2",
+        "kind": "collar-bisector-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0_ARO",
+        "b": "R20_T01_COLLAR_2_ARO",
+        "kind": "bearing-ring-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0",
+        "b": "R20_T01_COLLAR_3",
+        "kind": "collar-bisector-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_0_ARO",
+        "b": "R20_T01_COLLAR_3_ARO",
+        "kind": "bearing-ring-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1",
+        "b": "R20_T01_COLLAR_2",
+        "kind": "collar-bisector-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_ARO",
+        "b": "R20_T01_COLLAR_2_ARO",
+        "kind": "bearing-ring-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1",
+        "b": "R20_T01_COLLAR_3",
+        "kind": "collar-bisector-miter-weld"
+      },
+      {
+        "a": "R20_T01_COLLAR_1_ARO",
+        "b": "R20_T01_COLLAR_3_ARO",
+        "kind": "bearing-ring-miter-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+        "b": "R20_T01_COLLAR_2_ARO",
+        "kind": "lower-channel-ring-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+        "b": "R20_T01_COLLAR_2",
+        "kind": "upper-channel-collar-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "b": "R20_T01_COLLAR_1_ARO",
+        "kind": "lower-channel-ring-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "b": "R20_T01_COLLAR_1",
+        "kind": "upper-channel-collar-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+        "b": "R20_T01_COLLAR_3_ARO",
+        "kind": "lower-channel-ring-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+        "b": "R20_T01_COLLAR_3",
+        "kind": "upper-channel-collar-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+        "b": "R20_T01_COLLAR_0_ARO",
+        "kind": "lower-channel-ring-butt-weld"
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "b": "R20_T01_COLLAR_0",
+        "kind": "upper-channel-collar-butt-weld"
       }
     ],
     "crownTopZMm": 2826.616685735665,
     "columnAxesMm": 2480,
-    "loadLeverArmMm": 240,
+    "collarHeightMm": 170,
+    "collarThicknessMm": 8,
     "seatThicknessMm": 19,
-    "stiffenerThicknessMm": 8,
-    "saddles": [
+    "collarBottomZMm": 2845.616685735665,
+    "collarTopZMm": 3015.616685735665,
+    "ringExteriorMm": [
+      2600,
+      2600
+    ],
+    "ringInteriorMm": [
+      2274.119065282991,
+      2274.119065282991
+    ],
+    "collars": [
       {
         "face": 0,
-        "tangentMm": -1000,
-        "pad": "R19_T01_SILLA_0_0_CHAPA",
-        "seat": "R19_T01_SILLA_0_0_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_0_0_CARTELA_0",
-          "R19_T01_SILLA_0_0_CARTELA_1"
-        ],
-        "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-        "stiffeners": [
-          "R19_T01_SILLA_0_0_RIGIDIZADOR_0",
-          "R19_T01_SILLA_0_0_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53523.829867693945,
-        "bearingAreaMm2": 28497.300720214844,
+        "id": "R20_T01_COLLAR_0",
         "normal": [
           -0.747330676800901,
           0,
           -0.6644523004041052
         ],
         "innerPlanePoint": [
-          -1140.3328379147838,
-          -1000,
-          2850.932304138898
+          -1135.6067173556523,
+          0,
+          2845.616685735665
         ],
-        "tangentialMarginMm": 40.332837914783795
-      },
-      {
-        "face": 0,
-        "tangentMm": 1000,
-        "pad": "R19_T01_SILLA_0_1_CHAPA",
-        "seat": "R19_T01_SILLA_0_1_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_0_1_CARTELA_0",
-          "R19_T01_SILLA_0_1_CARTELA_1"
-        ],
+        "ring": "R20_T01_COLLAR_0_ARO",
         "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-        "stiffeners": [
-          "R19_T01_SILLA_0_1_RIGIDIZADOR_0",
-          "R19_T01_SILLA_0_1_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53523.829867693945,
-        "bearingAreaMm2": 28497.300720214844,
-        "normal": [
-          -0.747330676800901,
-          0,
-          -0.6644523004041052
-        ],
-        "innerPlanePoint": [
-          -1140.3328379147838,
-          1000,
-          2850.932304138898
-        ],
-        "tangentialMarginMm": 40.332837914783795
+        "gussets": [
+          "R20_T01_COLLAR_0_CARTELA_0",
+          "R20_T01_COLLAR_0_CARTELA_1"
+        ]
       },
       {
         "face": 1,
-        "tangentMm": -1000,
-        "pad": "R19_T01_SILLA_1_0_CHAPA",
-        "seat": "R19_T01_SILLA_1_0_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_1_0_CARTELA_0",
-          "R19_T01_SILLA_1_0_CARTELA_1"
-        ],
-        "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-        "stiffeners": [
-          "R19_T01_SILLA_1_0_RIGIDIZADOR_0",
-          "R19_T01_SILLA_1_0_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53523.829867693945,
-        "bearingAreaMm2": 28497.300720214844,
+        "id": "R20_T01_COLLAR_1",
         "normal": [
           0.747330676800901,
           0,
           -0.6644523004041052
         ],
         "innerPlanePoint": [
-          1140.3328379147838,
-          -1000,
-          2850.932304138898
+          1135.6067173556523,
+          0,
+          2845.616685735665
         ],
-        "tangentialMarginMm": 40.332837914783795
-      },
-      {
-        "face": 1,
-        "tangentMm": 1000,
-        "pad": "R19_T01_SILLA_1_1_CHAPA",
-        "seat": "R19_T01_SILLA_1_1_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_1_1_CARTELA_0",
-          "R19_T01_SILLA_1_1_CARTELA_1"
-        ],
+        "ring": "R20_T01_COLLAR_1_ARO",
         "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-        "stiffeners": [
-          "R19_T01_SILLA_1_1_RIGIDIZADOR_0",
-          "R19_T01_SILLA_1_1_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53523.829867693945,
-        "bearingAreaMm2": 28497.300720214844,
-        "normal": [
-          0.747330676800901,
-          0,
-          -0.6644523004041052
-        ],
-        "innerPlanePoint": [
-          1140.3328379147838,
-          1000,
-          2850.932304138898
-        ],
-        "tangentialMarginMm": 40.332837914783795
+        "gussets": [
+          "R20_T01_COLLAR_1_CARTELA_0",
+          "R20_T01_COLLAR_1_CARTELA_1"
+        ]
       },
       {
         "face": 2,
-        "tangentMm": -1000,
-        "pad": "R19_T01_SILLA_2_0_CHAPA",
-        "seat": "R19_T01_SILLA_2_0_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_2_0_CARTELA_0",
-          "R19_T01_SILLA_2_0_CARTELA_1"
-        ],
-        "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-        "stiffeners": [
-          "R19_T01_SILLA_2_0_RIGIDIZADOR_0",
-          "R19_T01_SILLA_2_0_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53475.482918299174,
-        "bearingAreaMm2": 28497.300720214844,
+        "id": "R20_T01_COLLAR_2",
         "normal": [
           0,
           -0.7480063351856538,
           -0.6636915869002163
         ],
         "innerPlanePoint": [
-          -1000,
-          -1141.5705785436699,
-          2850.926218430867
+          0,
+          -1136.8595326414954,
+          2845.616685735665
         ],
-        "tangentialMarginMm": 41.57057854366985
-      },
-      {
-        "face": 2,
-        "tangentMm": 1000,
-        "pad": "R19_T01_SILLA_2_1_CHAPA",
-        "seat": "R19_T01_SILLA_2_1_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_2_1_CARTELA_0",
-          "R19_T01_SILLA_2_1_CARTELA_1"
-        ],
+        "ring": "R20_T01_COLLAR_2_ARO",
         "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-        "stiffeners": [
-          "R19_T01_SILLA_2_1_RIGIDIZADOR_0",
-          "R19_T01_SILLA_2_1_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53475.482918299174,
-        "bearingAreaMm2": 28497.300720214844,
-        "normal": [
-          0,
-          -0.7480063351856538,
-          -0.6636915869002163
-        ],
-        "innerPlanePoint": [
-          1000,
-          -1141.5705785436699,
-          2850.926218430867
-        ],
-        "tangentialMarginMm": 41.57057854366985
+        "gussets": [
+          "R20_T01_COLLAR_2_CARTELA_0",
+          "R20_T01_COLLAR_2_CARTELA_1"
+        ]
       },
       {
         "face": 3,
-        "tangentMm": -1000,
-        "pad": "R19_T01_SILLA_3_0_CHAPA",
-        "seat": "R19_T01_SILLA_3_0_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_3_0_CARTELA_0",
-          "R19_T01_SILLA_3_0_CARTELA_1"
-        ],
-        "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-        "stiffeners": [
-          "R19_T01_SILLA_3_0_RIGIDIZADOR_0",
-          "R19_T01_SILLA_3_0_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53475.482918299174,
-        "bearingAreaMm2": 28497.300720214844,
+        "id": "R20_T01_COLLAR_3",
         "normal": [
           0,
           0.7480063351856538,
           -0.6636915869002163
         ],
         "innerPlanePoint": [
-          -1000,
-          1141.5705785436699,
-          2850.926218430867
-        ],
-        "tangentialMarginMm": 41.57057854366985
-      },
-      {
-        "face": 3,
-        "tangentMm": 1000,
-        "pad": "R19_T01_SILLA_3_1_CHAPA",
-        "seat": "R19_T01_SILLA_3_1_ASIENTO",
-        "gussets": [
-          "R19_T01_SILLA_3_1_CARTELA_0",
-          "R19_T01_SILLA_3_1_CARTELA_1"
-        ],
-        "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-        "stiffeners": [
-          "R19_T01_SILLA_3_1_RIGIDIZADOR_0",
-          "R19_T01_SILLA_3_1_RIGIDIZADOR_1"
-        ],
-        "surfaceAreaMm2": 53475.482918299174,
-        "bearingAreaMm2": 28497.300720214844,
-        "normal": [
           0,
-          0.7480063351856538,
-          -0.6636915869002163
+          1136.8595326414954,
+          2845.616685735665
         ],
-        "innerPlanePoint": [
-          1000,
-          1141.5705785436699,
-          2850.926218430867
-        ],
-        "tangentialMarginMm": 41.57057854366985
+        "ring": "R20_T01_COLLAR_3_ARO",
+        "hostBeam": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
+        "gussets": [
+          "R20_T01_COLLAR_3_CARTELA_0",
+          "R20_T01_COLLAR_3_CARTELA_1"
+        ]
       }
     ],
-    "stiffenerContourMm": [
-      [
-        3.1115000247955322,
-        -80.39099884033203
-      ],
-      [
-        4.472681999206543,
-        -85.47099304199219
-      ],
-      [
-        8.191499710083008,
-        -89.1898193359375
-      ],
-      [
-        13.271500587463379,
-        -90.55099487304688
-      ],
-      [
-        82.48650360107422,
-        -90.55099487304688
-      ],
-      [
-        82.48650360107422,
-        90.55099487304688
-      ],
-      [
-        13.271500587463379,
-        90.55099487304688
-      ],
-      [
-        8.191499710083008,
-        89.1898193359375
-      ],
-      [
-        4.472681999206543,
-        85.47099304199219
-      ],
-      [
-        3.1115000247955322,
-        80.39099884033203
-      ]
+    "trimmedShellRibs": [
+      {
+        "originalId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
+        "lowerId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+        "upperId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+        "face": 2,
+        "lowerCutZMm": 2826.616685735665,
+        "upperCutZMm": 3015.616685735665
+      },
+      {
+        "originalId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
+        "lowerId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "upperId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "face": 1,
+        "lowerCutZMm": 2826.616685735665,
+        "upperCutZMm": 3015.616685735665
+      },
+      {
+        "originalId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
+        "lowerId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+        "upperId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+        "face": 3,
+        "lowerCutZMm": 2826.616685735665,
+        "upperCutZMm": 3015.616685735665
+      },
+      {
+        "originalId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
+        "lowerId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+        "upperId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "face": 0,
+        "lowerCutZMm": 2826.616685735665,
+        "upperCutZMm": 3015.616685735665
+      }
+    ],
+    "retainedStiffeners": [
+      "R19_T01_SILLA_0_0_RIGIDIZADOR_0",
+      "R19_T01_SILLA_0_0_RIGIDIZADOR_1",
+      "R19_T01_SILLA_0_1_RIGIDIZADOR_0",
+      "R19_T01_SILLA_0_1_RIGIDIZADOR_1",
+      "R19_T01_SILLA_1_0_RIGIDIZADOR_0",
+      "R19_T01_SILLA_1_0_RIGIDIZADOR_1",
+      "R19_T01_SILLA_1_1_RIGIDIZADOR_0",
+      "R19_T01_SILLA_1_1_RIGIDIZADOR_1",
+      "R19_T01_SILLA_2_0_RIGIDIZADOR_0",
+      "R19_T01_SILLA_2_0_RIGIDIZADOR_1",
+      "R19_T01_SILLA_2_1_RIGIDIZADOR_0",
+      "R19_T01_SILLA_2_1_RIGIDIZADOR_1",
+      "R19_T01_SILLA_3_0_RIGIDIZADOR_0",
+      "R19_T01_SILLA_3_0_RIGIDIZADOR_1",
+      "R19_T01_SILLA_3_1_RIGIDIZADOR_0",
+      "R19_T01_SILLA_3_1_RIGIDIZADOR_1"
     ],
     "vesselCapacityPreservedM3": 20,
-    "scope": "Ocho sillas exteriores próximas a las cuatro columnas y dieciséis rigidizadores que siguen los filetes reales de las vigas. Casco, alimentador, marco, columnas, arriostres, bases y distribución R17 conservados. Montaje geométrico preliminar; secciones sin cálculo resistente."
+    "scope": "Collar exterior continuo de cuatro chapas con uniones a inglete, aro de apoyo continuo y ocho cartelas cortas. Cuatro canales exteriores del cono se dividen y rematan contra aro y collar. Se conservan vigas, columnas, tres caras arriostradas, frente abierto, bases y 16 rigidizadores R19. Geometría preliminar; requiere cálculo resistente y de uniones antes de fabricar."
   },
   "hopperValidation": {
     "ok": true,
@@ -699,382 +522,1090 @@
     "contacts": [
       {
         "deltaMm": 0,
-        "joints": 64,
+        "joints": 56,
         "disconnected": []
       },
       {
         "deltaMm": -300,
-        "joints": 64,
+        "joints": 56,
         "disconnected": []
       },
       {
         "deltaMm": 300,
-        "joints": 64,
+        "joints": 56,
         "disconnected": []
       }
     ]
   },
-  "clearance": {
-    "minimumRequiredMm": 100,
-    "toleranceMm": 0.1,
-    "passed": true,
-    "pairsBelowMinimum": [],
-    "method": "Triángulos transformados, intersección y distancias bidireccionales de vértice a triángulo; umbral 99,9 mm."
-  },
-  "secondaryFrame": {
-    "columns": [
-      [
-        -150,
-        -1900,
-        1262.947998046875
-      ],
-      [
-        -150,
-        300,
-        1262.947998046875
-      ],
-      [
-        1290,
-        -1900,
-        1262.947998046875
-      ],
-      [
-        1290,
-        300,
-        1262.947998046875
-      ],
-      [
-        -1300,
-        -1900,
-        1787.947998046875
-      ],
-      [
-        -1300,
-        800,
-        1787.947998046875
-      ]
-    ],
-    "created": [
-      "R18_J02_PEDESTAL_0",
-      "R18_J02_BASE_0",
-      "R18_J02_ANCLAS_0",
-      "R18_J02_COLUMNA_0",
-      "R18_J02_PEDESTAL_1",
-      "R18_J02_BASE_1",
-      "R18_J02_ANCLAS_1",
-      "R18_J02_COLUMNA_1",
-      "R18_J02_PEDESTAL_2",
-      "R18_J02_BASE_2",
-      "R18_J02_ANCLAS_2",
-      "R18_J02_COLUMNA_2",
-      "R18_J02_PEDESTAL_3",
-      "R18_J02_BASE_3",
-      "R18_J02_ANCLAS_3",
-      "R18_J02_COLUMNA_3",
-      "R18_J02_PEDESTAL_4",
-      "R18_J02_BASE_4",
-      "R18_J02_ANCLAS_4",
-      "R18_J02_COLUMNA_4",
-      "R18_J02_PEDESTAL_5",
-      "R18_J02_BASE_5",
-      "R18_J02_ANCLAS_5",
-      "R18_J02_COLUMNA_5",
-      "R18_J02_CABEZAL_POSTERIOR",
-      "R18_J02_CABEZAL_FRONTAL",
-      "R18_J02_BRAZO_BRIDA_0_0",
-      "R18_J02_BRAZO_BRIDA_0_1",
-      "R18_J02_ASIENTO_BRIDA_0",
-      "R18_J02_BRAZO_BRIDA_1_0",
-      "R18_J02_BRAZO_BRIDA_1_1",
-      "R18_J02_ASIENTO_BRIDA_1",
-      "R18_J02_PORTICO_MOTOR",
-      "R18_J02_BRAZO_MOTOR_0",
-      "R18_J02_BRAZO_MOTOR_1",
-      "R18_J02_ASIENTO_MOTOR_0",
-      "R18_J02_ASIENTO_MOTOR_1",
-      "R18_J02_ASIENTO_MOTOR_2"
-    ],
-    "flangeSeatTop": 1450,
-    "motorSeatTop": 1950,
-    "referenceOnly": true
-  },
-  "secondaryAdaptation": {
-    "changed": [
-      "R18_J02_PEDESTAL_1",
-      "R18_J02_BASE_1",
-      "R18_J02_ANCLAS_1",
-      "R18_J02_COLUMNA_1",
-      "R18_J02_PEDESTAL_5",
-      "R18_J02_BASE_5",
-      "R18_J02_ANCLAS_5",
-      "R18_J02_COLUMNA_5",
-      "R18_J02_CABEZAL_FRONTAL",
-      "R18_J02_BRAZO_BRIDA_0_1",
-      "R18_J02_BRAZO_BRIDA_1_1",
-      "R18_J02_PEDESTAL_4",
-      "R18_J02_BASE_4",
-      "R18_J02_ANCLAS_4",
-      "R18_J02_COLUMNA_4",
-      "R18_J02_PEDESTAL_5",
-      "R18_J02_BASE_5",
-      "R18_J02_ANCLAS_5",
-      "R18_J02_COLUMNA_5",
-      "R18_J02_PORTICO_MOTOR",
-      "R18_J02_BRAZO_MOTOR_0",
-      "R18_J02_BRAZO_MOTOR_1"
-    ],
-    "added": [
-      "CIRCUITO_J02_R19_MONTANTE_MOTOR_0_48",
-      "CIRCUITO_J02_R19_MONTANTE_MOTOR_1_50"
-    ],
-    "frontColumnY": 1400,
-    "motorFrontColumnY": 1800,
-    "motorPortalZ": 1343.9739990234375,
-    "motorMountZ": 1950,
-    "reason": "Mantener el paso libre de la F03 y del bajante intermedio R17 conservando las seis columnas R18."
-  },
-  "hammerFrame": {
-    "rows": [
-      {
-        "index": 1,
-        "newColumn": "CIRCUITO_H01_R18_COLUMNA_1_51",
-        "bridge": "CIRCUITO_H01_R18_PUENTE_1_52",
-        "displacementWorldX": 400
-      },
-      {
-        "index": 3,
-        "newColumn": "CIRCUITO_H01_R18_COLUMNA_3_53",
-        "bridge": "CIRCUITO_H01_R18_PUENTE_3_54",
-        "displacementWorldX": 400
-      }
-    ]
-  },
-  "hammerAdaptation": {
-    "changes": [
-      {
-        "index": 1,
-        "column": "CIRCUITO_H01_R19_COLUMNA_1_55",
-        "bridge": "CIRCUITO_H01_R19_PUENTE_1_56",
-        "displacementWorldXFromR17": -400
-      },
-      {
-        "index": 3,
-        "brace": "PROPUESTA_H01_R9_BASTIDOR_CARTABON_EXTREMO_1",
-        "newColumnHost": "CIRCUITO_H01_R19_COLUMNA_3_57"
-      },
-      {
-        "index": 3,
-        "column": "CIRCUITO_H01_R19_COLUMNA_3_57",
-        "bridge": "CIRCUITO_H01_R19_PUENTE_3_58",
-        "displacementWorldXFromR17": -400
-      }
-    ],
-    "reason": "Orientar hacia afuera el puente R18 para despejar la F04 restaurada de R17."
-  },
-  "guidePassages": {
-    "changes": [
-      {
-        "component": "R9_S01_DIAGONAL_LATERAL_0_0",
-        "verticalRelocationMm": -500,
-        "reason": "Descarga de finos despejada; extremos conservados sobre caras de columnas continuas."
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_POSTE_FALDON_6",
-        "guideBracketAxialRelocationMm": -880
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_PIE_FALDON_15",
-        "guideBracketAxialRelocationMm": -880
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_FALDON_COLA_1",
-        "horizontalWallUpperZ": 1125
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_POSTE_FALDON_4",
-        "maximumGuideZ": 1150
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_POSTE_FALDON_6",
-        "maximumGuideZ": 1150
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_BORDE_FALDON_8",
-        "horizontalUpperGuideZ": 1150
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_FALDON_COLA_9",
-        "horizontalWallUpperZ": 1125
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_POSTE_FALDON_12",
-        "maximumGuideZ": 1150
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_POSTE_FALDON_14",
-        "maximumGuideZ": 1150
-      },
-      {
-        "component": "DETALLE_F03_EXTREMO_BORDE_FALDON_16",
-        "horizontalUpperGuideZ": 1150
-      },
-      {
-        "component": "DETALLE_F04_EXTREMO_POSTE_FALDON_12",
-        "foot": "DETALLE_F04_EXTREMO_PIE_FALDON_13",
-        "guideBracketAxialRelocationMm": 650
-      }
-    ]
-  },
-  "joints": {
-    "beltSupports": {
-      "owners": [
-        "F02",
-        "F03"
-      ],
-      "changed": [
-        {
-          "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_1-1",
-          "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_-1-1",
-          "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_1-1",
-          "bottomZ": 15,
-          "topZ": 4332.924445780114,
-          "minZ": 15.099999189851399,
-          "maxZ": 4332.824505620096
-        },
-        {
-          "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_0-1",
-          "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_1-1",
-          "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_0-1",
-          "bottomZ": 15,
-          "topZ": 3599.6258099418487,
-          "minZ": 15.099999164939721,
-          "maxZ": 3599.526074313997
-        },
-        {
-          "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_-1_0-1",
-          "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_-1-1",
-          "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_0-1",
-          "bottomZ": 15,
-          "topZ": 3599.6258099418487,
-          "minZ": 15.099999164939721,
-          "maxZ": 3599.526074313997
-        },
-        {
-          "member": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PUNTAL_1_1-1",
-          "plate": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_PLACA_1-1",
-          "beam": "F02_CONJUNTO-1/F02_ESTRUCTURAS-1/F02_SOPORTE_CABEZAL_V-1/F02_V_TRAVESANO_1-1",
-          "bottomZ": 15,
-          "topZ": 4332.924445780114,
-          "minZ": 15.099999189851399,
-          "maxZ": 4332.824505620096
-        },
-        {
-          "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_0-1",
-          "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_-1-1",
-          "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_0-1",
-          "bottomZ": 15,
-          "topZ": 1840.6912853487174,
-          "minZ": 15.09999850821064,
-          "maxZ": 1840.5913455089103
-        },
-        {
-          "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_0-1",
-          "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_1-1",
-          "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_0-1",
-          "bottomZ": 15,
-          "topZ": 1840.6912853487174,
-          "minZ": 15.099998400728595,
-          "maxZ": 1840.5913441255502
-        },
-        {
-          "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_-1_1-1",
-          "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_-1-1",
-          "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_1-1",
-          "bottomZ": 15,
-          "topZ": 2760.303520556457,
-          "minZ": 15.09999918953125,
-          "maxZ": 2760.203670117415
-        },
-        {
-          "member": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PUNTAL_1_1-1",
-          "plate": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_PLACA_1-1",
-          "beam": "F03_CONJUNTO-1/F03_ESTRUCTURAS-1/F03_SOPORTE_CABEZAL_V-1/F03_V_TRAVESANO_1-1",
-          "bottomZ": 15,
-          "topZ": 2760.303520556457,
-          "minZ": 15.099999174887227,
-          "maxZ": 2760.2036124894303
-        }
-      ],
-      "contactToleranceMm": 0.1
+  "migration": [
+    {
+      "revision": 17,
+      "baselineAndUserEditsPreserved": true
     },
-    "conePlanes": {
-      "owners": [
-        "C01",
-        "S01",
-        "H01"
-      ],
-      "changed": [
-        "PROPUESTA_H01_R9_BASTIDOR_VIGA_EXTREMO_-1225",
-        "PROPUESTA_H01_R9_BASTIDOR_ASIENTO_BRIDA_835",
-        "PROPUESTA_H01_R9_BASTIDOR_VIGA_POSTERIOR",
-        "PROPUESTA_H01_R9_BASTIDOR_VIGA_FRONTAL",
-        "PROPUESTA_H01_R9_BASTIDOR_ASIENTO_BRIDA_-335",
-        "PROPUESTA_H01_R9_BASTIDOR_TRAVESANO_MOTOR_INFERIOR",
-        "PROPUESTA_H01_R9_BASTIDOR_LARGUERO_MOTOR_-400",
-        "PROPUESTA_H01_R9_BASTIDOR_LARGUERO_MOTOR_400",
-        "PROPUESTA_H01_R9_BASTIDOR_ASIENTO_MOTOR_-1225",
-        "PROPUESTA_H01_R9_BASTIDOR_ASIENTO_MOTOR_-575",
-        "R9_C01_AMARRE_0",
-        "R9_C01_AMARRE_1",
-        "R9_C01_AMARRE_2",
-        "R9_C01_AMARRE_3",
-        "R9_C01_MOTOR_CORONA_0",
-        "R9_C01_MOTOR_CORONA_1",
-        "R9_C01_MOTOR_CORONA_2",
-        "R9_C01_MOTOR_CORONA_3",
-        "R9_C01_MOTOR_BRAZO_0",
-        "R9_C01_MOTOR_BRAZO_1",
-        "CIRCUITO_C01_R14_MOTOR_AMARRE_BAJO_7"
-      ],
-      "localMeshesPreserved": true
+    {
+      "revision": 18,
+      "baselineAndUserEditsPreserved": true
+    },
+    {
+      "revision": 19,
+      "baselineAndUserEditsPreserved": true
     }
-  },
-  "stages": {},
+  ],
   "preservedLayout": {
     "stations": true,
     "belts": true,
     "transfers": true,
     "floors": true,
-    "equipmentGeometryAndMatrices": true,
-    "assetVersion": true,
-    "schemaVersion": true
-  },
-  "migration": {
-    "r17": true,
-    "r18": true,
-    "editedMigrations": [
-      {
-        "from": "CORRECCIONES-2026-10-06-17",
-        "explicitHeightDeltaMm": 75,
-        "explicitPositionXDeltaMm": 150,
-        "userNamePreserved": true,
-        "userEditsPreserved": true
-      },
-      {
-        "from": "CORRECCIONES-2026-10-07-18",
-        "explicitHeightDeltaMm": 75,
-        "explicitPositionXDeltaMm": 150,
-        "userNamePreserved": true,
-        "userEditsPreserved": true
-      }
-    ]
+    "otherEquipmentAndStructures": true
   },
   "collisions": [],
   "chuteConflicts": [],
   "floorPenetrations": [],
   "overlay": {
-    "pairs": [],
-    "triangles": 0
+    "pairs": []
+  },
+  "newSupportPenetrations": [],
+  "separationProofs": [
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 7.417010279277974,
+      "axis": [
+        0.7431222173321511,
+        0,
+        -0.6691557143948986
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530728,
+      "axis": [
+        0.7473306768009009,
+        0,
+        0.6644523004041053
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+      "b": "R20_T01_COLLAR_0",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "R20_T01_COLLAR_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00003896635189448716,
+      "axis": [
+        3.2212222442154304e-8,
+        -1.3395593884857073e-8,
+        0.9999999999999994
+      ]
+    },
+    {
+      "a": "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+      "owners": [
+        "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 7.462774241206262,
+      "axis": [
+        0,
+        0.7429436243730622,
+        0.6693539952845717
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 7.462774241206262,
+      "axis": [
+        0,
+        -0.7429436243730622,
+        0.6693539952845717
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+      "b": "R20_T01_COLLAR_0",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+        "R20_T01_COLLAR_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000029429812002490507,
+      "axis": [
+        0.7473306768009009,
+        0,
+        0.6644523004041053
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        -0.7473306768009009,
+        -6.358798568272706e-17,
+        -0.6644523004041054
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+      "b": "R20_T01_COLLAR_2",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+        "R20_T01_COLLAR_2"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00003517461072988226,
+      "axis": [
+        0,
+        0.7480063351856538,
+        0.6636915869002162
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530728,
+      "axis": [
+        0,
+        0.7480063351856538,
+        0.6636915869002162
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        0,
+        0.7480063351856538,
+        0.6636915869002163
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+      "b": "R20_T01_COLLAR_3",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+        "R20_T01_COLLAR_3"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00003517461072988226,
+      "axis": [
+        0,
+        0.7480063351856538,
+        -0.6636915869002162
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        0,
+        -0.7480063351856538,
+        0.6636915869002163
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530728,
+      "axis": [
+        0,
+        0.7480063351856538,
+        -0.6636915869002162
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_0_CARTELA_0",
+      "b": "R20_T01_COLLAR_0_ARO",
+      "owners": [
+        "R20_T01_COLLAR_0_CARTELA_0",
+        "R20_T01_COLLAR_0_ARO"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013696736004931154,
+      "axis": [
+        2.3092645005654127e-8,
+        0,
+        0.9999999999999998
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_0_CARTELA_0",
+      "b": "R20_T01_COLLAR_0",
+      "owners": [
+        "R20_T01_COLLAR_0_CARTELA_0",
+        "R20_T01_COLLAR_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00002101530299114529,
+      "axis": [
+        0.7473306768009014,
+        0,
+        0.6644523004041049
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_0_CARTELA_1",
+      "b": "R20_T01_COLLAR_0_ARO",
+      "owners": [
+        "R20_T01_COLLAR_0_CARTELA_1",
+        "R20_T01_COLLAR_0_ARO"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013696736004931154,
+      "axis": [
+        2.3092645005654127e-8,
+        0,
+        0.9999999999999998
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_0_CARTELA_1",
+      "b": "R20_T01_COLLAR_0",
+      "owners": [
+        "R20_T01_COLLAR_0_CARTELA_1",
+        "R20_T01_COLLAR_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00002101530299114529,
+      "axis": [
+        0.7473306768009014,
+        0,
+        0.6644523004041049
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_0_ARO",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+      "owners": [
+        "R20_T01_COLLAR_0_ARO",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00006800487881264417,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2_ARO",
+      "b": "R20_T01_COLLAR_2_CARTELA_0",
+      "owners": [
+        "R20_T01_COLLAR_2_ARO",
+        "R20_T01_COLLAR_2_CARTELA_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013640773431689013,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2_ARO",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+      "owners": [
+        "R20_T01_COLLAR_2_ARO",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00006335337002383312,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2_ARO",
+      "b": "R20_T01_COLLAR_2_CARTELA_1",
+      "owners": [
+        "R20_T01_COLLAR_2_ARO",
+        "R20_T01_COLLAR_2_CARTELA_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013640773431689013,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_3_ARO",
+      "b": "R20_T01_COLLAR_3_CARTELA_0",
+      "owners": [
+        "R20_T01_COLLAR_3_ARO",
+        "R20_T01_COLLAR_3_CARTELA_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013640773431689013,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_3_ARO",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+      "owners": [
+        "R20_T01_COLLAR_3_ARO",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00006335337002383312,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_3_ARO",
+      "b": "R20_T01_COLLAR_3_CARTELA_1",
+      "owners": [
+        "R20_T01_COLLAR_3_ARO",
+        "R20_T01_COLLAR_3_CARTELA_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013640773431689013,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_0",
+      "b": "R20_T01_COLLAR_3",
+      "owners": [
+        "R20_T01_COLLAR_0",
+        "R20_T01_COLLAR_3"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00010784727101054159,
+      "axis": [
+        0.7067878762042801,
+        0.7074251743783179,
+        0.000721599923689033
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_3",
+      "b": "R20_T01_COLLAR_3_CARTELA_0",
+      "owners": [
+        "R20_T01_COLLAR_3",
+        "R20_T01_COLLAR_3_CARTELA_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000034641354886844056,
+      "axis": [
+        0,
+        0.7480064946855206,
+        -0.6636914071375946
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_3",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+      "owners": [
+        "R20_T01_COLLAR_3",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00001611720608707401,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_3",
+      "b": "R20_T01_COLLAR_3_CARTELA_1",
+      "owners": [
+        "R20_T01_COLLAR_3",
+        "R20_T01_COLLAR_3_CARTELA_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000034641354886844056,
+      "axis": [
+        0,
+        0.7480064946855206,
+        -0.6636914071375946
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2",
+      "b": "R20_T01_COLLAR_2_CARTELA_0",
+      "owners": [
+        "R20_T01_COLLAR_2",
+        "R20_T01_COLLAR_2_CARTELA_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000034641354886844056,
+      "axis": [
+        0,
+        0.7480064946855206,
+        0.6636914071375946
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+      "owners": [
+        "R20_T01_COLLAR_2",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00001611720608707401,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2",
+      "b": "R20_T01_COLLAR_2_CARTELA_1",
+      "owners": [
+        "R20_T01_COLLAR_2",
+        "R20_T01_COLLAR_2_CARTELA_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000034641354886844056,
+      "axis": [
+        0,
+        0.7480064946855206,
+        0.6636914071375946
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_2",
+      "b": "R20_T01_COLLAR_1",
+      "owners": [
+        "R20_T01_COLLAR_2",
+        "R20_T01_COLLAR_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.00008635573476567515,
+      "axis": [
+        0.7067868727342447,
+        0.7074261794701254,
+        -0.0007191181047738096
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 43.6879997253418,
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 43.6879997253418,
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 43.6879997253418,
+      "axis": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        0.7473306768009008,
+        0,
+        -0.6644523004041055
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 43.6879997253418,
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+      "b": "R20_T01_COLLAR_1_ARO",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "R20_T01_COLLAR_1_ARO"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.0038959281423558423,
+      "axis": [
+        0.000005426561003089634,
+        -0.000002589553544009735,
+        -0.9999999999819233
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        0.7473306768009008,
+        0,
+        -0.6644523004041055
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_1_ARO",
+      "b": "R20_T01_COLLAR_1_CARTELA_0",
+      "owners": [
+        "R20_T01_COLLAR_1_ARO",
+        "R20_T01_COLLAR_1_CARTELA_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013483084785548272,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_1_ARO",
+      "b": "R20_T01_COLLAR_1_CARTELA_1",
+      "owners": [
+        "R20_T01_COLLAR_1_ARO",
+        "R20_T01_COLLAR_1_CARTELA_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000013483084785548272,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_1",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+      "owners": [
+        "R20_T01_COLLAR_1",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000015872106359893223,
+      "axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_1",
+      "b": "R20_T01_COLLAR_1_CARTELA_0",
+      "owners": [
+        "R20_T01_COLLAR_1",
+        "R20_T01_COLLAR_1_CARTELA_0"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000021015307765992475,
+      "axis": [
+        0.7473307658035859,
+        0,
+        -0.6644522002999358
+      ]
+    },
+    {
+      "a": "R20_T01_COLLAR_1",
+      "b": "R20_T01_COLLAR_1_CARTELA_1",
+      "owners": [
+        "R20_T01_COLLAR_1",
+        "R20_T01_COLLAR_1_CARTELA_1"
+      ],
+      "separated": true,
+      "projectedOverlapMm": 0.000021015307765992475,
+      "axis": [
+        0.7473307658035859,
+        0,
+        -0.6644522002999358
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 9.524999618530273,
+      "axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5",
+      "owners": [
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5"
+      ],
+      "separated": false,
+      "projectedOverlapMm": 7.4170102792768375,
+      "axis": [
+        0.7431222173321489,
+        0,
+        0.6691557143949013
+      ]
+    }
+  ],
+  "retainedShellDetails": {
+    "method": "Four clipped channels retain the exact section, direction and a subset of original length. Listed contacts/crossings against unchanged shell details already existed in R19; none intersects the new support.",
+    "pairs": [
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 7.417010279277974,
+        "axis": [
+          0.7431222173321511,
+          0,
+          -0.6691557143948986
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_0-1"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_SUPERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530728,
+        "axis": [
+          0.7473306768009009,
+          0,
+          0.6644523004041053
+        ]
+      },
+      {
+        "a": "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+        "owners": [
+          "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 7.462774241206262,
+        "axis": [
+          0,
+          0.7429436243730622,
+          0.6693539952845717
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 7.462774241206262,
+        "axis": [
+          0,
+          -0.7429436243730622,
+          0.6693539952845717
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_1-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_3-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_3-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          -0.7473306768009009,
+          -6.358798568272706e-17,
+          -0.6644523004041054
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530728,
+        "axis": [
+          0,
+          0.7480063351856538,
+          0.6636915869002162
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_0-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          0,
+          0.7480063351856538,
+          0.6636915869002163
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          0,
+          -0.7480063351856538,
+          0.6636915869002163
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_2-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530728,
+        "axis": [
+          0,
+          0.7480063351856538,
+          -0.6636915869002162
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3_R20_INFERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-2"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 43.6879997253418,
+        "axis": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1_R20_INFERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 43.6879997253418,
+        "axis": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1698p85_6-2",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3_R20_INFERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 43.6879997253418,
+        "axis": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          0.7473306768009008,
+          0,
+          -0.6644523004041055
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_INFERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_1702p85_10-1"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 43.6879997253418,
+        "axis": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_CUERPO_CHAPA_1-1",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          0.7473306768009008,
+          0,
+          -0.6644523004041055
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_T01_EXTENSION_2-1"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 9.524999618530273,
+        "axis": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5",
+        "owners": [
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1_R20_SUPERIOR",
+          "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5"
+        ],
+        "separated": false,
+        "projectedOverlapMm": 7.4170102792768375,
+        "axis": [
+          0.7431222173321489,
+          0,
+          0.6691557143949013
+        ]
+      }
+    ]
   },
   "supports": [
     {
@@ -1082,37 +1613,9 @@
       "results": [
         {
           "owner": "T01",
-          "members": 90,
+          "members": 74,
           "grounded": 4,
-          "contacts": 119,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 44,
-          "grounded": 6,
-          "contacts": 71,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 45,
-          "grounded": 4,
-          "contacts": 72,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 40,
-          "grounded": 6,
-          "contacts": 55,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
-          "members": 42,
-          "grounded": 4,
-          "contacts": 62,
+          "contacts": 115,
           "disconnected": []
         }
       ]
@@ -1122,37 +1625,9 @@
       "results": [
         {
           "owner": "T01",
-          "members": 90,
+          "members": 74,
           "grounded": 4,
-          "contacts": 119,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 44,
-          "grounded": 6,
-          "contacts": 71,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 45,
-          "grounded": 4,
-          "contacts": 70,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 40,
-          "grounded": 6,
-          "contacts": 55,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
-          "members": 42,
-          "grounded": 4,
-          "contacts": 62,
+          "contacts": 115,
           "disconnected": []
         }
       ]
@@ -1162,37 +1637,9 @@
       "results": [
         {
           "owner": "T01",
-          "members": 90,
+          "members": 74,
           "grounded": 4,
-          "contacts": 119,
-          "disconnected": []
-        },
-        {
-          "owner": "C01",
-          "members": 44,
-          "grounded": 6,
-          "contacts": 71,
-          "disconnected": []
-        },
-        {
-          "owner": "S01",
-          "members": 45,
-          "grounded": 4,
-          "contacts": 71,
-          "disconnected": []
-        },
-        {
-          "owner": "J02",
-          "members": 40,
-          "grounded": 6,
-          "contacts": 55,
-          "disconnected": []
-        },
-        {
-          "owner": "H01",
-          "members": 42,
-          "grounded": 4,
-          "contacts": 60,
+          "contacts": 115,
           "disconnected": []
         }
       ]
@@ -1208,169 +1655,6 @@
     "discharge": 3855.3080127946987
   },
   "validation": {
-    "ok": true,
-    "hopper": {
-      "ok": true,
-      "totalCapacityM3": 20,
-      "coneVolumeM3": 7.882987097500002,
-      "upperVolumeM3": 12.117012902499997,
-      "bodyHeightMm": 1648.266433751117,
-      "upperHeightMm": 1000,
-      "outletInteriorMm": [
-        550,
-        556
-      ],
-      "upperInteriorMm": [
-        3480.95,
-        3480.9499999999994
-      ],
-      "bodyAndCollarGeometryPreserved": true,
-      "contacts": [
-        {
-          "deltaMm": 0,
-          "joints": 64,
-          "disconnected": []
-        },
-        {
-          "deltaMm": -300,
-          "joints": 64,
-          "disconnected": []
-        },
-        {
-          "deltaMm": 300,
-          "joints": 64,
-          "disconnected": []
-        }
-      ]
-    },
-    "supportEdits": [
-      {
-        "deltaMm": 0,
-        "results": [
-          {
-            "owner": "T01",
-            "members": 90,
-            "grounded": 4,
-            "contacts": 119,
-            "disconnected": []
-          },
-          {
-            "owner": "C01",
-            "members": 44,
-            "grounded": 6,
-            "contacts": 71,
-            "disconnected": []
-          },
-          {
-            "owner": "S01",
-            "members": 45,
-            "grounded": 4,
-            "contacts": 72,
-            "disconnected": []
-          },
-          {
-            "owner": "J02",
-            "members": 40,
-            "grounded": 6,
-            "contacts": 55,
-            "disconnected": []
-          },
-          {
-            "owner": "H01",
-            "members": 42,
-            "grounded": 4,
-            "contacts": 62,
-            "disconnected": []
-          }
-        ]
-      },
-      {
-        "deltaMm": -300,
-        "results": [
-          {
-            "owner": "T01",
-            "members": 90,
-            "grounded": 4,
-            "contacts": 119,
-            "disconnected": []
-          },
-          {
-            "owner": "C01",
-            "members": 44,
-            "grounded": 6,
-            "contacts": 71,
-            "disconnected": []
-          },
-          {
-            "owner": "S01",
-            "members": 45,
-            "grounded": 4,
-            "contacts": 70,
-            "disconnected": []
-          },
-          {
-            "owner": "J02",
-            "members": 40,
-            "grounded": 6,
-            "contacts": 55,
-            "disconnected": []
-          },
-          {
-            "owner": "H01",
-            "members": 42,
-            "grounded": 4,
-            "contacts": 62,
-            "disconnected": []
-          }
-        ]
-      },
-      {
-        "deltaMm": 300,
-        "results": [
-          {
-            "owner": "T01",
-            "members": 90,
-            "grounded": 4,
-            "contacts": 119,
-            "disconnected": []
-          },
-          {
-            "owner": "C01",
-            "members": 44,
-            "grounded": 6,
-            "contacts": 71,
-            "disconnected": []
-          },
-          {
-            "owner": "S01",
-            "members": 45,
-            "grounded": 4,
-            "contacts": 71,
-            "disconnected": []
-          },
-          {
-            "owner": "J02",
-            "members": 40,
-            "grounded": 6,
-            "contacts": 55,
-            "disconnected": []
-          },
-          {
-            "owner": "H01",
-            "members": 42,
-            "grounded": 4,
-            "contacts": 60,
-            "disconnected": []
-          }
-        ]
-      }
-    ],
-    "clearance": {
-      "minimumRequiredMm": 100,
-      "toleranceMm": 0.1,
-      "passed": true,
-      "pairsBelowMinimum": [],
-      "method": "Triángulos transformados, intersección y distancias bidireccionales de vértice a triángulo; umbral 99,9 mm."
-    }
+    "ok": true
   }
 }
