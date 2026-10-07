@@ -1,5 +1,5 @@
 {
-  "revision": "CORRECCIONES-2026-10-07-21",
+  "revision": "CORRECCIONES-2026-10-07-B-21",
   "scope": "Only main hopper support and CAD crushing-circuit slab.",
   "hopper": {
     "owner": "T01",
@@ -662,6 +662,11 @@
     {
       "revision": 20,
       "baselineAndUserEditsPreserved": true
+    },
+    {
+      "revision": "R21 first publication",
+      "baselineAndUserEditsPreserved": true,
+      "correction": "Support width/depth controls aligned to 3680 mm; physical geometry unchanged."
     }
   ],
   "collisions": [],
@@ -727,8 +732,8 @@
       "separated": true,
       "projectedOverlapMm": 0.005011039672353945,
       "axis": [
-        0.000005426561003088217,
-        -0.0000025895535440091465,
+        5.426561003088217e-06,
+        -2.5895535440091465e-06,
         -0.9999999999819235
       ]
     }
@@ -782,7 +787,8 @@
     "discharge": 3855.3080127946987
   },
   "preservedLayout": {
-    "stations": true,
+    "stationPositionsAndMountingHeights": true,
+    "T01SupportAxesMm": 3680,
     "belts": true,
     "transfers": true,
     "otherEquipmentAndStructures": true
