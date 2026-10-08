@@ -1,752 +1,263 @@
 {
-  "revision": "CORRECCIONES-2026-10-07-B-21",
-  "scope": "Only main hopper support and CAD crushing-circuit slab.",
-  "hopper": {
-    "owner": "T01",
-    "revision": "T01-MARCO-SUPERIOR-R21-2026-10-07",
-    "sourceRevision": "R20",
+  "revision": "CORRECCIONES-2026-10-07-22",
+  "scope": "Only J02 support and intermediate screen chute to F03.",
+  "structure": {
     "added": [
-      "R21_T01_CORONA_0",
-      "R21_T01_CORONA_1",
-      "R21_T01_CORONA_2",
-      "R21_T01_CORONA_3",
-      "R21_T01_ARO_SUPERIOR_0",
-      "R21_T01_ARO_SUPERIOR_1",
-      "R21_T01_ARO_SUPERIOR_2",
-      "R21_T01_ARO_SUPERIOR_3"
+      "R22_J02_PEDESTAL_0",
+      "R22_J02_BASE_0",
+      "R22_J02_ANCLAS_0",
+      "R22_J02_COLUMNA_0",
+      "R22_J02_PEDESTAL_1",
+      "R22_J02_BASE_1",
+      "R22_J02_ANCLAS_1",
+      "R22_J02_COLUMNA_1",
+      "R22_J02_PEDESTAL_2",
+      "R22_J02_BASE_2",
+      "R22_J02_ANCLAS_2",
+      "R22_J02_COLUMNA_2",
+      "R22_J02_PEDESTAL_3",
+      "R22_J02_BASE_3",
+      "R22_J02_ANCLAS_3",
+      "R22_J02_COLUMNA_3",
+      "R22_J02_PEDESTAL_4",
+      "R22_J02_BASE_4",
+      "R22_J02_ANCLAS_4",
+      "R22_J02_COLUMNA_4",
+      "R22_J02_PEDESTAL_5",
+      "R22_J02_BASE_5",
+      "R22_J02_ANCLAS_5",
+      "R22_J02_COLUMNA_5",
+      "R22_J02_CABEZAL_0",
+      "R22_J02_CABEZAL_1",
+      "R22_J02_LARGUERO_BRIDA_0",
+      "R22_J02_ASIENTO_BRIDA_0",
+      "R22_J02_LARGUERO_BRIDA_1",
+      "R22_J02_ASIENTO_BRIDA_1",
+      "R22_J02_PORTICO_MOTOR",
+      "R22_J02_LARGUERO_MOTOR_0_IZQ",
+      "R22_J02_LARGUERO_MOTOR_0_DER",
+      "R22_J02_LARGUERO_MOTOR_1_IZQ",
+      "R22_J02_LARGUERO_MOTOR_1_DER",
+      "R22_J02_TRAVESANO_MOTOR_0",
+      "R22_J02_TRAVESANO_MOTOR_1",
+      "R22_J02_TRAVESANO_MOTOR_2",
+      "R22_J02_CARTABON_0_0",
+      "R22_J02_CARTABON_0_1",
+      "R22_J02_CARTABON_1_0",
+      "R22_J02_CARTABON_1_1"
     ],
     "removed": [
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2851p15_7-2",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-1",
-      "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_2853p15_11-2",
-      "R19_T01_SILLA_0_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_0_0_RIGIDIZADOR_1",
-      "R19_T01_SILLA_0_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_0_1_RIGIDIZADOR_1",
-      "R19_T01_SILLA_1_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_1_0_RIGIDIZADOR_1",
-      "R19_T01_SILLA_1_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_1_1_RIGIDIZADOR_1",
-      "R19_T01_SILLA_2_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_2_0_RIGIDIZADOR_1",
-      "R19_T01_SILLA_2_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_2_1_RIGIDIZADOR_1",
-      "R19_T01_SILLA_3_0_RIGIDIZADOR_0",
-      "R19_T01_SILLA_3_0_RIGIDIZADOR_1",
-      "R19_T01_SILLA_3_1_RIGIDIZADOR_0",
-      "R19_T01_SILLA_3_1_RIGIDIZADOR_1",
-      "R20_T01_COLLAR_0",
-      "R20_T01_COLLAR_0_ARO",
-      "R20_T01_COLLAR_0_CARTELA_0",
-      "R20_T01_COLLAR_0_CARTELA_1",
-      "R20_T01_COLLAR_1",
-      "R20_T01_COLLAR_1_ARO",
-      "R20_T01_COLLAR_1_CARTELA_0",
-      "R20_T01_COLLAR_1_CARTELA_1",
-      "R20_T01_COLLAR_2",
-      "R20_T01_COLLAR_2_ARO",
-      "R20_T01_COLLAR_2_CARTELA_0",
-      "R20_T01_COLLAR_2_CARTELA_1",
-      "R20_T01_COLLAR_3",
-      "R20_T01_COLLAR_3_ARO",
-      "R20_T01_COLLAR_3_CARTELA_0",
-      "R20_T01_COLLAR_3_CARTELA_1"
-    ],
-    "changed": [
-      "R9_T01_COLUMNA_0",
-      "R9_T01_COLUMNA_1",
-      "R9_T01_COLUMNA_2",
-      "R9_T01_COLUMNA_3",
-      "PROPUESTA_T01_ASIENTO_REAL_0",
-      "PROPUESTA_T01_ASIENTO_REAL_1",
-      "PROPUESTA_T01_ASIENTO_REAL_2",
-      "PROPUESTA_T01_ASIENTO_REAL_3",
-      "R17_T01_NUDO_0_0",
-      "R17_T01_NUDO_0_1",
-      "R9_T01_ARRIOSTRE_0",
-      "R9_T01_AMARRE_LATERAL_0",
-      "R17_T01_AMARRE_NUDO_0_0",
-      "R17_T01_AMARRE_NUDO_0_1",
-      "R17_T01_NUDO_1_0",
-      "R17_T01_NUDO_1_1",
-      "R9_T01_ARRIOSTRE_1",
-      "R9_T01_AMARRE_LATERAL_1",
-      "R17_T01_AMARRE_NUDO_1_0",
-      "R17_T01_AMARRE_NUDO_1_1",
-      "R17_T01_NUDO_2_0",
-      "R17_T01_NUDO_2_1",
-      "R9_T01_ARRIOSTRE_2",
-      "R9_T01_AMARRE_POSTERIOR_1",
-      "R17_T01_AMARRE_NUDO_2_0",
-      "R17_T01_AMARRE_NUDO_2_1"
-    ],
-    "contacts": [
-      {
-        "a": "R9_T01_COLUMNA_0",
-        "b": "PROPUESTA_T01_ASIENTO_REAL_0",
-        "kind": "full-column-end-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_0",
-        "b": "R21_T01_CORONA_0",
-        "kind": "cap-flange-bearing",
-        "areaMm2": 36294.061584472656
-      },
-      {
-        "a": "R9_T01_COLUMNA_1",
-        "b": "PROPUESTA_T01_ASIENTO_REAL_1",
-        "kind": "full-column-end-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_1",
-        "b": "R21_T01_CORONA_1",
-        "kind": "cap-flange-bearing",
-        "areaMm2": 36294.061584472656
-      },
-      {
-        "a": "R9_T01_COLUMNA_2",
-        "b": "PROPUESTA_T01_ASIENTO_REAL_2",
-        "kind": "full-column-end-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_2",
-        "b": "R21_T01_CORONA_0",
-        "kind": "cap-flange-bearing",
-        "areaMm2": 36294.061584472656
-      },
-      {
-        "a": "R9_T01_COLUMNA_3",
-        "b": "PROPUESTA_T01_ASIENTO_REAL_3",
-        "kind": "full-column-end-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_3",
-        "b": "R21_T01_CORONA_1",
-        "kind": "cap-flange-bearing",
-        "areaMm2": 36294.061584472656
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_0",
-        "b": "R21_T01_CORONA_2",
-        "kind": "cap-return-flange-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_1",
-        "b": "R21_T01_CORONA_2",
-        "kind": "cap-return-flange-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_2",
-        "b": "R21_T01_CORONA_3",
-        "kind": "cap-return-flange-bearing"
-      },
-      {
-        "a": "PROPUESTA_T01_ASIENTO_REAL_3",
-        "b": "R21_T01_CORONA_3",
-        "kind": "cap-return-flange-bearing"
-      },
-      {
-        "a": "R21_T01_CORONA_2",
-        "b": "R21_T01_CORONA_0",
-        "kind": "square-web-and-flange-butt"
-      },
-      {
-        "a": "R21_T01_CORONA_2",
-        "b": "R21_T01_CORONA_1",
-        "kind": "square-web-and-flange-butt"
-      },
-      {
-        "a": "R21_T01_CORONA_3",
-        "b": "R21_T01_CORONA_0",
-        "kind": "square-web-and-flange-butt"
-      },
-      {
-        "a": "R21_T01_CORONA_3",
-        "b": "R21_T01_CORONA_1",
-        "kind": "square-web-and-flange-butt"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_0",
-        "b": "R21_T01_CORONA_2",
-        "kind": "upper-ring-continuous-flange-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_0",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-1",
-        "kind": "original-lower-collar-channel-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_1",
-        "b": "R21_T01_CORONA_3",
-        "kind": "upper-ring-continuous-flange-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_1",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-5",
-        "kind": "original-lower-collar-channel-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_2",
-        "b": "R21_T01_CORONA_0",
-        "kind": "upper-ring-continuous-flange-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_2",
-        "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_4000p00_3-3",
-        "kind": "original-lower-collar-channel-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_3",
-        "b": "R21_T01_CORONA_1",
-        "kind": "upper-ring-continuous-flange-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_3",
-        "b": "PROPUESTA_T01_COLLAR_CIERRE_REMATE_INFERIOR",
-        "kind": "original-lower-collar-channel-bearing"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_0",
-        "b": "R21_T01_ARO_SUPERIOR_2",
-        "kind": "upper-ring-miter-weld"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_0",
-        "b": "R21_T01_ARO_SUPERIOR_3",
-        "kind": "upper-ring-miter-weld"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_1",
-        "b": "R21_T01_ARO_SUPERIOR_2",
-        "kind": "upper-ring-miter-weld"
-      },
-      {
-        "a": "R21_T01_ARO_SUPERIOR_1",
-        "b": "R21_T01_ARO_SUPERIOR_3",
-        "kind": "upper-ring-miter-weld"
-      },
-      {
-        "a": "R17_T01_NUDO_0_0",
-        "b": "R9_T01_COLUMNA_0",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R17_T01_NUDO_0_1",
-        "b": "R9_T01_COLUMNA_2",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R9_T01_ARRIOSTRE_0",
-        "b": "R17_T01_NUDO_0_0",
-        "kind": "HSS-side-weld"
-      },
-      {
-        "a": "R9_T01_ARRIOSTRE_0",
-        "b": "R17_T01_NUDO_0_1",
-        "kind": "HSS-side-weld"
-      },
-      {
-        "a": "R9_T01_AMARRE_LATERAL_0",
-        "b": "R17_T01_AMARRE_NUDO_0_0",
-        "kind": "lower-tie-weld"
-      },
-      {
-        "a": "R17_T01_AMARRE_NUDO_0_0",
-        "b": "R9_T01_COLUMNA_0",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R9_T01_AMARRE_LATERAL_0",
-        "b": "R17_T01_AMARRE_NUDO_0_1",
-        "kind": "lower-tie-weld"
-      },
-      {
-        "a": "R17_T01_AMARRE_NUDO_0_1",
-        "b": "R9_T01_COLUMNA_2",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R17_T01_NUDO_1_0",
-        "b": "R9_T01_COLUMNA_1",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R17_T01_NUDO_1_1",
-        "b": "R9_T01_COLUMNA_3",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R9_T01_ARRIOSTRE_1",
-        "b": "R17_T01_NUDO_1_0",
-        "kind": "HSS-side-weld"
-      },
-      {
-        "a": "R9_T01_ARRIOSTRE_1",
-        "b": "R17_T01_NUDO_1_1",
-        "kind": "HSS-side-weld"
-      },
-      {
-        "a": "R9_T01_AMARRE_LATERAL_1",
-        "b": "R17_T01_AMARRE_NUDO_1_0",
-        "kind": "lower-tie-weld"
-      },
-      {
-        "a": "R17_T01_AMARRE_NUDO_1_0",
-        "b": "R9_T01_COLUMNA_1",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R9_T01_AMARRE_LATERAL_1",
-        "b": "R17_T01_AMARRE_NUDO_1_1",
-        "kind": "lower-tie-weld"
-      },
-      {
-        "a": "R17_T01_AMARRE_NUDO_1_1",
-        "b": "R9_T01_COLUMNA_3",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R17_T01_NUDO_2_0",
-        "b": "R9_T01_COLUMNA_0",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R17_T01_NUDO_2_1",
-        "b": "R9_T01_COLUMNA_1",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R9_T01_ARRIOSTRE_2",
-        "b": "R17_T01_NUDO_2_0",
-        "kind": "HSS-side-weld"
-      },
-      {
-        "a": "R9_T01_ARRIOSTRE_2",
-        "b": "R17_T01_NUDO_2_1",
-        "kind": "HSS-side-weld"
-      },
-      {
-        "a": "R9_T01_AMARRE_POSTERIOR_1",
-        "b": "R17_T01_AMARRE_NUDO_2_0",
-        "kind": "lower-tie-weld"
-      },
-      {
-        "a": "R17_T01_AMARRE_NUDO_2_0",
-        "b": "R9_T01_COLUMNA_0",
-        "kind": "column-exterior-flange-weld"
-      },
-      {
-        "a": "R9_T01_AMARRE_POSTERIOR_1",
-        "b": "R17_T01_AMARRE_NUDO_2_1",
-        "kind": "lower-tie-weld"
-      },
-      {
-        "a": "R17_T01_AMARRE_NUDO_2_1",
-        "b": "R9_T01_COLUMNA_1",
-        "kind": "column-exterior-flange-weld"
-      }
-    ],
-    "columnAxesMm": 3680,
-    "crownTopZMm": 3521.266433751117,
-    "crownBottomZMm": 3319.8444214220153,
-    "columnTopZMm": 3300.8444214220153,
-    "capThicknessMm": 19,
-    "crownProfile": "W8x24",
-    "crownDepthMm": 201.42201232910156,
-    "crownWidthMm": 164.97300720214844,
-    "columnProfile": "W6x25",
-    "caps": [
-      "PROPUESTA_T01_ASIENTO_REAL_0",
-      "PROPUESTA_T01_ASIENTO_REAL_1",
-      "PROPUESTA_T01_ASIENTO_REAL_2",
-      "PROPUESTA_T01_ASIENTO_REAL_3"
+      "R18_J02_PEDESTAL_0",
+      "R18_J02_BASE_0",
+      "R18_J02_ANCLAS_0",
+      "R18_J02_COLUMNA_0",
+      "R18_J02_PEDESTAL_1",
+      "R18_J02_BASE_1",
+      "R18_J02_ANCLAS_1",
+      "R18_J02_PEDESTAL_2",
+      "R18_J02_BASE_2",
+      "R18_J02_ANCLAS_2",
+      "R18_J02_COLUMNA_2",
+      "R18_J02_PEDESTAL_3",
+      "R18_J02_BASE_3",
+      "R18_J02_ANCLAS_3",
+      "R18_J02_COLUMNA_3",
+      "R18_J02_PEDESTAL_4",
+      "R18_J02_BASE_4",
+      "R18_J02_ANCLAS_4",
+      "R18_J02_PEDESTAL_5",
+      "R18_J02_BASE_5",
+      "R18_J02_ANCLAS_5",
+      "R18_J02_CABEZAL_POSTERIOR",
+      "R18_J02_BRAZO_BRIDA_0_0",
+      "R18_J02_ASIENTO_BRIDA_0",
+      "R18_J02_BRAZO_BRIDA_1_0",
+      "R18_J02_ASIENTO_BRIDA_1",
+      "R18_J02_ASIENTO_MOTOR_0",
+      "R18_J02_ASIENTO_MOTOR_1",
+      "R18_J02_ASIENTO_MOTOR_2",
+      "R18_J02_COLUMNA_1",
+      "R18_J02_CABEZAL_FRONTAL",
+      "R18_J02_BRAZO_BRIDA_0_1",
+      "R18_J02_BRAZO_BRIDA_1_1",
+      "R18_J02_COLUMNA_4",
+      "R18_J02_COLUMNA_5",
+      "R18_J02_PORTICO_MOTOR",
+      "R18_J02_BRAZO_MOTOR_0",
+      "CIRCUITO_J02_R19_MONTANTE_MOTOR_0_48",
+      "R18_J02_BRAZO_MOTOR_1",
+      "CIRCUITO_J02_R19_MONTANTE_MOTOR_1_50"
     ],
     "columns": [
-      "R9_T01_COLUMNA_0",
-      "R9_T01_COLUMNA_1",
-      "R9_T01_COLUMNA_2",
-      "R9_T01_COLUMNA_3"
-    ],
-    "throughBeams": [
-      "R21_T01_CORONA_0",
-      "R21_T01_CORONA_1"
-    ],
-    "returnBeams": [
-      "R21_T01_CORONA_2",
-      "R21_T01_CORONA_3"
-    ],
-    "saddles": [],
-    "braces": [
-      {
-        "id": "R9_T01_ARRIOSTRE_0",
-        "gussets": [
-          "R17_T01_NUDO_0_0",
-          "R17_T01_NUDO_0_1"
-        ],
-        "face": "-Y",
-        "mountStart": [
-          -1840,
-          -1969.0260009765625,
-          800
-        ],
-        "mountEnd": [
-          1840,
-          -1969.0260009765625,
-          3019.8444214220153
-        ],
-        "cutPlanesMm": [
-          -1762.7840042114258,
-          1762.7840042114258
-        ]
-      },
-      {
-        "id": "R9_T01_ARRIOSTRE_1",
-        "gussets": [
-          "R17_T01_NUDO_1_0",
-          "R17_T01_NUDO_1_1"
-        ],
-        "face": "+Y",
-        "mountStart": [
-          -1840,
-          1969.0260009765625,
-          800
-        ],
-        "mountEnd": [
-          1840,
-          1969.0260009765625,
-          3019.8444214220153
-        ],
-        "cutPlanesMm": [
-          -1762.7840042114258,
-          1762.7840042114258
-        ]
-      },
-      {
-        "id": "R9_T01_ARRIOSTRE_2",
-        "gussets": [
-          "R17_T01_NUDO_2_0",
-          "R17_T01_NUDO_2_1"
-        ],
-        "face": "-X",
-        "mountStart": [
-          -1965.2159957885742,
-          -1840,
-          800
-        ],
-        "mountEnd": [
-          -1965.2159957885742,
-          1840,
-          3019.8444214220153
-        ],
-        "cutPlanesMm": [
-          -1758.9739990234375,
-          1758.9739990234375
-        ]
-      }
-    ],
-    "openFace": "+X",
-    "vesselCapacityPreservedM3": 20,
-    "scope": "Marco portante superior bajo la unión cono-alerón; cuatro columnas exteriores, aro continuo de asiento y tres caras arriostradas. Bases alineadas bajo las columnas. Casco, alimentador, equipos, fajas, posición y enlaces conservados. Secciones y uniones geométricas preliminares, sin cálculo resistente.",
-    "bearingRingIds": [
-      "R21_T01_ARO_SUPERIOR_0",
-      "R21_T01_ARO_SUPERIOR_1",
-      "R21_T01_ARO_SUPERIOR_2",
-      "R21_T01_ARO_SUPERIOR_3"
-    ],
-    "bearingTopZMm": 3540.266433751117,
-    "bearingRingExteriorMm": 3900
-  },
-  "foundationChanges": [
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-1",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-2",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-4",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PEDESTAL_VISIBLE-3",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-2__detalle_anclajes",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-1__detalle_anclajes",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-3__detalle_anclajes",
-    "E_T01_ESTACION-1/E_T01_ESTRUCTURA-1/E_T01_PLACA_ANCLAJE-4__detalle_anclajes"
-  ],
-  "trimmedChannels": [
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-2",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-2",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-1",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-1",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-2",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-2",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-1",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3054p68_9-1",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-2",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-2",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-2",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3052p99_5-2",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-4",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-4",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-4",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-4",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
-      "cutZMm": 3521.266433751117
-    },
-    {
-      "id": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
-      "sourceId": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
-      "cutZMm": 3521.266433751117
-    }
-  ],
-  "slabSource": {
-    "sourceFile": "PRO_N° 01_INDUMIN_F01_rev.01.dwg",
-    "sourceSha256": "65727be11cec3ef1015c34ac9a6589cad19a817733bdeb88db2aab50e34005e9",
-    "sourceUnits": "Dimension lengths represent metres; 12 m container and 53/20/12 m slab dimensions independently establish scale despite INSUNITS=4.",
-    "scaleToMm": 1000,
-    "sourceHandles": [
-      "7979",
-      "80DB",
-      "80D5",
-      "80CF",
-      "80D2"
-    ],
-    "sourceOutline": [
       [
-        2838.776040648666,
-        -741.8872698703937
+        70,
+        -950,
+        1262.947998046875
       ],
       [
-        2836.455674165928,
-        -756.7458872102814
+        70,
+        950,
+        1262.947998046875
       ],
       [
-        2824.599372500286,
-        -754.8943713952577
+        1290,
+        -950,
+        1262.947998046875
       ],
       [
-        2830.030300986884,
-        -720.1170684204931
+        1290,
+        950,
+        1262.947998046875
       ],
       [
-        2841.861900340372,
-        -722.1267670943226
+        -1100,
+        -1050,
+        1787.947998046875
       ],
       [
-        2894.22723269696,
-        -730.3042952773437
-      ],
-      [
-        2891.141373005253,
-        -750.0647980534145
+        -1100,
+        1050,
+        1787.947998046875
       ]
     ],
-    "outline": [
-      [
-        36154,
-        -12500.000000000058
-      ],
-      [
-        36154.000000000466,
-        -27538.703729624685
-      ],
-      [
-        48153.999999999534,
-        -27538.703729624627
-      ],
-      [
-        48154.000000000466,
-        7660.100034496572
-      ],
-      [
-        36154.000000000466,
-        7500.000000000116
-      ],
-      [
-        -16846.000000000466,
-        7500
-      ],
-      [
-        -16845.99999999907,
-        -12500.000000000058
-      ]
+    "flangeSeatTopMm": 1450,
+    "motorSeatTopMm": 1950,
+    "rectangularAxesMm": [
+      2390,
+      1900
     ],
-    "areaM2": 1481.4250449624742,
-    "drawingAreaLabelM2": 1480.46,
-    "areaDifferenceM2": 0.9650449624741668,
-    "alignment": "Local CAD longitudinal axis mirrored in X; branch placed on existing negative-Y side. Inner branch edge X36154; arm upper edge Y7500. Equipment positions unchanged.",
-    "thicknessMm": 350,
-    "thicknessSource": "Existing proposal retained; DWG does not specify slab thickness."
+    "referenceOnly": true
   },
-  "hopperValidation": {
-    "ok": true,
-    "totalCapacityM3": 20,
-    "coneVolumeM3": 7.882987097500002,
-    "upperVolumeM3": 12.117012902499997,
-    "bodyHeightMm": 1648.266433751117,
-    "upperHeightMm": 1000,
-    "outletInteriorMm": [
-      550,
-      556
-    ],
-    "upperInteriorMm": [
-      3480.95,
-      3480.9499999999994
-    ],
-    "bodyAndCollarGeometryPreserved": true,
-    "contacts": [
-      {
-        "deltaMm": 0,
-        "joints": 52,
-        "disconnected": []
+  "chute": {
+    "id": "TR10_INTERMEDIO_F06",
+    "previous": {
+      "id": "TR10_INTERMEDIO_F06",
+      "label": "Zaranda · intermedios → F03",
+      "start": {
+        "owner": "S01",
+        "local": [
+          -1750.9312688865982,
+          0,
+          -172.71715175077588
+        ],
+        "basis": "station"
       },
-      {
-        "deltaMm": -300,
-        "joints": 52,
-        "disconnected": []
+      "end": {
+        "owner": "F03",
+        "basis": "belt",
+        "axialReference": "tail",
+        "local": [
+          2000,
+          0,
+          400
+        ]
       },
-      {
-        "deltaMm": 300,
-        "joints": 52,
-        "disconnected": []
+      "waypoints": [
+        [
+          41700,
+          -5700,
+          2750
+        ],
+        [
+          38100,
+          -5700,
+          1800
+        ]
+      ],
+      "sizes": [
+        [
+          1140,
+          220
+        ],
+        [
+          500,
+          260
+        ],
+        [
+          500,
+          260
+        ],
+        [
+          500,
+          400
+        ]
+      ],
+      "thickness": 6,
+      "adaptation": "auto",
+      "sectionFrames": {
+        "start": "exit",
+        "end": "port",
+        "route": "sweep"
+      },
+      "routeReference": {
+        "start": [
+          42154,
+          -3550.9312688865984,
+          3327.282848249224
+        ],
+        "end": [
+          38326.11740261758,
+          -4062.9348744632825,
+          1326.9620817097332
+        ],
+        "waypoints": [
+          [
+            41700,
+            -5700,
+            2750
+          ],
+          [
+            38100,
+            -5700,
+            1800
+          ]
+        ]
       }
+    },
+    "lengthBeforeMm": 7713.30715293314,
+    "lengthAfterMm": 5665.761801364055,
+    "points": [
+      [
+        42154,
+        -3550.9312688865984,
+        3327.282848249224
+      ],
+      [
+        42154,
+        -4400,
+        3000
+      ],
+      [
+        41000,
+        -3250,
+        2700
+      ],
+      [
+        39700,
+        -2950,
+        2100
+      ],
+      [
+        39499.01300025464,
+        -4255.18479896793,
+        1133.6853796177315
+      ]
     ]
   },
-  "migration": [
-    {
-      "revision": 17,
-      "baselineAndUserEditsPreserved": true
-    },
-    {
-      "revision": 18,
-      "baselineAndUserEditsPreserved": true
-    },
-    {
-      "revision": 19,
-      "baselineAndUserEditsPreserved": true
-    },
-    {
-      "revision": 20,
-      "baselineAndUserEditsPreserved": true
-    },
-    {
-      "revision": "R21 first publication",
-      "baselineAndUserEditsPreserved": true,
-      "correction": "Support width/depth controls aligned to 3680 mm; physical geometry unchanged."
-    }
-  ],
   "collisions": [],
   "chuteConflicts": [],
-  "floorPenetrations": [],
-  "overlay": {
-    "pairs": []
-  },
-  "newSupportPenetrations": [],
-  "separationProofs": [
-    {
-      "a": "R21_T01_ARO_SUPERIOR_0",
-      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3",
-      "owners": [
-        "R21_T01_ARO_SUPERIOR_0",
-        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-3"
-      ],
-      "separated": true,
-      "projectedOverlapMm": 0.0001531512034489424,
-      "axis": [
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "a": "R21_T01_ARO_SUPERIOR_2",
-      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1",
-      "owners": [
-        "R21_T01_ARO_SUPERIOR_2",
-        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-1"
-      ],
-      "separated": true,
-      "projectedOverlapMm": 0.0002141649119948852,
-      "axis": [
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "a": "R21_T01_ARO_SUPERIOR_3",
-      "b": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3",
-      "owners": [
-        "R21_T01_ARO_SUPERIOR_3",
-        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3172p48_4-3"
-      ],
-      "separated": true,
-      "projectedOverlapMm": 0.00021416491154013784,
-      "axis": [
-        0,
-        0,
-        1
-      ]
-    },
-    {
-      "a": "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
-      "b": "R21_T01_ARO_SUPERIOR_1",
-      "owners": [
-        "E_T01_ESTACION-1/E_T01_TOLVA-1/E_PERFIL_C4x7.25_3173p70_8-1",
-        "R21_T01_ARO_SUPERIOR_1"
-      ],
-      "separated": true,
-      "projectedOverlapMm": 0.005011039672353945,
-      "axis": [
-        5.426561003088217e-06,
-        -2.5895535440091465e-06,
-        -0.9999999999819235
-      ]
-    }
-  ],
+  "penetrations": [],
+  "proofs": [],
+  "clearancePairs": [],
   "supports": [
     {
       "deltaMm": 0,
       "results": [
         {
-          "owner": "T01",
-          "members": 46,
-          "grounded": 4,
-          "contacts": 71,
+          "owner": "J02",
+          "members": 42,
+          "grounded": 6,
+          "contacts": 60,
           "disconnected": []
         }
       ]
@@ -755,10 +266,10 @@
       "deltaMm": -300,
       "results": [
         {
-          "owner": "T01",
-          "members": 46,
-          "grounded": 4,
-          "contacts": 71,
+          "owner": "J02",
+          "members": 42,
+          "grounded": 6,
+          "contacts": 60,
           "disconnected": []
         }
       ]
@@ -767,31 +278,28 @@
       "deltaMm": 300,
       "results": [
         {
-          "owner": "T01",
-          "members": 46,
-          "grounded": 4,
-          "contacts": 71,
+          "owner": "J02",
+          "members": 42,
+          "grounded": 6,
+          "contacts": 60,
           "disconnected": []
         }
       ]
     }
   ],
-  "outsideSlab": [],
-  "issues": [],
   "materialBlocked": [],
-  "metrics": {
-    "length": 65000,
-    "width": 35198.80322265625,
-    "maxZ": 6278.098172313057,
-    "floorZ": 0,
-    "discharge": 3855.3080127946987
+  "issues": [],
+  "migration": {
+    "baselineAndUserEditsPreserved": true
   },
-  "preservedLayout": {
-    "stationPositionsAndMountingHeights": true,
-    "T01SupportAxesMm": 3680,
-    "belts": true,
-    "transfers": true,
-    "otherEquipmentAndStructures": true
+  "preserved": {
+    "allEquipmentPosesAndMountingHeights": true,
+    "J02SupportAxesUpdated": true,
+    "allBelts": true,
+    "CADSlab": true,
+    "T01": true,
+    "otherStructures": true,
+    "otherTransfers": true
   },
   "validation": {
     "ok": true

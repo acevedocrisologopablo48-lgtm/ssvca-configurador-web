@@ -1,6 +1,6 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** registra **R21**: conserva distribución, equipos, cintas, bajantes y demás soportes aceptados. La tolva principal tiene cuatro columnas exteriores y un marco superior bajo el alerón, a Z3540,266 mm, con aro de asiento continuo. La losa del circuito se toma del DWG INDUMIN rev.01, conservando su contorno y cotas. Mantiene casco de 3500 x 3500 mm, alerón de 1000 mm, 20 m3 interiores y descarga a Z1892 mm. Geometría y montaje referenciales; requiere cálculo resistente antes de fabricar. Se conserva el historial y se migran los ajustes guardados.
+La alternativa **Propuesta AutoCAD** registra **R22**: se corrige el soporte de la chancadora secundaria J02 y el bajante intermedio desde la zaranda hacia F03. El bajante pasa por detrás de la secundaria y reduce su recorrido de 7,713 a 5,666 m. El marco de seis columnas lleva asientos de brida a Z1450 y pórtico del motor a Z1950 mm; deja abierta la cinta de retorno. La comprobación geométrica no detecta penetraciones nuevas y mantiene al menos 100 mm entre J02 y F03. Se conservan la distribución R17, las otras estructuras aceptadas, la tolva principal y la losa CAD de R21. Historial y cambios guardados del usuario conservados. Geometría y montaje referenciales.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
