@@ -1,3 +1,7 @@
+## Fluidez del visor
+
+La navegación agrupa el dibujo de las piezas para reducir la carga gráfica. Durante el movimiento ajusta temporalmente la resolución y recupera la calidad habitual al detenerse. La selección, la edición y las exportaciones conservan la geometría y las medidas originales.
+
 ## Navegación y cotas
 
 La planta abre con **Editar desactivado**. Arrastrar sobre equipos o fajas permite recorrer la vista sin cambiar su posición. Active **Editar** para mover elementos, cambiar parámetros o crear cotas; desactívelo al terminar.
