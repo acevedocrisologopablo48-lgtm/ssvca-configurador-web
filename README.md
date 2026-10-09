@@ -1,3 +1,9 @@
+## Navegación y cotas
+
+La planta abre con **Editar desactivado**. Arrastrar sobre equipos o fajas permite recorrer la vista sin cambiar su posición. Active **Editar** para mover elementos, cambiar parámetros o crear cotas; desactívelo al terminar.
+
+**Ocultar cotas / Mostrar cotas** despeja el visor y recuerda su preferencia en ese navegador. Las cotas se conservan en la alternativa y en los planos PDF/DXF.
+
 # Configurador SSVCA en la web
 
 La alternativa **Propuesta AutoCAD** registra **R27**: los diez bajantes físicos tienen chapas planas de 6 mm, bocas rectangulares y encuentros definidos, adaptados al montaje R26. Los finos se reúnen en un pantalón con entrada común, divisor único y dos ramales hacia F05/F06. Se conservan equipos, cintas, pisos, anclajes, dimensiones de bocas, registros y seis recorridos de caída libre. El modo plano se conserva al mover los anclajes y rechaza encuentros incompatibles. Las alternativas guardadas conservan modificaciones y elementos eliminados.
