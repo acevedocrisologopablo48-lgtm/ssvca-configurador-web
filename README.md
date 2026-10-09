@@ -1,6 +1,8 @@
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** registra **R23**: corrige los vínculos editables del soporte del cono C01, elimina el cajón superior señalado de J02 y alimenta directamente su boca. El bajante intermedio cerrado pasa por detrás de la secundaria, con dos codos, 5,521 m de recorrido y dos accesos desmontables de limpieza. Se verifican el paso interior, ausencia de penetraciones y al menos 100 mm entre J02 y F03; los seis apoyos C01 mantienen contacto nominal y al variar altura o huella. Se conservan la distribución R17, las cintas, las otras estructuras aceptadas, la tolva principal y la losa CAD. Historial y cambios guardados del usuario conservados. Geometría y montaje referenciales.
+La alternativa **Propuesta AutoCAD** registra **R27**: los diez bajantes físicos tienen chapas planas de 6 mm, bocas rectangulares y encuentros definidos, adaptados al montaje R26. Los finos se reúnen en un pantalón con entrada común, divisor único y dos ramales hacia F05/F06. Se conservan equipos, cintas, pisos, anclajes, dimensiones de bocas, registros y seis recorridos de caída libre. El modo plano se conserva al mover los anclajes y rechaza encuentros incompatibles. Las alternativas guardadas conservan modificaciones y elementos eliminados.
+
+[Abrir propuesta R27](https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta#alternativa=v1.reyJ2IjoxLCJhIjoiT1JJR0lOQUwtNzYwLUFKVVNURS1QUk9QVUVTVEEtMjAyNi0xMC0wMiIsInEiOiJDT1JSRUNDSU9ORVMtMjAyNi0xMC0wOS0yNyJ9)
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
