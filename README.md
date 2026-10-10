@@ -1,3 +1,9 @@
+## Exportación CAD corregida
+
+El DXF 2000 incorpora estructura completa, unidades en milímetros y una vista inicial que encuadra planta, elevación y lateral. Se genera en segundo plano con progreso; conserva la geometría del proyecto y sus cotas, elimina segmentos idénticos por capa y proyecciones de longitud cero. Los elementos eliminados quedan fuera de la exportación.
+
+La edición local permite convertir ese DXF a DWG 2018 con AutoCAD 2026. La exportación nativa ofrece los planos SLDDRW, PDF, DWG y DXF junto al ensamblaje y STEP.
+
 # Estructuras R28
 
 La base **OPTIMIZADA 9/10/2026 · Estructuras R28** incorpora las ocho estructuras revisadas para carbón, con apoyos, encuentros definidos y fichas de predimensionado. Conserva los equipos, motores, alturas, fajas, pisos, bajantes y elementos eliminados de la alternativa del usuario. El catálogo definitivo es compartido con los entregables CAD.
