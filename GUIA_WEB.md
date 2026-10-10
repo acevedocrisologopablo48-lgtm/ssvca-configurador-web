@@ -1,32 +1,14 @@
-## Exportación CAD corregida
-
-El DXF 2000 incorpora estructura completa, unidades en milímetros y una vista inicial que encuadra planta, elevación y lateral. Se genera en segundo plano con progreso; conserva la geometría del proyecto y sus cotas, elimina segmentos idénticos por capa y proyecciones de longitud cero. Los elementos eliminados quedan fuera de la exportación.
-
-La edición local permite convertir ese DXF a DWG 2018 con AutoCAD 2026. La exportación nativa ofrece los planos SLDDRW, PDF, DWG y DXF junto al ensamblaje y STEP.
-
-## Fluidez del visor
-
-La navegación agrupa el dibujo de las piezas para reducir la carga gráfica. Durante el movimiento ajusta temporalmente la resolución y recupera la calidad habitual al detenerse. La selección, la edición y las exportaciones conservan la geometría y las medidas originales.
-
-## Navegación y cotas
-
-La planta abre con **Editar desactivado**. Arrastrar sobre equipos o fajas permite recorrer la vista sin cambiar su posición. Active **Editar** para mover elementos, cambiar parámetros o crear cotas; desactívelo al terminar.
-
-**Ocultar cotas / Mostrar cotas** despeja el visor y recuerda su preferencia en ese navegador. Las cotas se conservan en la alternativa y en los planos PDF/DXF.
-
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** registra **R27**: los diez bajantes físicos tienen chapas planas de 6 mm, bocas rectangulares y encuentros definidos, adaptados al montaje R26. Los finos se reúnen en un pantalón con entrada común, divisor único y dos ramales hacia F05/F06. Se conservan equipos, cintas, pisos, anclajes, dimensiones de bocas, registros y seis recorridos de caída libre. El modo plano se conserva al mover los anclajes y rechaza encuentros incompatibles. Las alternativas guardadas conservan modificaciones y elementos eliminados.
+Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. La edición empieza desactivada: puede explorar y desplazar la vista sin mover equipos o fajas. Active **Editar** para modificar la planta y desactívelo al terminar. **Ocultar cotas / Mostrar cotas** despeja el visor; recuerda su preferencia en este navegador y conserva las cotas en el proyecto y las exportaciones PDF/DXF. Puede revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
-[Abrir propuesta R27](https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta#alternativa=v1.reyJ2IjoxLCJhIjoiT1JJR0lOQUwtNzYwLUFKVVNURS1QUk9QVUVTVEEtMjAyNi0xMC0wMiIsInEiOiJDT1JSRUNDSU9ORVMtMjAyNi0xMC0wOS0yNyJ9)
-
-Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
+El visor agrupa el dibujo para agilizar la navegación. Durante el movimiento reduce temporalmente la resolución y recupera la calidad al detenerse. La selección, la edición y las exportaciones conservan la geometría y las medidas del proyecto.
 
 La base predeterminada es **Original 760**, recuperada del modelo original SW01 y de **PLANO GENERAL.pdf**, con fajas nominales de 25, 27, 19 y 10 m. Incluye estructuras completas, torres V, arriostres y posiciones originales. En **Alternativas** se puede abrir **B650 · R2 anterior** para continuar trabajos previos; cada versión conserva su autoguardado.
 
 Las cotas originales de control **57 765 mm** y **20 271 mm** se muestran en el PDF como referencias del documento, separadas de la envolvente real del modelo. Dejan de mostrarse cuando se modifica la geometría. Las medidas reconstruidas gráficamente o estimadas (incluido el perfil de la rampa y algunos apoyos) no se convierten en cotas de fabricante.
 
-La pantalla abre en **Organizar planta**, vista superior. Seleccione un equipo y arrástrelo: su estructura y apoyos se desplazan con él, conservando la altura. Al seleccionar un conjunto aparece un control compacto sobre la vista: las flechas X/Y desplazan su ubicación; las flechas de altura y largo ajustan sus dimensiones. El paso se elige entre 0,01 m y 1 m (inicial: 0,10 m), y puede girar en incrementos de 15°. En las estructuras cambia el soporte y la máquina conserva su forma; en las fajas la elevación sube ambos extremos, mientras la longitud conserva el extremo fijo elegido. Las flechas del teclado también desplazan en planta. **Deshacer** permite recuperar la posición anterior. Los equipos bloqueados no se mueven.
+La pantalla abre en **Organizar planta**, vista superior, con **Editar** desactivado. Active **Editar**, seleccione un equipo y arrástrelo: su estructura y apoyos se desplazan con él, conservando la altura. Al seleccionar un conjunto en edición aparece un control compacto sobre la vista: las flechas X/Y desplazan su ubicación; las flechas de altura y largo ajustan sus dimensiones. El paso se elige entre 0,01 m y 1 m (inicial: 0,10 m), y puede girar en incrementos de 15°. En las estructuras cambia el soporte y la máquina conserva su forma; en las fajas la elevación sube ambos extremos, mientras la longitud conserva el extremo fijo elegido. Las flechas del teclado también desplazan en planta mientras edita. **Deshacer** permite recuperar la posición anterior. Los equipos bloqueados no se mueven.
 
 La **Regla** muestra dimensiones en metros y se adapta al zoom; en vista superior también muestra las coordenadas X e Y. La rueda acerca o aleja. Para desplazar la vista, active **Desplazar** y arrastre con el botón izquierdo, o mantenga **Espacio** al arrastrar. El botón central y el derecho también desplazan. En Organizar planta puede arrastrar el fondo vacío. **Encuadrar todo** recupera la planta completa. Use **Ver en 3D** para revisar el resultado y **Dimensiones y ajustes** para editar parámetros detallados.
 
@@ -50,7 +32,9 @@ Durante el arrastre se muestra la previsualización y los avisos de revisión. S
 
 Para **Acotar**, elija distancia en planta, distancia 3D, altura, ángulo o elevación. El marcador identifica vértices, puntos medios y aristas visibles dentro de 10 píxeles del cursor y previsualiza la medida. Mantenga Alt para marcar libremente. Para ángulos el segundo punto es el vértice. Esc o Cancelar cota termina la selección. Las cotas se guardan con la alternativa y siguen las piezas referenciadas; si la pieza desaparece se indica «Revisar referencia de cota». La lista permite renombrarlas o eliminarlas.
 
-La versión web permite descargar PDF, DXF, PNG y el archivo JSON. La generación de ensamblajes nativos, STEP, SLDDRW y DWG se hace con la edición local en una computadora con SolidWorks 2026. No se ha abierto SolidWorks a Internet.
+La versión web permite descargar PDF, DXF, PNG y el archivo JSON. El DXF usa milímetros, capas y una vista inicial que encuadra las tres proyecciones. Su generación muestra el progreso y conserva las cotas aunque estén ocultas en el visor; los elementos enviados a papelera quedan fuera del dibujo.
+
+**Exportar → DWG · AutoCAD local** convierte el mismo DXF a DWG 2018 en la edición local, con AutoCAD 2026 instalado. No necesita reconstruir el modelo SolidWorks. La exportación nativa requiere SolidWorks 2026 y AutoCAD 2026; al terminar ofrece enlaces al ensamblaje, STEP, SLDDRW, PDF, DWG y DXF. Los programas CAD se ejecutan en la computadora local.
 
 En **Exportar → Plano general A0 · dos hojas**, elija la vista adicional antes de generar el PDF. El entregable sigue la presentación del plano general de referencia: dos hojas A0 apaisadas, marco de zonas, cajetín técnico y escalas indicadas por vista. La primera hoja muestra planta acotada y elevación lateral longitudinal con retícula; la segunda muestra la vista elegida y una isométrica sombreada. «Vista elegida en el visor» usa la orientación que está viendo en ese momento. Si el navegador no permite capturar la isométrica sombreada, se conserva una vista vectorial de respaldo.
 
