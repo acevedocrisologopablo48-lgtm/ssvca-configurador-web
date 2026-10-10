@@ -1,9 +1,3 @@
-## Exportación CAD corregida
-
-El DXF 2000 incorpora estructura completa, unidades en milímetros y una vista inicial que encuadra planta, elevación y lateral. Se genera en segundo plano con progreso; conserva la geometría del proyecto y sus cotas, elimina segmentos idénticos por capa y proyecciones de longitud cero. Los elementos eliminados quedan fuera de la exportación.
-
-La edición local permite convertir ese DXF a DWG 2018 con AutoCAD 2026. La exportación nativa ofrece los planos SLDDRW, PDF, DWG y DXF junto al ensamblaje y STEP.
-
 # Estructuras R28
 
 La base **OPTIMIZADA 9/10/2026 · Estructuras R28** incorpora las ocho estructuras revisadas para carbón, con apoyos, encuentros definidos y fichas de predimensionado. Conserva los equipos, motores, alturas, fajas, pisos, bajantes y elementos eliminados de la alternativa del usuario. El catálogo definitivo es compartido con los entregables CAD.
@@ -30,9 +24,9 @@ La planta abre con **Editar desactivado**. Arrastrar sobre equipos o fajas permi
 
 # Configurador SSVCA en la web
 
-La alternativa **Propuesta AutoCAD** registra **R27**: los diez bajantes físicos tienen chapas planas de 6 mm, bocas rectangulares y encuentros definidos, adaptados al montaje R26. Los finos se reúnen en un pantalón con entrada común, divisor único y dos ramales hacia F05/F06. Se conservan equipos, cintas, pisos, anclajes, dimensiones de bocas, registros y seis recorridos de caída libre. El modo plano se conserva al mover los anclajes y rechaza encuentros incompatibles. Las alternativas guardadas conservan modificaciones y elementos eliminados.
+Los bajantes de **R27**, conservados en R28, incorporan esta corrección: los diez bajantes físicos tienen chapas planas de 6 mm, bocas rectangulares y encuentros definidos, adaptados al montaje R26. Los finos se reúnen en un pantalón con entrada común, divisor único y dos ramales hacia F05/F06. Se conservan equipos, cintas, pisos, anclajes, dimensiones de bocas, registros y seis recorridos de caída libre. El modo plano se conserva al mover los anclajes y rechaza encuentros incompatibles. Las alternativas guardadas conservan modificaciones y elementos eliminados.
 
-[Abrir propuesta R27](https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta#alternativa=v1.reyJ2IjoxLCJhIjoiT1JJR0lOQUwtNzYwLUFKVVNURS1QUk9QVUVTVEEtMjAyNi0xMC0wMiIsInEiOiJDT1JSRUNDSU9ORVMtMjAyNi0xMC0wOS0yNyJ9)
+Los archivos nativos y los paquetes históricos R27 se conservan en la entrega local anterior.
 
 Abra el enlace público en un navegador moderno de su laptop. No requiere instalación. Puede explorar la planta original de banda 760 mm, modificar fajas, estaciones, pisos y rampas, revisar los límites y las advertencias, crear cotas y comparar alternativas.
 
