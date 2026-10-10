@@ -1,3 +1,11 @@
+# Estructuras R28
+
+La base **OPTIMIZADA 9/10/2026 · Estructuras R28** incorpora las ocho estructuras revisadas para carbón, con apoyos, encuentros definidos y fichas de predimensionado. Conserva los equipos, motores, alturas, fajas, pisos, bajantes y elementos eliminados de la alternativa del usuario. El catálogo definitivo es compartido con los entregables CAD.
+
+[Abrir la base R28](https://acevedocrisologopablo48-lgtm.github.io/ssvca-configurador-web/?base=propuesta#alternativa=v1.reyJ2IjoxLCJhIjoiT1JJR0lOQUwtNzYwLUFKVVNURS1QUk9QVUVTVEEtMjAyNi0xMC0wMiIsInEiOiJDT1JSRUNDSU9ORVMtMjAyNi0xMC0xMC0yOCJ9). Las alternativas guardadas conservan sus cambios explícitos; abrir esta base limpia permite revisar la entrega completa.
+
+Los PDF usan el cajetín solicitado, el logo original y el nombre **SESUVECA DEL PERU S.A.C.** Los valores estructurales son preliminares: quedan pendientes los datos certificados de maquinaria, acciones dinámicas, anclajes y cimentación. Consulte [la revisión R28](REVISION_R28.md).
+
 ## Exportación CAD corregida
 
 El DXF 2000 incorpora estructura completa, unidades en milímetros y una vista inicial que encuadra planta, elevación y lateral. Se genera en segundo plano con progreso; conserva la geometría del proyecto y sus cotas, elimina segmentos idénticos por capa y proyecciones de longitud cero. Los elementos eliminados quedan fuera de la exportación.
