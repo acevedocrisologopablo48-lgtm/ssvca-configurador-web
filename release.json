@@ -1,6 +1,7 @@
 {
-  "entry": "assets/index-CHFlM3cm.js",
-  "entrySHA256": "fb075e5a68ff2d8ca7a19f8fac33b5aa966c7467b8c9e97e9c042557561c13ab",
+  "entry": "assets/index-C-cukDJg.js",
+  "entrySHA256": "6037de54c830b7798a0832f62ba2cfceb21a28b963e9255211042f827a68c721",
   "catalogRevision": "CORRECCIONES-2026-10-12-A36",
-  "drawingPresentation": "A0-PLANTA-ALZADO-ISOMETRICA-A3-v1"
+  "drawingPresentation": "A0-PLANTA-ALZADO-ISOMETRICA-A3-v1",
+  "alternative": "DOBLE-ZARANDA-2026-10-28"
 }
