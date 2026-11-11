@@ -1,9 +1,9 @@
 {
-  "entry": "assets/index-B3x31Ztm.js",
-  "entrySHA256": "2623cff37a0aa2f1a16cfed15402f5eeb27194f712d5efe85c1192fed4f785eb",
+  "entry": "assets/index-B2JnA152.js",
+  "entrySHA256": "6a53bc79c8ccbeca5d76aefe9ae26b6af159b7a74a7e8ac47ea2291a602b8804",
   "catalogRevision": "CORRECCIONES-2026-10-12-A36",
   "drawingPresentation": "A0-PLANTA-ALZADO-ISOMETRICA-A3-v1",
   "alternative": "DOBLE-ZARANDA-2026-10-28",
-  "alternativeRevision": "ALTERNATIVA-DOBLE-ZARANDA-2026-11-11-ESTRUCTURAS-REFERENCIA-13",
-  "publishedAt": "2026-11-11T15:03:30.727613+00:00"
+  "alternativeRevision": "ALTERNATIVA-DOBLE-ZARANDA-2026-11-11-RAMPA-MARTILLOS-14",
+  "publishedAt": "2026-11-11T16:00:03.450338+00:00"
 }
